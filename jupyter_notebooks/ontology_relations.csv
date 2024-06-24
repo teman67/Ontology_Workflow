@@ -4,20 +4,20 @@ File,Subject Class URI,Subject Label,Relation,Object Class URI,Object Label
 ../Ontologies/nfdicore_2.ttl,https://nfdi.fiz-karlsruhe.de/ontology/AcademicDiscipline,academic discipline,subClassOf,http://purl.obolibrary.org/obo/BFO_0000019,None
 ../Ontologies/emmo.ttl,https://w3id.org/emmo#EMMO_8fdabd25_01e0_4296_b82a_09d1c34e52d4,PoissonsRatio,subClassOf,https://w3id.org/emmo#EMMO_be76ad52_2e29_4202_be6f_0a15eb9c1817,MechanicalQuantity
 ../Ontologies/emmo.ttl,https://w3id.org/emmo#EMMO_8fdabd25_01e0_4296_b82a_09d1c34e52d4,PoissonsRatio,subClassOf,https://w3id.org/emmo#EMMO_faab3f84_e475_4a46_af9c_7d249f0b9aef,RatioQuantity
-../Ontologies/emmo.ttl,https://w3id.org/emmo#AmperePerJoule,Ampere per Joule,subClassOf,n8ea7f814d9eb4d25b031296795491d86b17,None
-../Ontologies/emmo.ttl,https://w3id.org/emmo#AmperePerJoule,Ampere per Joule,subClassOf,n8ea7f814d9eb4d25b031296795491d86b18,None
+../Ontologies/emmo.ttl,https://w3id.org/emmo#AmperePerJoule,Ampere per Joule,subClassOf,n8472889f105a4d828fea47d4999ea25fb17,None
+../Ontologies/emmo.ttl,https://w3id.org/emmo#AmperePerJoule,Ampere per Joule,subClassOf,n8472889f105a4d828fea47d4999ea25fb18,None
 ../Ontologies/emmo.ttl,https://w3id.org/emmo#AmperePerJoule,Ampere per Joule,subClassOf,https://w3id.org/emmo#EMMO_1273eb34_de48_43a9_925f_104110469dd2,SICoherentDerivedUnit
 ../Ontologies/emmo.ttl,https://w3id.org/emmo#AmperePerJoule,Ampere per Joule,subClassOf,https://w3id.org/emmo#EMMO_1aaaceb6_c5eb_4cf3_a494_f82d43fda10a,ElectricCurrentPerUnitEnergyUnit
-../Ontologies/emmo.ttl,https://w3id.org/emmo#AmperePerJoule,AmperePerJoule,subClassOf,n8ea7f814d9eb4d25b031296795491d86b17,None
-../Ontologies/emmo.ttl,https://w3id.org/emmo#AmperePerJoule,AmperePerJoule,subClassOf,n8ea7f814d9eb4d25b031296795491d86b18,None
+../Ontologies/emmo.ttl,https://w3id.org/emmo#AmperePerJoule,AmperePerJoule,subClassOf,n8472889f105a4d828fea47d4999ea25fb17,None
+../Ontologies/emmo.ttl,https://w3id.org/emmo#AmperePerJoule,AmperePerJoule,subClassOf,n8472889f105a4d828fea47d4999ea25fb18,None
 ../Ontologies/emmo.ttl,https://w3id.org/emmo#AmperePerJoule,AmperePerJoule,subClassOf,https://w3id.org/emmo#EMMO_1273eb34_de48_43a9_925f_104110469dd2,SICoherentDerivedUnit
 ../Ontologies/emmo.ttl,https://w3id.org/emmo#AmperePerJoule,AmperePerJoule,subClassOf,https://w3id.org/emmo#EMMO_1aaaceb6_c5eb_4cf3_a494_f82d43fda10a,ElectricCurrentPerUnitEnergyUnit
-../Ontologies/emmo.ttl,https://w3id.org/emmo#CoulombPerSquareMilliMetre,Coulomb Per Square Millimetre,subClassOf,n8ea7f814d9eb4d25b031296795491d86b75,None
-../Ontologies/emmo.ttl,https://w3id.org/emmo#CoulombPerSquareMilliMetre,Coulomb Per Square Millimetre,subClassOf,n8ea7f814d9eb4d25b031296795491d86b76,None
+../Ontologies/emmo.ttl,https://w3id.org/emmo#CoulombPerSquareMilliMetre,Coulomb Per Square Millimetre,subClassOf,n8472889f105a4d828fea47d4999ea25fb75,None
+../Ontologies/emmo.ttl,https://w3id.org/emmo#CoulombPerSquareMilliMetre,Coulomb Per Square Millimetre,subClassOf,n8472889f105a4d828fea47d4999ea25fb76,None
 ../Ontologies/emmo.ttl,https://w3id.org/emmo#CoulombPerSquareMilliMetre,Coulomb Per Square Millimetre,subClassOf,https://w3id.org/emmo#EMMO_60b78cc3_6011_4134_95ab_956f56d4bdc1,SINonCoherentDerivedUnit
 ../Ontologies/emmo.ttl,https://w3id.org/emmo#CoulombPerSquareMilliMetre,Coulomb Per Square Millimetre,subClassOf,https://w3id.org/emmo#EMMO_6d753e0c_a967_4de4_ad22_c2fecb3913be,ElectricDisplacementFieldUnit
-../Ontologies/emmo.ttl,https://w3id.org/emmo#CoulombPerSquareMilliMetre,CoulombPerSquareMilliMetre,subClassOf,n8ea7f814d9eb4d25b031296795491d86b75,None
-../Ontologies/emmo.ttl,https://w3id.org/emmo#CoulombPerSquareMilliMetre,CoulombPerSquareMilliMetre,subClassOf,n8ea7f814d9eb4d25b031296795491d86b76,None
+../Ontologies/emmo.ttl,https://w3id.org/emmo#CoulombPerSquareMilliMetre,CoulombPerSquareMilliMetre,subClassOf,n8472889f105a4d828fea47d4999ea25fb75,None
+../Ontologies/emmo.ttl,https://w3id.org/emmo#CoulombPerSquareMilliMetre,CoulombPerSquareMilliMetre,subClassOf,n8472889f105a4d828fea47d4999ea25fb76,None
 ../Ontologies/emmo.ttl,https://w3id.org/emmo#CoulombPerSquareMilliMetre,CoulombPerSquareMilliMetre,subClassOf,https://w3id.org/emmo#EMMO_60b78cc3_6011_4134_95ab_956f56d4bdc1,SINonCoherentDerivedUnit
 ../Ontologies/emmo.ttl,https://w3id.org/emmo#CoulombPerSquareMilliMetre,CoulombPerSquareMilliMetre,subClassOf,https://w3id.org/emmo#EMMO_6d753e0c_a967_4de4_ad22_c2fecb3913be,ElectricDisplacementFieldUnit
 ../Ontologies/owlapi.xrdf,http://www.w3.org/ns/prov#SoftwareAgent,SoftwareAgent,subClassOf,http://www.w3.org/ns/prov#Agent,Agent
