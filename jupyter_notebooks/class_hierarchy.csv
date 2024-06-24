@@ -1,0 +1,19 @@
+Class Name,Relation Type,Related Class,From File
+Poissons Ratio,subClassOf,Tensile Property,../Ontologies/materialsmine.ttl
+Tensile Property,subClassOf,Mechanical Property,../Ontologies/materialsmine.ttl
+Mechanical Property,subClassOf,Amount,../Ontologies/materialsmine.ttl
+Amount,subClassOf,None,../Ontologies/materialsmine.ttl
+PoissonsRatio,subClassOf,MechanicalQuantity,../Ontologies/emmo.ttl
+MechanicalQuantity,subClassOf,ISO80000Categorised,../Ontologies/emmo.ttl
+ISO80000Categorised,subClassOf,CategorizedPhysicalQuantity,../Ontologies/emmo.ttl
+CategorizedPhysicalQuantity,subClassOf,PhysicalQuantity,../Ontologies/emmo.ttl
+PhysicalQuantity,subClassOf,None,../Ontologies/emmo.ttl
+PoissonsRatio,subClassOf,RatioQuantity,../Ontologies/emmo.ttl
+RatioQuantity,subClassOf,ISQDimensionlessQuantity,../Ontologies/emmo.ttl
+ISQDimensionlessQuantity,subClassOf,None,../Ontologies/emmo.ttl
+ISQDimensionlessQuantity,subClassOf,ISQDerivedQuantity,../Ontologies/emmo.ttl
+ISQDerivedQuantity,subClassOf,DerivedQuantity,../Ontologies/emmo.ttl
+ISQDerivedQuantity,subClassOf,InternationalSystemOfQuantity,../Ontologies/emmo.ttl
+InternationalSystemOfQuantity,subClassOf,StandardizedPhysicalQuantity,../Ontologies/emmo.ttl
+StandardizedPhysicalQuantity,subClassOf,PhysicalQuantity,../Ontologies/emmo.ttl
+PhysicalQuantity,subClassOf,None,../Ontologies/emmo.ttl
