@@ -470,14 +470,14 @@ File,Class URI,Label
 ../Ontologies/pmdco_core.ttl,https://w3id.org/pmd/co/Magnetic,Magnetisch
 ../Ontologies/pmdco_core.ttl,https://w3id.org/pmd/co/Shape,Form
 ../Ontologies/pmdco_core.ttl,https://w3id.org/pmd/co/Shape,Shape
+../Ontologies/pmdco_core.ttl,https://w3id.org/pmd/co/2DPixelCoordinates,2D Pixel Coordinates
+../Ontologies/pmdco_core.ttl,https://w3id.org/pmd/co/2DPixelCoordinates,2D Pixel Koordinaten
 ../Ontologies/pmdco_core.ttl,https://w3id.org/pmd/co/CrossheadSeparationRate,Crosshead Separation Rate
 ../Ontologies/pmdco_core.ttl,https://w3id.org/pmd/co/CrossheadSeparationRate,Traversengeschwindigkeit
 ../Ontologies/pmdco_core.ttl,https://w3id.org/pmd/co/Rectangular,Rechteckig
 ../Ontologies/pmdco_core.ttl,https://w3id.org/pmd/co/Rectangular,Rectangular
 ../Ontologies/pmdco_core.ttl,https://w3id.org/pmd/co/ParticleRadius,Particle Radius
 ../Ontologies/pmdco_core.ttl,https://w3id.org/pmd/co/ParticleRadius,Partikelradius
-../Ontologies/pmdco_core.ttl,https://w3id.org/pmd/co/2DPixelCoordinates,2D Pixel Coordinates
-../Ontologies/pmdco_core.ttl,https://w3id.org/pmd/co/2DPixelCoordinates,2D Pixel Koordinaten
 ../Ontologies/pmdco_core.ttl,https://w3id.org/pmd/co/TransmissionElectronMicroscope,Transmission Electron Microscope
 ../Ontologies/pmdco_core.ttl,https://w3id.org/pmd/co/TransmissionElectronMicroscope,Transmissionelektronenmikroskop
 ../Ontologies/pmdco_core.ttl,https://w3id.org/pmd/co/AmorphousStructure,Amorphe Struktur
@@ -756,12 +756,12 @@ File,Class URI,Label
 ../Ontologies/pmdco_core.ttl,https://w3id.org/pmd/co/Area,Fläche
 ../Ontologies/pmdco_core.ttl,https://w3id.org/pmd/co/FeretDiameter,Feret diameter
 ../Ontologies/pmdco_core.ttl,https://w3id.org/pmd/co/FeretDiameter,Äquivalentdurchmesser
+../Ontologies/pmdco_core.ttl,https://w3id.org/pmd/co/Voxel,Voxel
+../Ontologies/pmdco_core.ttl,https://w3id.org/pmd/co/Voxel,Voxel
 ../Ontologies/pmdco_core.ttl,https://w3id.org/pmd/co/AnalysingProcess,Analyseprozess
 ../Ontologies/pmdco_core.ttl,https://w3id.org/pmd/co/AnalysingProcess,Analysing Process
 ../Ontologies/pmdco_core.ttl,https://w3id.org/pmd/co/CoatingDesignation,Beschichtungsbezeichnung
 ../Ontologies/pmdco_core.ttl,https://w3id.org/pmd/co/CoatingDesignation,Coating Designation
-../Ontologies/pmdco_core.ttl,https://w3id.org/pmd/co/Voxel,Voxel
-../Ontologies/pmdco_core.ttl,https://w3id.org/pmd/co/Voxel,Voxel
 ../Ontologies/pmdco_core.ttl,https://w3id.org/pmd/co/MaterialDesignation,Material Designation
 ../Ontologies/pmdco_core.ttl,https://w3id.org/pmd/co/MaterialDesignation,Materialbezeichnung
 ../Ontologies/pmdco_core.ttl,https://w3id.org/pmd/co/CovalentBond,Covalent Bond
@@ -792,12 +792,12 @@ File,Class URI,Label
 ../Ontologies/pmdco_core.ttl,https://w3id.org/pmd/co/TransitionPoint,Umschaltpunkt
 ../Ontologies/pmdco_core.ttl,https://w3id.org/pmd/co/MinorAxisDiameter,Hauptachsendurchmesser
 ../Ontologies/pmdco_core.ttl,https://w3id.org/pmd/co/MinorAxisDiameter,Major axis diameter
-../Ontologies/pmdco_core.ttl,https://w3id.org/pmd/co/ThicknessAfterFracture,End-Dicke
-../Ontologies/pmdco_core.ttl,https://w3id.org/pmd/co/ThicknessAfterFracture,Thickness After Fracture
 ../Ontologies/pmdco_core.ttl,https://w3id.org/pmd/co/NodeSeries,Knotentyp
 ../Ontologies/pmdco_core.ttl,https://w3id.org/pmd/co/NodeSeries,Node Type
 ../Ontologies/pmdco_core.ttl,https://w3id.org/pmd/co/NodeSeries,Node Series
 ../Ontologies/pmdco_core.ttl,https://w3id.org/pmd/co/NodeSeries,Serie
+../Ontologies/pmdco_core.ttl,https://w3id.org/pmd/co/ThicknessAfterFracture,End-Dicke
+../Ontologies/pmdco_core.ttl,https://w3id.org/pmd/co/ThicknessAfterFracture,Thickness After Fracture
 ../Ontologies/pmdco_core.ttl,https://w3id.org/pmd/co/OriginalGaugeLength,Anfangsmesslänge
 ../Ontologies/pmdco_core.ttl,https://w3id.org/pmd/co/OriginalGaugeLength,Original Gauge Length
 ../Ontologies/pmdco_core.ttl,https://w3id.org/pmd/co/Caliper,Caliper
@@ -1739,9 +1739,9 @@ File,Class URI,Label
 ../Ontologies/emmo.ttl,https://w3id.org/emmo#EMMO_d1d436e7_72fc_49cd_863b_7bfb4ba5276a,Parameter
 ../Ontologies/emmo.ttl,https://w3id.org/emmo#Kilogram,Kilogram
 ../Ontologies/emmo.ttl,https://w3id.org/emmo#Kilogram,Kilogram
-../Ontologies/emmo.ttl,https://w3id.org/emmo#EMMO_0e78a4d4_b4e0_48e7_97d8_e7d41a85a54d,Coercivity
 ../Ontologies/emmo.ttl,https://w3id.org/emmo#EMMO_d5f98475_00ce_4987_99fb_262aed395e46,Schneiden
 ../Ontologies/emmo.ttl,https://w3id.org/emmo#EMMO_d5f98475_00ce_4987_99fb_262aed395e46,Cutting
+../Ontologies/emmo.ttl,https://w3id.org/emmo#EMMO_0e78a4d4_b4e0_48e7_97d8_e7d41a85a54d,Coercivity
 ../Ontologies/emmo.ttl,https://w3id.org/emmo#EMMO_4f9670f5_14ca_53da_a1ea_9b0550a61035,SiliconSymbol
 ../Ontologies/emmo.ttl,https://w3id.org/emmo#EMMO_92829beb_6ed4_4c88_bbd5_3bc7403e2895,Sequence
 ../Ontologies/emmo.ttl,https://w3id.org/emmo#EMMO_948b47f0_3c24_50c7_a698_a805f760e667,RutheniumAtom
@@ -2281,9 +2281,9 @@ File,Class URI,Label
 ../Ontologies/emmo.ttl,https://w3id.org/emmo#EMMO_9c5b1294_ac9e_554f_a135_a3d72a763d9c,FermiumSymbol
 ../Ontologies/emmo.ttl,https://w3id.org/emmo#EMMO_6599389d_7a26_5d51_a65c_5dd9c3ed532f,TerbiumSymbol
 ../Ontologies/emmo.ttl,https://w3id.org/emmo#EMMO_d357e0dd_3497_4590_af6f_7954db7fecf7,ChemicalSymbol
+../Ontologies/emmo.ttl,https://w3id.org/emmo#EMMO_044f83a6_ade4_4441_9c73_5490dd93344f,LuminousEfficacyUnit
 ../Ontologies/emmo.ttl,https://w3id.org/emmo#SquareCentiMetre,Square Centimetre
 ../Ontologies/emmo.ttl,https://w3id.org/emmo#SquareCentiMetre,SquareCentiMetre
-../Ontologies/emmo.ttl,https://w3id.org/emmo#EMMO_044f83a6_ade4_4441_9c73_5490dd93344f,LuminousEfficacyUnit
 ../Ontologies/emmo.ttl,https://w3id.org/emmo#EMMO_9ffffb55_3496_4307_82b8_a0d78fe1fcd8,Code
 ../Ontologies/emmo.ttl,https://w3id.org/emmo#EMMO_9ffffb55_3496_4307_82b8_a0d78fe1fcd8,SoftwareCode
 ../Ontologies/emmo.ttl,https://w3id.org/emmo#EMMO_9ffffb55_3496_4307_82b8_a0d78fe1fcd8,ProgrammingLanguage
@@ -4375,9 +4375,9 @@ File,Class URI,Label
 ../Ontologies/owlapi.xrdf,https://w3id.org/pmd/co/MediaMovement,Medienbewegung
 ../Ontologies/owlapi.xrdf,https://w3id.org/pmd/co/Description,Beschreibung
 ../Ontologies/owlapi.xrdf,https://w3id.org/pmd/co/Description,Description
-../Ontologies/owlapi.xrdf,http://www.w3.org/ns/prov#AgentInfluence,AgentInfluence
 ../Ontologies/owlapi.xrdf,https://w3id.org/pmd/co/ProjectIdentifier,Project Identifier
 ../Ontologies/owlapi.xrdf,https://w3id.org/pmd/co/ProjectIdentifier,Projektidentifikator
+../Ontologies/owlapi.xrdf,http://www.w3.org/ns/prov#AgentInfluence,AgentInfluence
 ../Ontologies/owlapi.xrdf,https://w3id.org/pmd/co/CalibrationRange,Calibration range
 ../Ontologies/owlapi.xrdf,https://w3id.org/pmd/co/CalibrationRange,Kalibrierbereich
 ../Ontologies/owlapi.xrdf,https://w3id.org/pmd/co/ParticleNumber,Particle Number
