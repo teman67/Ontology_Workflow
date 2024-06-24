@@ -792,12 +792,12 @@ File,Class URI,Label
 ../Ontologies/pmdco_core.ttl,https://w3id.org/pmd/co/TransitionPoint,Umschaltpunkt
 ../Ontologies/pmdco_core.ttl,https://w3id.org/pmd/co/MinorAxisDiameter,Hauptachsendurchmesser
 ../Ontologies/pmdco_core.ttl,https://w3id.org/pmd/co/MinorAxisDiameter,Major axis diameter
+../Ontologies/pmdco_core.ttl,https://w3id.org/pmd/co/ThicknessAfterFracture,End-Dicke
+../Ontologies/pmdco_core.ttl,https://w3id.org/pmd/co/ThicknessAfterFracture,Thickness After Fracture
 ../Ontologies/pmdco_core.ttl,https://w3id.org/pmd/co/NodeSeries,Knotentyp
 ../Ontologies/pmdco_core.ttl,https://w3id.org/pmd/co/NodeSeries,Node Type
 ../Ontologies/pmdco_core.ttl,https://w3id.org/pmd/co/NodeSeries,Node Series
 ../Ontologies/pmdco_core.ttl,https://w3id.org/pmd/co/NodeSeries,Serie
-../Ontologies/pmdco_core.ttl,https://w3id.org/pmd/co/ThicknessAfterFracture,End-Dicke
-../Ontologies/pmdco_core.ttl,https://w3id.org/pmd/co/ThicknessAfterFracture,Thickness After Fracture
 ../Ontologies/pmdco_core.ttl,https://w3id.org/pmd/co/OriginalGaugeLength,Anfangsmesslänge
 ../Ontologies/pmdco_core.ttl,https://w3id.org/pmd/co/OriginalGaugeLength,Original Gauge Length
 ../Ontologies/pmdco_core.ttl,https://w3id.org/pmd/co/Caliper,Caliper
@@ -915,10 +915,10 @@ File,Class URI,Label
 ../Ontologies/pmdco_core.ttl,https://w3id.org/pmd/co/OpticalMicroscopy,Optische Mikroskopie
 ../Ontologies/pmdco_core.ttl,https://w3id.org/pmd/co/Temperature,Temperatur
 ../Ontologies/pmdco_core.ttl,https://w3id.org/pmd/co/Temperature,Temperature
-../Ontologies/pmdco_core.ttl,https://w3id.org/pmd/co/PrimaryData,Primary Data
-../Ontologies/pmdco_core.ttl,https://w3id.org/pmd/co/PrimaryData,Primärdaten
 ../Ontologies/pmdco_core.ttl,https://w3id.org/pmd/co/MaterialProperty,Material Property
 ../Ontologies/pmdco_core.ttl,https://w3id.org/pmd/co/MaterialProperty,Materialeigenschaft
+../Ontologies/pmdco_core.ttl,https://w3id.org/pmd/co/PrimaryData,Primary Data
+../Ontologies/pmdco_core.ttl,https://w3id.org/pmd/co/PrimaryData,Primärdaten
 ../Ontologies/pmdco_core.ttl,https://w3id.org/pmd/co/Thermal,Thermal
 ../Ontologies/pmdco_core.ttl,https://w3id.org/pmd/co/Thermal,Thermisch
 ../Ontologies/pmdco_core.ttl,https://w3id.org/pmd/co/ParticleArea,Particle Area
@@ -1372,8 +1372,8 @@ File,Class URI,Label
 ../Ontologies/emmo.ttl,https://w3id.org/emmo#EMMO_6e5608ec_7768_4764_b052_2254bb5283bb,MagneticQuantumNumber
 ../Ontologies/emmo.ttl,https://w3id.org/emmo#EMMO_602397bd_e302_42a6_be33_fe67ea81933a,Intensive
 ../Ontologies/emmo.ttl,https://w3id.org/emmo#EMMO_d364e5e0_9652_4295_8f85_bd1297497377,MaximumBetaParticleEnergy
-../Ontologies/emmo.ttl,https://w3id.org/emmo#EMMO_431ce3bc_3d54_481d_a10d_7c4a4418732a,NewtonSquareMetrePerAmpereUnit
 ../Ontologies/emmo.ttl,https://w3id.org/emmo#MicroNewton,MicroNewton
+../Ontologies/emmo.ttl,https://w3id.org/emmo#EMMO_431ce3bc_3d54_481d_a10d_7c4a4418732a,NewtonSquareMetrePerAmpereUnit
 ../Ontologies/emmo.ttl,https://w3id.org/emmo#EMMO_ee7ddcb8_ad8e_4ff7_a09f_889d8edf8f8b,AreicHeatFlowRate
 ../Ontologies/emmo.ttl,https://w3id.org/emmo#EMMO_ee7ddcb8_ad8e_4ff7_a09f_889d8edf8f8b,DensityOfHeatFlowRate
 ../Ontologies/emmo.ttl,https://w3id.org/emmo#EMMO_e2b11f6a_4191_427e_9844_2e0ac88dfc8b,ChemicalCompound
@@ -2175,10 +2175,10 @@ File,Class URI,Label
 ../Ontologies/emmo.ttl,https://w3id.org/emmo#EMMO_b953f2b1_c8d1_4dd9_b630_d3ef6580c2bb,PhysicalConstant
 ../Ontologies/emmo.ttl,https://w3id.org/emmo#EMMO_c97277f7_f011_51bb_aeb8_5e8b1f3f711c,CuriumSymbol
 ../Ontologies/emmo.ttl,https://w3id.org/emmo#EMMO_9eb96ea0_8827_4cb9_9a03_8e07f4eae1eb,RedStrangeQuark
-../Ontologies/emmo.ttl,https://w3id.org/emmo#EMMO_6e9cb807_fc68_4bcf_b3ba_5fccc887c644,OrdinaryMatter
 ../Ontologies/emmo.ttl,https://w3id.org/emmo#EMMO_2c224eb4_cb86_44a4_a067_8969ead598d7,MassPerLengthTimeUnit
 ../Ontologies/emmo.ttl,https://w3id.org/emmo#ReciprocalMetrePerNanoMetrePerSteradian,Reciprocal metre per nanometre per steradian
 ../Ontologies/emmo.ttl,https://w3id.org/emmo#ReciprocalMetrePerNanoMetrePerSteradian,ReciprocalMetrePerNanoMetrePerSteradian
+../Ontologies/emmo.ttl,https://w3id.org/emmo#EMMO_6e9cb807_fc68_4bcf_b3ba_5fccc887c644,OrdinaryMatter
 ../Ontologies/emmo.ttl,https://w3id.org/emmo#EMMO_96522455_d7d7_5b1e_b10a_ad87e41a5adc,IndiumAtom
 ../Ontologies/emmo.ttl,https://w3id.org/emmo#CubicKiloMetrePerSquareSecond,Cubic Kilometre per Square Second
 ../Ontologies/emmo.ttl,https://w3id.org/emmo#CubicKiloMetrePerSquareSecond,CubicKiloMetrePerSquareSecond
@@ -2281,9 +2281,9 @@ File,Class URI,Label
 ../Ontologies/emmo.ttl,https://w3id.org/emmo#EMMO_9c5b1294_ac9e_554f_a135_a3d72a763d9c,FermiumSymbol
 ../Ontologies/emmo.ttl,https://w3id.org/emmo#EMMO_6599389d_7a26_5d51_a65c_5dd9c3ed532f,TerbiumSymbol
 ../Ontologies/emmo.ttl,https://w3id.org/emmo#EMMO_d357e0dd_3497_4590_af6f_7954db7fecf7,ChemicalSymbol
-../Ontologies/emmo.ttl,https://w3id.org/emmo#EMMO_044f83a6_ade4_4441_9c73_5490dd93344f,LuminousEfficacyUnit
 ../Ontologies/emmo.ttl,https://w3id.org/emmo#SquareCentiMetre,Square Centimetre
 ../Ontologies/emmo.ttl,https://w3id.org/emmo#SquareCentiMetre,SquareCentiMetre
+../Ontologies/emmo.ttl,https://w3id.org/emmo#EMMO_044f83a6_ade4_4441_9c73_5490dd93344f,LuminousEfficacyUnit
 ../Ontologies/emmo.ttl,https://w3id.org/emmo#EMMO_9ffffb55_3496_4307_82b8_a0d78fe1fcd8,Code
 ../Ontologies/emmo.ttl,https://w3id.org/emmo#EMMO_9ffffb55_3496_4307_82b8_a0d78fe1fcd8,SoftwareCode
 ../Ontologies/emmo.ttl,https://w3id.org/emmo#EMMO_9ffffb55_3496_4307_82b8_a0d78fe1fcd8,ProgrammingLanguage
@@ -3165,11 +3165,11 @@ File,Class URI,Label
 ../Ontologies/emmo.ttl,https://w3id.org/emmo#EMMO_90589553_5625_4074_8f0d_0532fd7eb42b,Trennen
 ../Ontologies/emmo.ttl,https://w3id.org/emmo#EMMO_90589553_5625_4074_8f0d_0532fd7eb42b,CuttingManufacturing
 ../Ontologies/emmo.ttl,https://w3id.org/emmo#EMMO_90589553_5625_4074_8f0d_0532fd7eb42b,SeparateManufacturing
-../Ontologies/emmo.ttl,https://w3id.org/emmo#EMMO_31ec09ba_1713_42cb_83c7_b38bf6f9ced2,Energy
 ../Ontologies/emmo.ttl,https://w3id.org/emmo#EMMO_b5efbfa6_8610_4e3e_ad36_93e426bd873e,PlasticModeling
 ../Ontologies/emmo.ttl,https://w3id.org/emmo#ReciprocalSecondSteradian,Reciprocal Second Steradian
 ../Ontologies/emmo.ttl,https://w3id.org/emmo#ReciprocalSecondSteradian,ReciprocalSecondSteradian
 ../Ontologies/emmo.ttl,https://w3id.org/emmo#EMMO_a4e36749_1f44_4e6c_80e8_d5b27d986d8b,PressureCoefficient
+../Ontologies/emmo.ttl,https://w3id.org/emmo#EMMO_31ec09ba_1713_42cb_83c7_b38bf6f9ced2,Energy
 ../Ontologies/emmo.ttl,https://w3id.org/emmo#EMMO_66c364c4_16b7_5d5f_abd5_b6977c46f525,LutetiumSymbol
 ../Ontologies/emmo.ttl,https://w3id.org/emmo#Dalton,Dalton
 ../Ontologies/emmo.ttl,https://w3id.org/emmo#EMMO_985bec21_989f_4b9e_a4b3_735d88099c3c,Metrological
@@ -3729,8 +3729,8 @@ File,Class URI,Label
 ../Ontologies/emmo.ttl,https://w3id.org/emmo#SquareSecond,Square Second
 ../Ontologies/emmo.ttl,https://w3id.org/emmo#SquareSecond,SquareSecond
 ../Ontologies/emmo.ttl,https://w3id.org/emmo#EMMO_da9e740a_6056_4fa5_a663_c6622e1972d8,RedUpAntiQuark
-../Ontologies/emmo.ttl,https://w3id.org/emmo#EMMO_4f245147_f072_4431_b535_6241e8e87eb8,TemperaturePerTimeUnit
 ../Ontologies/emmo.ttl,https://w3id.org/emmo#EMMO_26f34447_32ec_48ce_9baa_4afec09120f4,InterferenceFitting
+../Ontologies/emmo.ttl,https://w3id.org/emmo#EMMO_4f245147_f072_4431_b535_6241e8e87eb8,TemperaturePerTimeUnit
 ../Ontologies/emmo.ttl,https://w3id.org/emmo#EMMO_f7ed665b_c2e1_42bc_889b_6b42ed3a36f0,MathematicalModel
 ../Ontologies/emmo.ttl,https://w3id.org/emmo#EMMO_49adf406_5c8f_498a_8c90_e4974e9e6d11,Milli
 ../Ontologies/emmo.ttl,https://w3id.org/emmo#EMMO_37f1613c_c905_4cce_bcf4_ef0964c19e5d,OrbitalAngularMomentumQuantumNumber
