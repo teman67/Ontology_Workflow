@@ -1,10 +1,2 @@
 File,Class URI,Label
 ../Ontologies/materialsmine.ttl,http://materialsmine.org/ns/Compression,Compression
-../Ontologies/materialsmine.ttl,http://materialsmine.org/ns/PoissonsRatio,Poissons Ratio
-../Ontologies/nfdicore_2.ttl,https://nfdi.fiz-karlsruhe.de/ontology/AcademicDiscipline,academic discipline
-../Ontologies/emmo.ttl,https://w3id.org/emmo#EMMO_8fdabd25_01e0_4296_b82a_09d1c34e52d4,PoissonsRatio
-../Ontologies/emmo.ttl,https://w3id.org/emmo#AmperePerJoule,Ampere per Joule
-../Ontologies/emmo.ttl,https://w3id.org/emmo#AmperePerJoule,AmperePerJoule
-../Ontologies/emmo.ttl,https://w3id.org/emmo#CoulombPerSquareMilliMetre,Coulomb Per Square Millimetre
-../Ontologies/emmo.ttl,https://w3id.org/emmo#CoulombPerSquareMilliMetre,CoulombPerSquareMilliMetre
-../Ontologies/owlapi.xrdf,http://www.w3.org/ns/prov#SoftwareAgent,SoftwareAgent
