@@ -10,9 +10,6 @@ http://semanticscience.org/resource/MathematicalEntity,mathematical entity,,subC
 http://semanticscience.org/resource/InformationContentEntity,information content entity,,subClassOf,http://semanticscience.org/resource/Object,object,,../Ontologies/materialsmine_converted.ttl
 http://semanticscience.org/resource/Object,object,,subClassOf,http://semanticscience.org/resource/Entity,entity,,../Ontologies/materialsmine_converted.ttl
 http://semanticscience.org/resource/Entity,entity,,subClassOf,http://www.w3.org/2002/07/owl#Thing,None,,../Ontologies/materialsmine_converted.ttl
-http://semanticscience.org/resource/Object,object,,subClassOf,nd80a93c034594d85bbea09ea8870fe46b764,None,,../Ontologies/materialsmine_converted.ttl
-https://w3id.org/emmo#EMMO_6f5af708_f825_4feb_a0d1_a8d813d3022b,Object,,equivalentClass,n9d687ca374f54d55bd482d01cf2e53abb2342,None,,../Ontologies/emmo.ttl
-http://semanticscience.org/resource/InformationContentEntity,information content entity,,subClassOf,nd80a93c034594d85bbea09ea8870fe46b607,None,,../Ontologies/materialsmine_converted.ttl
 https://w3id.org/emmo#EMMO_21f56795_ee72_4858_b571_11cfaa59c1a8,Number,,subClassOf,https://w3id.org/emmo#EMMO_4ce76d7f_03f8_45b6_9003_90052a79bfaa,Numerical,,../Ontologies/emmo.ttl
 https://w3id.org/emmo#EMMO_4ce76d7f_03f8_45b6_9003_90052a79bfaa,Numerical,,subClassOf,https://w3id.org/emmo#EMMO_54ee6b5e_5261_44a8_86eb_5717e7fdb9d0,Mathematical,,../Ontologies/emmo.ttl
 https://w3id.org/emmo#EMMO_54ee6b5e_5261_44a8_86eb_5717e7fdb9d0,Mathematical,,subClassOf,https://w3id.org/emmo#EMMO_d8d2144e_5c8d_455d_a643_5caf4d8d9df8,Language,,../Ontologies/emmo.ttl
@@ -21,46 +18,26 @@ http://semanticscience.org/resource/LanguageEntity,language entity,,subClassOf,h
 http://semanticscience.org/resource/InformationContentEntity,information content entity,,subClassOf,http://semanticscience.org/resource/Object,object,,../Ontologies/materialsmine_converted.ttl
 http://semanticscience.org/resource/Object,object,,subClassOf,http://semanticscience.org/resource/Entity,entity,,../Ontologies/materialsmine_converted.ttl
 http://semanticscience.org/resource/Entity,entity,,subClassOf,http://www.w3.org/2002/07/owl#Thing,None,,../Ontologies/materialsmine_converted.ttl
-http://semanticscience.org/resource/Object,object,,subClassOf,nd80a93c034594d85bbea09ea8870fe46b764,None,,../Ontologies/materialsmine_converted.ttl
-https://w3id.org/emmo#EMMO_6f5af708_f825_4feb_a0d1_a8d813d3022b,Object,,equivalentClass,n9d687ca374f54d55bd482d01cf2e53abb2342,None,,../Ontologies/emmo.ttl
-http://semanticscience.org/resource/InformationContentEntity,information content entity,,subClassOf,nd80a93c034594d85bbea09ea8870fe46b607,None,,../Ontologies/materialsmine_converted.ttl
-http://semanticscience.org/resource/LanguageEntity,language entity,,subClassOf,nd80a93c034594d85bbea09ea8870fe46b647,None,,../Ontologies/materialsmine_converted.ttl
 http://semanticscience.org/resource/Language,language,,subClassOf,http://semanticscience.org/resource/LanguageEntity,language entity,,../Ontologies/materialsmine_converted.ttl
 http://semanticscience.org/resource/LanguageEntity,language entity,,subClassOf,http://semanticscience.org/resource/InformationContentEntity,information content entity,,../Ontologies/materialsmine_converted.ttl
 http://semanticscience.org/resource/InformationContentEntity,information content entity,,subClassOf,http://semanticscience.org/resource/Object,object,,../Ontologies/materialsmine_converted.ttl
 http://semanticscience.org/resource/Object,object,,subClassOf,http://semanticscience.org/resource/Entity,entity,,../Ontologies/materialsmine_converted.ttl
 http://semanticscience.org/resource/Entity,entity,,subClassOf,http://www.w3.org/2002/07/owl#Thing,None,,../Ontologies/materialsmine_converted.ttl
-http://semanticscience.org/resource/Object,object,,subClassOf,nd80a93c034594d85bbea09ea8870fe46b764,None,,../Ontologies/materialsmine_converted.ttl
-https://w3id.org/emmo#EMMO_6f5af708_f825_4feb_a0d1_a8d813d3022b,Object,,equivalentClass,n9d687ca374f54d55bd482d01cf2e53abb2342,None,,../Ontologies/emmo.ttl
-http://semanticscience.org/resource/InformationContentEntity,information content entity,,subClassOf,nd80a93c034594d85bbea09ea8870fe46b607,None,,../Ontologies/materialsmine_converted.ttl
-http://semanticscience.org/resource/LanguageEntity,language entity,,subClassOf,nd80a93c034594d85bbea09ea8870fe46b647,None,,../Ontologies/materialsmine_converted.ttl
 https://w3id.org/emmo#EMMO_d8d2144e_5c8d_455d_a643_5caf4d8d9df8,Language,,subClassOf,https://w3id.org/emmo#EMMO_057e7d57_aff0_49de_911a_8861d85cef40,Symbolic,,../Ontologies/emmo.ttl
 https://w3id.org/emmo#EMMO_057e7d57_aff0_49de_911a_8861d85cef40,Symbolic,,subClassOf,https://w3id.org/emmo#EMMO_be8592a7_68d1_4a06_ad23_82f2b56ef926,DiscreteData,,../Ontologies/emmo.ttl
-https://w3id.org/emmo#EMMO_057e7d57_aff0_49de_911a_8861d85cef40,Symbolic,,equivalentClass,n9d687ca374f54d55bd482d01cf2e53abb2364,None,,../Ontologies/emmo.ttl
 https://w3id.org/emmo#EMMO_21f56795_ee72_4858_b571_11cfaa59c1a8,Number,,subClassOf,https://w3id.org/emmo#EMMO_a1083d0a_c1fb_471f_8e20_a98f881ad527,AlphabeticEntity,,../Ontologies/emmo.ttl
 https://w3id.org/emmo#EMMO_a1083d0a_c1fb_471f_8e20_a98f881ad527,AlphabeticEntity,,subClassOf,https://w3id.org/emmo#EMMO_057e7d57_aff0_49de_911a_8861d85cef40,Symbolic,,../Ontologies/emmo.ttl
 https://w3id.org/emmo#EMMO_057e7d57_aff0_49de_911a_8861d85cef40,Symbolic,,subClassOf,https://w3id.org/emmo#EMMO_be8592a7_68d1_4a06_ad23_82f2b56ef926,DiscreteData,,../Ontologies/emmo.ttl
-https://w3id.org/emmo#EMMO_057e7d57_aff0_49de_911a_8861d85cef40,Symbolic,,equivalentClass,n9d687ca374f54d55bd482d01cf2e53abb2364,None,,../Ontologies/emmo.ttl
-http://semanticscience.org/resource/MeasurementValue,measurement value,,subClassOf,nd80a93c034594d85bbea09ea8870fe46b693,None,,../Ontologies/materialsmine_converted.ttl
-http://semanticscience.org/resource/Quantity,Amount,,subClassOf,nd80a93c034594d85bbea09ea8870fe46b928,None,,../Ontologies/materialsmine_converted.ttl
-http://semanticscience.org/resource/Quantity,Amount,,subClassOf,nd80a93c034594d85bbea09ea8870fe46b929,None,,../Ontologies/materialsmine_converted.ttl
-http://semanticscience.org/resource/Quantity,Amount,,equivalentClass,nd80a93c034594d85bbea09ea8870fe46b925,None,,../Ontologies/materialsmine_converted.ttl
-https://w3id.org/emmo#AmperePerJoule,Ampere per Joule,,subClassOf,n313fe0266f604a0bad02dbc817388116b17,None,,../Ontologies/emmo.ttl
-https://w3id.org/emmo#AmperePerJoule,Ampere per Joule,,subClassOf,n313fe0266f604a0bad02dbc817388116b18,None,,../Ontologies/emmo.ttl
 https://w3id.org/emmo#AmperePerJoule,Ampere per Joule,,subClassOf,https://w3id.org/emmo#EMMO_1273eb34_de48_43a9_925f_104110469dd2,SICoherentDerivedUnit,,../Ontologies/emmo.ttl
 https://w3id.org/emmo#EMMO_1273eb34_de48_43a9_925f_104110469dd2,SICoherentDerivedUnit,,subClassOf,https://w3id.org/emmo#EMMO_08b308d4_31cd_4779_a784_aa92fc730f39,DerivedUnit,,../Ontologies/emmo.ttl
 https://w3id.org/emmo#AmperePerJoule,Ampere per Joule,,subClassOf,https://w3id.org/emmo#EMMO_1aaaceb6_c5eb_4cf3_a494_f82d43fda10a,ElectricCurrentPerUnitEnergyUnit,,../Ontologies/emmo.ttl
 https://w3id.org/emmo#EMMO_1aaaceb6_c5eb_4cf3_a494_f82d43fda10a,ElectricCurrentPerUnitEnergyUnit,,subClassOf,https://w3id.org/emmo#EMMO_9895a1b4_f0a5_4167_ac5e_97db40b8bfcc,SIDimensionalUnit,,../Ontologies/emmo.ttl
 https://w3id.org/emmo#EMMO_9895a1b4_f0a5_4167_ac5e_97db40b8bfcc,SIDimensionalUnit,,subClassOf,https://w3id.org/emmo#EMMO_cbdea88b_fef1_4c7c_b69f_ae1f0f241c4a,DimensionalUnit,,../Ontologies/emmo.ttl
-https://w3id.org/emmo#EMMO_1aaaceb6_c5eb_4cf3_a494_f82d43fda10a,ElectricCurrentPerUnitEnergyUnit,,equivalentClass,n9d687ca374f54d55bd482d01cf2e53abb1511,None,,../Ontologies/emmo.ttl
-https://w3id.org/emmo#AmperePerJoule,AmperePerJoule,,subClassOf,n313fe0266f604a0bad02dbc817388116b17,None,,../Ontologies/emmo.ttl
-https://w3id.org/emmo#AmperePerJoule,AmperePerJoule,,subClassOf,n313fe0266f604a0bad02dbc817388116b18,None,,../Ontologies/emmo.ttl
 https://w3id.org/emmo#AmperePerJoule,AmperePerJoule,,subClassOf,https://w3id.org/emmo#EMMO_1273eb34_de48_43a9_925f_104110469dd2,SICoherentDerivedUnit,,../Ontologies/emmo.ttl
 https://w3id.org/emmo#EMMO_1273eb34_de48_43a9_925f_104110469dd2,SICoherentDerivedUnit,,subClassOf,https://w3id.org/emmo#EMMO_08b308d4_31cd_4779_a784_aa92fc730f39,DerivedUnit,,../Ontologies/emmo.ttl
 https://w3id.org/emmo#AmperePerJoule,AmperePerJoule,,subClassOf,https://w3id.org/emmo#EMMO_1aaaceb6_c5eb_4cf3_a494_f82d43fda10a,ElectricCurrentPerUnitEnergyUnit,,../Ontologies/emmo.ttl
 https://w3id.org/emmo#EMMO_1aaaceb6_c5eb_4cf3_a494_f82d43fda10a,ElectricCurrentPerUnitEnergyUnit,,subClassOf,https://w3id.org/emmo#EMMO_9895a1b4_f0a5_4167_ac5e_97db40b8bfcc,SIDimensionalUnit,,../Ontologies/emmo.ttl
 https://w3id.org/emmo#EMMO_9895a1b4_f0a5_4167_ac5e_97db40b8bfcc,SIDimensionalUnit,,subClassOf,https://w3id.org/emmo#EMMO_cbdea88b_fef1_4c7c_b69f_ae1f0f241c4a,DimensionalUnit,,../Ontologies/emmo.ttl
-https://w3id.org/emmo#EMMO_1aaaceb6_c5eb_4cf3_a494_f82d43fda10a,ElectricCurrentPerUnitEnergyUnit,,equivalentClass,n9d687ca374f54d55bd482d01cf2e53abb1511,None,,../Ontologies/emmo.ttl
 http://materialsmine.org/ns/Stress,Stress,,subClassOf,http://materialsmine.org/ns/MechanicalProperty,Mechanical Property,,../Ontologies/materialsmine_converted.ttl
 http://materialsmine.org/ns/MechanicalProperty,Mechanical Property,,subClassOf,http://semanticscience.org/resource/Quantity,Amount,,../Ontologies/materialsmine_converted.ttl
 http://semanticscience.org/resource/Quantity,Amount,,subClassOf,http://semanticscience.org/resource/MeasurementValue,measurement value,,../Ontologies/materialsmine_converted.ttl
@@ -72,9 +49,6 @@ http://semanticscience.org/resource/MathematicalEntity,mathematical entity,,subC
 http://semanticscience.org/resource/InformationContentEntity,information content entity,,subClassOf,http://semanticscience.org/resource/Object,object,,../Ontologies/materialsmine_converted.ttl
 http://semanticscience.org/resource/Object,object,,subClassOf,http://semanticscience.org/resource/Entity,entity,,../Ontologies/materialsmine_converted.ttl
 http://semanticscience.org/resource/Entity,entity,,subClassOf,http://www.w3.org/2002/07/owl#Thing,None,,../Ontologies/materialsmine_converted.ttl
-http://semanticscience.org/resource/Object,object,,subClassOf,nd80a93c034594d85bbea09ea8870fe46b764,None,,../Ontologies/materialsmine_converted.ttl
-https://w3id.org/emmo#EMMO_6f5af708_f825_4feb_a0d1_a8d813d3022b,Object,,equivalentClass,n9d687ca374f54d55bd482d01cf2e53abb2342,None,,../Ontologies/emmo.ttl
-http://semanticscience.org/resource/InformationContentEntity,information content entity,,subClassOf,nd80a93c034594d85bbea09ea8870fe46b607,None,,../Ontologies/materialsmine_converted.ttl
 https://w3id.org/emmo#EMMO_21f56795_ee72_4858_b571_11cfaa59c1a8,Number,,subClassOf,https://w3id.org/emmo#EMMO_4ce76d7f_03f8_45b6_9003_90052a79bfaa,Numerical,,../Ontologies/emmo.ttl
 https://w3id.org/emmo#EMMO_4ce76d7f_03f8_45b6_9003_90052a79bfaa,Numerical,,subClassOf,https://w3id.org/emmo#EMMO_54ee6b5e_5261_44a8_86eb_5717e7fdb9d0,Mathematical,,../Ontologies/emmo.ttl
 https://w3id.org/emmo#EMMO_54ee6b5e_5261_44a8_86eb_5717e7fdb9d0,Mathematical,,subClassOf,https://w3id.org/emmo#EMMO_d8d2144e_5c8d_455d_a643_5caf4d8d9df8,Language,,../Ontologies/emmo.ttl
@@ -83,34 +57,18 @@ http://semanticscience.org/resource/LanguageEntity,language entity,,subClassOf,h
 http://semanticscience.org/resource/InformationContentEntity,information content entity,,subClassOf,http://semanticscience.org/resource/Object,object,,../Ontologies/materialsmine_converted.ttl
 http://semanticscience.org/resource/Object,object,,subClassOf,http://semanticscience.org/resource/Entity,entity,,../Ontologies/materialsmine_converted.ttl
 http://semanticscience.org/resource/Entity,entity,,subClassOf,http://www.w3.org/2002/07/owl#Thing,None,,../Ontologies/materialsmine_converted.ttl
-http://semanticscience.org/resource/Object,object,,subClassOf,nd80a93c034594d85bbea09ea8870fe46b764,None,,../Ontologies/materialsmine_converted.ttl
-https://w3id.org/emmo#EMMO_6f5af708_f825_4feb_a0d1_a8d813d3022b,Object,,equivalentClass,n9d687ca374f54d55bd482d01cf2e53abb2342,None,,../Ontologies/emmo.ttl
-http://semanticscience.org/resource/InformationContentEntity,information content entity,,subClassOf,nd80a93c034594d85bbea09ea8870fe46b607,None,,../Ontologies/materialsmine_converted.ttl
-http://semanticscience.org/resource/LanguageEntity,language entity,,subClassOf,nd80a93c034594d85bbea09ea8870fe46b647,None,,../Ontologies/materialsmine_converted.ttl
 http://semanticscience.org/resource/Language,language,,subClassOf,http://semanticscience.org/resource/LanguageEntity,language entity,,../Ontologies/materialsmine_converted.ttl
 http://semanticscience.org/resource/LanguageEntity,language entity,,subClassOf,http://semanticscience.org/resource/InformationContentEntity,information content entity,,../Ontologies/materialsmine_converted.ttl
 http://semanticscience.org/resource/InformationContentEntity,information content entity,,subClassOf,http://semanticscience.org/resource/Object,object,,../Ontologies/materialsmine_converted.ttl
 http://semanticscience.org/resource/Object,object,,subClassOf,http://semanticscience.org/resource/Entity,entity,,../Ontologies/materialsmine_converted.ttl
 http://semanticscience.org/resource/Entity,entity,,subClassOf,http://www.w3.org/2002/07/owl#Thing,None,,../Ontologies/materialsmine_converted.ttl
-http://semanticscience.org/resource/Object,object,,subClassOf,nd80a93c034594d85bbea09ea8870fe46b764,None,,../Ontologies/materialsmine_converted.ttl
-https://w3id.org/emmo#EMMO_6f5af708_f825_4feb_a0d1_a8d813d3022b,Object,,equivalentClass,n9d687ca374f54d55bd482d01cf2e53abb2342,None,,../Ontologies/emmo.ttl
-http://semanticscience.org/resource/InformationContentEntity,information content entity,,subClassOf,nd80a93c034594d85bbea09ea8870fe46b607,None,,../Ontologies/materialsmine_converted.ttl
-http://semanticscience.org/resource/LanguageEntity,language entity,,subClassOf,nd80a93c034594d85bbea09ea8870fe46b647,None,,../Ontologies/materialsmine_converted.ttl
 https://w3id.org/emmo#EMMO_d8d2144e_5c8d_455d_a643_5caf4d8d9df8,Language,,subClassOf,https://w3id.org/emmo#EMMO_057e7d57_aff0_49de_911a_8861d85cef40,Symbolic,,../Ontologies/emmo.ttl
 https://w3id.org/emmo#EMMO_057e7d57_aff0_49de_911a_8861d85cef40,Symbolic,,subClassOf,https://w3id.org/emmo#EMMO_be8592a7_68d1_4a06_ad23_82f2b56ef926,DiscreteData,,../Ontologies/emmo.ttl
-https://w3id.org/emmo#EMMO_057e7d57_aff0_49de_911a_8861d85cef40,Symbolic,,equivalentClass,n9d687ca374f54d55bd482d01cf2e53abb2364,None,,../Ontologies/emmo.ttl
 https://w3id.org/emmo#EMMO_21f56795_ee72_4858_b571_11cfaa59c1a8,Number,,subClassOf,https://w3id.org/emmo#EMMO_a1083d0a_c1fb_471f_8e20_a98f881ad527,AlphabeticEntity,,../Ontologies/emmo.ttl
 https://w3id.org/emmo#EMMO_a1083d0a_c1fb_471f_8e20_a98f881ad527,AlphabeticEntity,,subClassOf,https://w3id.org/emmo#EMMO_057e7d57_aff0_49de_911a_8861d85cef40,Symbolic,,../Ontologies/emmo.ttl
 https://w3id.org/emmo#EMMO_057e7d57_aff0_49de_911a_8861d85cef40,Symbolic,,subClassOf,https://w3id.org/emmo#EMMO_be8592a7_68d1_4a06_ad23_82f2b56ef926,DiscreteData,,../Ontologies/emmo.ttl
-https://w3id.org/emmo#EMMO_057e7d57_aff0_49de_911a_8861d85cef40,Symbolic,,equivalentClass,n9d687ca374f54d55bd482d01cf2e53abb2364,None,,../Ontologies/emmo.ttl
-http://semanticscience.org/resource/MeasurementValue,measurement value,,subClassOf,nd80a93c034594d85bbea09ea8870fe46b693,None,,../Ontologies/materialsmine_converted.ttl
-http://semanticscience.org/resource/Quantity,Amount,,subClassOf,nd80a93c034594d85bbea09ea8870fe46b928,None,,../Ontologies/materialsmine_converted.ttl
-http://semanticscience.org/resource/Quantity,Amount,,subClassOf,nd80a93c034594d85bbea09ea8870fe46b929,None,,../Ontologies/materialsmine_converted.ttl
-http://semanticscience.org/resource/Quantity,Amount,,equivalentClass,nd80a93c034594d85bbea09ea8870fe46b925,None,,../Ontologies/materialsmine_converted.ttl
-https://w3id.org/emmo#EMMO_d1917609_db5e_4b8a_9b76_ef1d6f860a81,Stress,,subClassOf,n313fe0266f604a0bad02dbc817388116b714,None,,../Ontologies/emmo.ttl
 https://w3id.org/emmo#EMMO_d1917609_db5e_4b8a_9b76_ef1d6f860a81,Stress,,subClassOf,https://w3id.org/emmo#EMMO_2946d40b_24a1_47fa_8176_e3f79bb45064,ISQDerivedQuantity,,../Ontologies/emmo.ttl
 https://w3id.org/emmo#EMMO_2946d40b_24a1_47fa_8176_e3f79bb45064,ISQDerivedQuantity,,subClassOf,https://w3id.org/emmo#EMMO_71f6ab56_342c_484b_bbe0_de86b7367cb3,DerivedQuantity,,../Ontologies/emmo.ttl
 https://w3id.org/emmo#EMMO_2946d40b_24a1_47fa_8176_e3f79bb45064,ISQDerivedQuantity,,subClassOf,https://w3id.org/emmo#EMMO_f35cff4d_dc09_44cf_a729_22fb79e3bfb2,InternationalSystemOfQuantity,,../Ontologies/emmo.ttl
 https://w3id.org/emmo#EMMO_f35cff4d_dc09_44cf_a729_22fb79e3bfb2,InternationalSystemOfQuantity,,subClassOf,https://w3id.org/emmo#EMMO_9c407ac0_fd4c_4178_8763_95fad9fe29ec,StandardizedPhysicalQuantity,,../Ontologies/emmo.ttl
 https://w3id.org/emmo#EMMO_9c407ac0_fd4c_4178_8763_95fad9fe29ec,StandardizedPhysicalQuantity,,subClassOf,https://w3id.org/emmo#EMMO_02c0621e_a527_4790_8a0f_2bb51973c819,PhysicalQuantity,,../Ontologies/emmo.ttl
-https://w3id.org/emmo#EMMO_02c0621e_a527_4790_8a0f_2bb51973c819,PhysicalQuantity,,subClassOf,n9d687ca374f54d55bd482d01cf2e53abb2361,None,,../Ontologies/emmo.ttl
