@@ -1,2 +1,14 @@
 File,Subject Class URI,Subject Label,Relation,Object Class URI,Object Label
-../Ontologies/materialsmine.ttl,http://materialsmine.org/ns/Compression,Compression,subClassOf,http://materialsmine.org/ns/ViscoelasticProperty,Viscoelastic Property
+../Ontologies/materialsmine_converted.ttl,http://materialsmine.org/ns/Compression,Compression,subClassOf,http://materialsmine.org/ns/ViscoelasticProperty,Viscoelastic Property
+../Ontologies/materialsmine_converted.ttl,http://materialsmine.org/ns/Stress,Stress,subClassOf,http://materialsmine.org/ns/MechanicalProperty,Mechanical Property
+../Ontologies/emmo.ttl,https://w3id.org/emmo#AmperePerJoule,Ampere per Joule,subClassOf,n8456f385279a41e9b7627c6ec9a4ea6eb17,None
+../Ontologies/emmo.ttl,https://w3id.org/emmo#AmperePerJoule,Ampere per Joule,subClassOf,n8456f385279a41e9b7627c6ec9a4ea6eb18,None
+../Ontologies/emmo.ttl,https://w3id.org/emmo#AmperePerJoule,Ampere per Joule,subClassOf,https://w3id.org/emmo#EMMO_1273eb34_de48_43a9_925f_104110469dd2,SICoherentDerivedUnit
+../Ontologies/emmo.ttl,https://w3id.org/emmo#AmperePerJoule,Ampere per Joule,subClassOf,https://w3id.org/emmo#EMMO_1aaaceb6_c5eb_4cf3_a494_f82d43fda10a,ElectricCurrentPerUnitEnergyUnit
+../Ontologies/emmo.ttl,https://w3id.org/emmo#AmperePerJoule,AmperePerJoule,subClassOf,n8456f385279a41e9b7627c6ec9a4ea6eb17,None
+../Ontologies/emmo.ttl,https://w3id.org/emmo#AmperePerJoule,AmperePerJoule,subClassOf,n8456f385279a41e9b7627c6ec9a4ea6eb18,None
+../Ontologies/emmo.ttl,https://w3id.org/emmo#AmperePerJoule,AmperePerJoule,subClassOf,https://w3id.org/emmo#EMMO_1273eb34_de48_43a9_925f_104110469dd2,SICoherentDerivedUnit
+../Ontologies/emmo.ttl,https://w3id.org/emmo#AmperePerJoule,AmperePerJoule,subClassOf,https://w3id.org/emmo#EMMO_1aaaceb6_c5eb_4cf3_a494_f82d43fda10a,ElectricCurrentPerUnitEnergyUnit
+../Ontologies/emmo.ttl,https://w3id.org/emmo#EMMO_d1917609_db5e_4b8a_9b76_ef1d6f860a81,Stress,subClassOf,n8456f385279a41e9b7627c6ec9a4ea6eb714,None
+../Ontologies/emmo.ttl,https://w3id.org/emmo#EMMO_d1917609_db5e_4b8a_9b76_ef1d6f860a81,Stress,subClassOf,https://w3id.org/emmo#EMMO_2946d40b_24a1_47fa_8176_e3f79bb45064,ISQDerivedQuantity
+../Ontologies/materialsmine_converted.ttl,http://materialsmine.org/ns/PlaneStress,Plane Stress,subClassOf,http://materialsmine.org/ns/Stress,Stress

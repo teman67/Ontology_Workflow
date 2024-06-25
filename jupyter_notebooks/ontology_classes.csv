@@ -1,2 +1,6 @@
 File,Class URI,Label
-../Ontologies/materialsmine.ttl,http://materialsmine.org/ns/Compression,Compression
+../Ontologies/materialsmine_converted.ttl,http://materialsmine.org/ns/Compression,Compression
+../Ontologies/materialsmine_converted.ttl,http://materialsmine.org/ns/Stress,Stress
+../Ontologies/emmo.ttl,https://w3id.org/emmo#AmperePerJoule,Ampere per Joule
+../Ontologies/emmo.ttl,https://w3id.org/emmo#AmperePerJoule,AmperePerJoule
+../Ontologies/emmo.ttl,https://w3id.org/emmo#EMMO_d1917609_db5e_4b8a_9b76_ef1d6f860a81,Stress
