@@ -1,6 +1,3 @@
 File,Class URI,Label,Description
 ../Ontologies/materialsmine_converted.ttl,http://materialsmine.org/ns/Stress,Stress,"When a material is loaded with a force, it produces a stress, which then causes a material to deform. "
 ../Ontologies/materialsmine_converted.ttl,http://materialsmine.org/ns/Compression,Compression,Describing countervailing forces applied inward along the central axis of a material.
-../Ontologies/emmo.ttl,https://w3id.org/emmo#EMMO_d1917609_db5e_4b8a_9b76_ef1d6f860a81,Stress,Force per unit oriented surface area .
-../Ontologies/emmo.ttl,https://w3id.org/emmo#AmperePerJoule,Ampere per Joule,None
-../Ontologies/emmo.ttl,https://w3id.org/emmo#AmperePerJoule,AmperePerJoule,None
