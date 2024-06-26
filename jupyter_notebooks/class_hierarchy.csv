@@ -8,8 +8,12 @@ http://semanticscience.org/resource/Scalar,scalar,a scalar is a rank 0 tensor an
 http://semanticscience.org/resource/Tensor,tensor,a tensor is a n-dimensional array.,subClassOf,http://semanticscience.org/resource/MathematicalEntity,mathematical entity,A mathematical entity is an information content entity that are components of a mathematical system or can be defined in mathematical terms.,../Ontologies/materialsmine_converted.ttl
 http://semanticscience.org/resource/MathematicalEntity,mathematical entity,A mathematical entity is an information content entity that are components of a mathematical system or can be defined in mathematical terms.,subClassOf,http://semanticscience.org/resource/InformationContentEntity,information content entity,information content entity is an object that requires some background knowledge or procedure to correctly interpret.,../Ontologies/materialsmine_converted.ttl
 http://semanticscience.org/resource/InformationContentEntity,information content entity,information content entity is an object that requires some background knowledge or procedure to correctly interpret.,subClassOf,http://semanticscience.org/resource/Object,object,An object is an entity that is wholly identifiable at any instant of time during which it exists.,../Ontologies/materialsmine_converted.ttl
+https://w3id.org/pmd/co/Object,Object,"A discernable, tangible or simulated entity that is processed in a process by a processing node.",subClassOf,http://www.w3.org/ns/prov#Entity,Entity,,../Ontologies/materialsmine_converted.ttl
+http://semanticscience.org/resource/Entity,entity,Every thing is an entity.,subClassOf,http://www.w3.org/2002/07/owl#Thing,None,,../Ontologies/materialsmine_converted.ttl
+http://www.w3.org/ns/prov#Entity,Entity,,subClassOf,http://www.w3.org/2002/07/owl#Thing,None,,../Ontologies/materialsmine_converted.ttl
 http://semanticscience.org/resource/Object,object,An object is an entity that is wholly identifiable at any instant of time during which it exists.,subClassOf,http://semanticscience.org/resource/Entity,entity,Every thing is an entity.,../Ontologies/materialsmine_converted.ttl
 http://semanticscience.org/resource/Entity,entity,Every thing is an entity.,subClassOf,http://www.w3.org/2002/07/owl#Thing,None,,../Ontologies/materialsmine_converted.ttl
+http://www.w3.org/ns/prov#Entity,Entity,,subClassOf,http://www.w3.org/2002/07/owl#Thing,None,,../Ontologies/materialsmine_converted.ttl
 https://w3id.org/emmo#AmperePerJoule,Ampere per Joule,,subClassOf,https://w3id.org/emmo#EMMO_1273eb34_de48_43a9_925f_104110469dd2,SICoherentDerivedUnit,This class collects all units that are products or powers of SI base or SI special units only.,../Ontologies/emmo.ttl
 https://w3id.org/emmo#EMMO_1273eb34_de48_43a9_925f_104110469dd2,SICoherentDerivedUnit,This class collects all units that are products or powers of SI base or SI special units only.,subClassOf,https://w3id.org/emmo#EMMO_08b308d4_31cd_4779_a784_aa92fc730f39,DerivedUnit,,../Ontologies/materialsmine_converted.ttl
 https://w3id.org/emmo#AmperePerJoule,Ampere per Joule,,subClassOf,https://w3id.org/emmo#EMMO_1aaaceb6_c5eb_4cf3_a494_f82d43fda10a,ElectricCurrentPerUnitEnergyUnit,,../Ontologies/emmo.ttl
@@ -24,8 +28,37 @@ http://semanticscience.org/resource/Scalar,scalar,a scalar is a rank 0 tensor an
 http://semanticscience.org/resource/Tensor,tensor,a tensor is a n-dimensional array.,subClassOf,http://semanticscience.org/resource/MathematicalEntity,mathematical entity,A mathematical entity is an information content entity that are components of a mathematical system or can be defined in mathematical terms.,../Ontologies/materialsmine_converted.ttl
 http://semanticscience.org/resource/MathematicalEntity,mathematical entity,A mathematical entity is an information content entity that are components of a mathematical system or can be defined in mathematical terms.,subClassOf,http://semanticscience.org/resource/InformationContentEntity,information content entity,information content entity is an object that requires some background knowledge or procedure to correctly interpret.,../Ontologies/materialsmine_converted.ttl
 http://semanticscience.org/resource/InformationContentEntity,information content entity,information content entity is an object that requires some background knowledge or procedure to correctly interpret.,subClassOf,http://semanticscience.org/resource/Object,object,An object is an entity that is wholly identifiable at any instant of time during which it exists.,../Ontologies/materialsmine_converted.ttl
+https://w3id.org/pmd/co/Object,Object,"A discernable, tangible or simulated entity that is processed in a process by a processing node.",subClassOf,http://www.w3.org/ns/prov#Entity,Entity,,../Ontologies/materialsmine_converted.ttl
+http://semanticscience.org/resource/Entity,entity,Every thing is an entity.,subClassOf,http://www.w3.org/2002/07/owl#Thing,None,,../Ontologies/materialsmine_converted.ttl
+http://www.w3.org/ns/prov#Entity,Entity,,subClassOf,http://www.w3.org/2002/07/owl#Thing,None,,../Ontologies/materialsmine_converted.ttl
 http://semanticscience.org/resource/Object,object,An object is an entity that is wholly identifiable at any instant of time during which it exists.,subClassOf,http://semanticscience.org/resource/Entity,entity,Every thing is an entity.,../Ontologies/materialsmine_converted.ttl
 http://semanticscience.org/resource/Entity,entity,Every thing is an entity.,subClassOf,http://www.w3.org/2002/07/owl#Thing,None,,../Ontologies/materialsmine_converted.ttl
+http://www.w3.org/ns/prov#Entity,Entity,,subClassOf,http://www.w3.org/2002/07/owl#Thing,None,,../Ontologies/materialsmine_converted.ttl
+https://w3id.org/pmd/co/Stress,Stress,"At any moment during the test, force divided by the original cross-sectional area, S_o, of the test piece
+
+Note: Here, all references to stress are to engineering stress. Dimensional Analysis: 
+ML*-1T*-2 Kraft zu einem beliebigen Zeitpunkt während des Versuchs dividiert durch den Anfangsquerschnitt (S_o) der Probe
+
+Anmerkung: Mit dem Begriff Spannung ist hier die technische Spannung ('Ingenieur-Spannung') gemeint. Units: Pa (SI), psi",subClassOf,https://w3id.org/pmd/co/ValueObject,Value Object,"A :ValueObject is a simple entity which represents a specific value. This value can be a numerical, textual, or a more complex data structure. If a literal value is to be specified, the :value datatype property has to be used. In cases where the value is represented by a resource (e.g. URI), the :resource object property has to be used.
+
+A value object, respectively its value, is always associated with an entity of type :Process, :ProcessingNode, or :Object (e.g. :Specimen). The value is meant to be a charactaristic of the associated entity. To express this association it is indended to use the :participant object property.
+
+A value object might also refer to a certain unit. The :unit property might be used (e.g. with QUDT ontology).
+
+Instances of a value object might be specified as a specific Parameter, namely a SetPoint (nominal value), or Measurement. With :Setpoint the intend is to express, that the value is meant to be some preset, setting or nominal value. :Measurement expresses, that the value has been measured or determined somehow (see example).
+
+Instances of a value object might also be specified in a specific DataScope (:Metadata, :PrimaryData, :SecondaryData).",../Ontologies/pmdco_core.ttl
+https://w3id.org/pmd/co/ValueObject,Value Object,"A :ValueObject is a simple entity which represents a specific value. This value can be a numerical, textual, or a more complex data structure. If a literal value is to be specified, the :value datatype property has to be used. In cases where the value is represented by a resource (e.g. URI), the :resource object property has to be used.
+
+A value object, respectively its value, is always associated with an entity of type :Process, :ProcessingNode, or :Object (e.g. :Specimen). The value is meant to be a charactaristic of the associated entity. To express this association it is indended to use the :participant object property.
+
+A value object might also refer to a certain unit. The :unit property might be used (e.g. with QUDT ontology).
+
+Instances of a value object might be specified as a specific Parameter, namely a SetPoint (nominal value), or Measurement. With :Setpoint the intend is to express, that the value is meant to be some preset, setting or nominal value. :Measurement expresses, that the value has been measured or determined somehow (see example).
+
+Instances of a value object might also be specified in a specific DataScope (:Metadata, :PrimaryData, :SecondaryData).",subClassOf,http://www.w3.org/ns/prov#Entity,Entity,,../Ontologies/materialsmine_converted.ttl
+http://semanticscience.org/resource/Entity,entity,Every thing is an entity.,subClassOf,http://www.w3.org/2002/07/owl#Thing,None,,../Ontologies/materialsmine_converted.ttl
+http://www.w3.org/ns/prov#Entity,Entity,,subClassOf,http://www.w3.org/2002/07/owl#Thing,None,,../Ontologies/materialsmine_converted.ttl
 https://w3id.org/emmo#EMMO_d1917609_db5e_4b8a_9b76_ef1d6f860a81,Stress,Force per unit oriented surface area . Measure of the internal forces that neighboring particles of a continuous material exert on each other.,subClassOf,https://w3id.org/emmo#EMMO_2946d40b_24a1_47fa_8176_e3f79bb45064,ISQDerivedQuantity,,../Ontologies/emmo.ttl
 https://w3id.org/emmo#EMMO_2946d40b_24a1_47fa_8176_e3f79bb45064,ISQDerivedQuantity,,subClassOf,https://w3id.org/emmo#EMMO_71f6ab56_342c_484b_bbe0_de86b7367cb3,DerivedQuantity,,../Ontologies/materialsmine_converted.ttl
 https://w3id.org/emmo#EMMO_2946d40b_24a1_47fa_8176_e3f79bb45064,ISQDerivedQuantity,,subClassOf,https://w3id.org/emmo#EMMO_f35cff4d_dc09_44cf_a729_22fb79e3bfb2,InternationalSystemOfQuantity,,../Ontologies/materialsmine_converted.ttl
