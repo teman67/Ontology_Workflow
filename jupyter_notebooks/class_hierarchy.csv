@@ -10,11 +10,14 @@ http://semanticscience.org/resource/MathematicalEntity,mathematical entity,A mat
 http://semanticscience.org/resource/InformationContentEntity,information content entity,information content entity is an object that requires some background knowledge or procedure to correctly interpret.,subClassOf,http://semanticscience.org/resource/Object,object,An object is an entity that is wholly identifiable at any instant of time during which it exists.,../Ontologies/materialsmine_converted.ttl
 http://semanticscience.org/resource/Object,object,An object is an entity that is wholly identifiable at any instant of time during which it exists.,subClassOf,http://semanticscience.org/resource/Entity,entity,Every thing is an entity.,../Ontologies/materialsmine_converted.ttl
 http://semanticscience.org/resource/Entity,entity,Every thing is an entity.,subClassOf,http://www.w3.org/2002/07/owl#Thing,None,,../Ontologies/materialsmine_converted.ttl
+------,------,------,------,------,------,------,------
 https://w3id.org/emmo#AmperePerJoule,Ampere per Joule,,subClassOf,https://w3id.org/emmo#EMMO_1273eb34_de48_43a9_925f_104110469dd2,SICoherentDerivedUnit,This class collects all units that are products or powers of SI base or SI special units only.,../Ontologies/emmo.ttl
 https://w3id.org/emmo#EMMO_1273eb34_de48_43a9_925f_104110469dd2,SICoherentDerivedUnit,This class collects all units that are products or powers of SI base or SI special units only.,subClassOf,https://w3id.org/emmo#EMMO_08b308d4_31cd_4779_a784_aa92fc730f39,DerivedUnit,,../Ontologies/materialsmine_converted.ttl
 https://w3id.org/emmo#AmperePerJoule,Ampere per Joule,,subClassOf,https://w3id.org/emmo#EMMO_1aaaceb6_c5eb_4cf3_a494_f82d43fda10a,ElectricCurrentPerUnitEnergyUnit,,../Ontologies/emmo.ttl
 https://w3id.org/emmo#EMMO_1aaaceb6_c5eb_4cf3_a494_f82d43fda10a,ElectricCurrentPerUnitEnergyUnit,,subClassOf,https://w3id.org/emmo#EMMO_9895a1b4_f0a5_4167_ac5e_97db40b8bfcc,SIDimensionalUnit,,../Ontologies/materialsmine_converted.ttl
 https://w3id.org/emmo#EMMO_9895a1b4_f0a5_4167_ac5e_97db40b8bfcc,SIDimensionalUnit,,subClassOf,https://w3id.org/emmo#EMMO_cbdea88b_fef1_4c7c_b69f_ae1f0f241c4a,DimensionalUnit,,../Ontologies/materialsmine_converted.ttl
+------,------,------,------,------,------,------,------
+------,------,------,------,------,------,------,------
 http://materialsmine.org/ns/Stress,Stress,"When a material is loaded with a force, it produces a stress, which then causes a material to deform. ",subClassOf,http://materialsmine.org/ns/MechanicalProperty,Mechanical Property,A materials property related to the response of a material under some external applied load.,../Ontologies/materialsmine_converted.ttl
 http://materialsmine.org/ns/MechanicalProperty,Mechanical Property,A materials property related to the response of a material under some external applied load.,subClassOf,http://semanticscience.org/resource/Quantity,Amount,A quantity is an informational entity that gives the magnitude of a property.,../Ontologies/materialsmine_converted.ttl
 http://semanticscience.org/resource/Quantity,Amount,A quantity is an informational entity that gives the magnitude of a property.,subClassOf,http://semanticscience.org/resource/MeasurementValue,measurement value,A measurement value is a quantitative description that reflects the magnitude of some attribute.,../Ontologies/materialsmine_converted.ttl
@@ -45,3 +48,4 @@ As another example, the joule (J) is used as a unit of energy, but never as a un
 — quantities of different quantity dimensions are always of different kinds, and
 — quantities having the same quantity dimension are not necessarily of the same kind.
 ISO 80000-1",../Ontologies/materialsmine_converted.ttl
+------,------,------,------,------,------,------,------
