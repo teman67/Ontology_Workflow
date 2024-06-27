@@ -1,11 +1,8 @@
-File,Class URI,Label,Description
 ../Ontologies/materialsmine_converted.ttl,http://materialsmine.org/ns/Compression,Compression,Describing countervailing forces applied inward along the central axis of a material.
 ../Ontologies/materialsmine_converted.ttl,http://materialsmine.org/ns/Stress,Stress,"When a material is loaded with a force, it produces a stress, which then causes a material to deform. "
-../Ontologies/pmdco_core.ttl,https://w3id.org/pmd/co/Stress,Stress,"At any moment during the test, force divided by the original cross-sectional area, S_o, of the test piece
-
-Note: Here, all references to stress are to engineering stress. Dimensional Analysis: 
-ML*-1T*-2 Kraft zu einem beliebigen Zeitpunkt während des Versuchs dividiert durch den Anfangsquerschnitt (S_o) der Probe
-
-Anmerkung: Mit dem Begriff Spannung ist hier die technische Spannung ('Ingenieur-Spannung') gemeint. Units: Pa (SI), psi"
 ../Ontologies/emmo.ttl,https://w3id.org/emmo#AmperePerJoule,Ampere per Joule,None
 ../Ontologies/emmo.ttl,https://w3id.org/emmo#EMMO_d1917609_db5e_4b8a_9b76_ef1d6f860a81,Stress,Force per unit oriented surface area . Measure of the internal forces that neighboring particles of a continuous material exert on each other.
+../Ontologies/materialsmine_converted.ttl,http://materialsmine.org/ns/Stress,Stress,"When a material is loaded with a force, it produces a stress, which then causes a material to deform. "
+../Ontologies/materialsmine_converted.ttl,http://materialsmine.org/ns/Compression,Compression,Describing countervailing forces applied inward along the central axis of a material.
+../Ontologies/emmo.ttl,https://w3id.org/emmo#EMMO_d1917609_db5e_4b8a_9b76_ef1d6f860a81,Stress,Force per unit oriented surface area . Measure of the internal forces that neighboring particles of a continuous material exert on each other.
+../Ontologies/emmo.ttl,https://w3id.org/emmo#AmperePerJoule,Ampere per Joule,None
