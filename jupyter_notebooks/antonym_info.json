@@ -1,0 +1,60 @@
+{
+    "ndf17d241d488438f8686c35e680341fab2": {
+        "http://www.w3.org/2002/07/owl#onProperty": [
+            "http://semanticscience.org/resource/isOppositeTo"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Restriction"
+        ],
+        "http://www.w3.org/2002/07/owl#someValuesFrom": [
+            "http://semanticscience.org/resource/Term"
+        ]
+    },
+    "http://semanticscience.org/resource/Antonym": {
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+            "http://semanticscience.org/ontology/sio/v1.53/sio-subset-labels.owl"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            "antonym"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            "http://semanticscience.org/resource/TermVariant"
+        ],
+        "http://purl.org/dc/terms/description": [
+            "An antonym is a word with opposite or nearly opposite meaning."
+        ],
+        "http://data.bioontology.org/metadata/prefixIRI": [
+            "sio:Antonym"
+        ],
+        "http://www.w3.org/2002/07/owl#equivalentClass": [
+            "ndf17d241d488438f8686c35e680341fab1"
+        ]
+    },
+    "ndf17d241d488438f8686c35e680341fab3": {
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+            "ndf17d241d488438f8686c35e680341fab4"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+            "http://semanticscience.org/resource/TermVariant"
+        ]
+    },
+    "ndf17d241d488438f8686c35e680341fab4": {
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+            "http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+            "ndf17d241d488438f8686c35e680341fab2"
+        ]
+    },
+    "ndf17d241d488438f8686c35e680341fab1": {
+        "http://www.w3.org/2002/07/owl#intersectionOf": [
+            "ndf17d241d488438f8686c35e680341fab3"
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ]
+    }
+}
