@@ -1,11 +1,4 @@
-File,Subject Class URI,Subject Label,Relation,Object Class URI,Object Label,Object Description
-../Ontologies/materialsmine_converted.ttl,http://materialsmine.org/ns/Stress,Stress,subClassOf,http://materialsmine.org/ns/MechanicalProperty,Mechanical Property,A materials property related to the response of a material under some external applied load.
-------,------,------,------,------,------,------
-../Ontologies/materialsmine_converted.ttl,http://materialsmine.org/ns/Compression,Compression,subClassOf,http://materialsmine.org/ns/ViscoelasticProperty,Viscoelastic Property,Properties of materials that exhibit both viscous and elastic behaviors
-------,------,------,------,------,------,------
-../Ontologies/emmo.ttl,https://w3id.org/emmo#EMMO_d1917609_db5e_4b8a_9b76_ef1d6f860a81,Stress,subClassOf,https://w3id.org/emmo#EMMO_2946d40b_24a1_47fa_8176_e3f79bb45064,ISQDerivedQuantity,None
-------,------,------,------,------,------,------
-../Ontologies/emmo.ttl,https://w3id.org/emmo#AmperePerJoule,Ampere per Joule,subClassOf,https://w3id.org/emmo#EMMO_1273eb34_de48_43a9_925f_104110469dd2,SICoherentDerivedUnit,This class collects all units that are products or powers of SI base or SI special units only.
-------,------,------,------,------,------,------
-../Ontologies/emmo.ttl,https://w3id.org/emmo#AmperePerJoule,Ampere per Joule,subClassOf,https://w3id.org/emmo#EMMO_1aaaceb6_c5eb_4cf3_a494_f82d43fda10a,ElectricCurrentPerUnitEnergyUnit,None
-../Ontologies/materialsmine_converted.ttl,http://materialsmine.org/ns/PlaneStress,Plane Stress,subClassOf,http://materialsmine.org/ns/Stress,Stress,"When a material is loaded with a force, it produces a stress, which then causes a material to deform. "
+../Ontologies/pmdco_core.ttl,https://w3id.org/pmd/co/TensileTest,Tensile Test,subClassOf,https://w3id.org/pmd/co/MechanicalTestingProcess,Mechanical Testing Process,Determinization of a mechanical property.
+../Ontologies/pmdco_core.ttl,https://w3id.org/pmd/co/TensileTest,Tensile Test,equivalentClass,n43958bcaa74346e6aa1539ef44c733e9b97,,
+../Ontologies/pmdco_core.ttl,https://w3id.org/pmd/co/TensileTest,Tensile Test,equivalentClass,n43958bcaa74346e6aa1539ef44c733e9b98,,
+../Ontologies/materialsmine_converted.ttl,https://w3id.org/pmd/co/ISO6892-1TensileTest,Tensile Test in accordance with ISO 6892-1,subClassOf,https://w3id.org/pmd/co/TensileTest,Tensile Test,"Tensile tests (tension tests) on materials provide information on their strength, ductility as well as other characteristic values under uniaxial tensile stress. The tensile test involves straining a test piece by tensile force, generally to fracture, for the determination of one or more mechanical properties specified by the semantically related and defined terms."

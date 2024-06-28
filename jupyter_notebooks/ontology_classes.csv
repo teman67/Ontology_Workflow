@@ -1,8 +1,1 @@
-File,Class URI,Label,Description
-../Ontologies/materialsmine_converted.ttl,http://materialsmine.org/ns/Stress,Stress,"When a material is loaded with a force, it produces a stress, which then causes a material to deform. "
-------,------,------,------
-../Ontologies/materialsmine_converted.ttl,http://materialsmine.org/ns/Compression,Compression,Describing countervailing forces applied inward along the central axis of a material.
-------,------,------,------
-../Ontologies/emmo.ttl,https://w3id.org/emmo#EMMO_d1917609_db5e_4b8a_9b76_ef1d6f860a81,Stress,Force per unit oriented surface area . Measure of the internal forces that neighboring particles of a continuous material exert on each other.
-------,------,------,------
-../Ontologies/emmo.ttl,https://w3id.org/emmo#AmperePerJoule,Ampere per Joule,None
+../Ontologies/pmdco_core.ttl,https://w3id.org/pmd/co/TensileTest,Tensile Test,"Tensile tests (tension tests) on materials provide information on their strength, ductility as well as other characteristic values under uniaxial tensile stress. The tensile test involves straining a test piece by tensile force, generally to fracture, for the determination of one or more mechanical properties specified by the semantically related and defined terms."
