@@ -1,0 +1,7 @@
+../Ontologies/materialsmine_converted.ttl,http://semanticscience.org/resource/TermVariant,term variant,subClassOf,http://semanticscience.org/resource/Term,term,A term is a word or phrase used to denote one or more entities.
+../Ontologies/materialsmine_converted.ttl,http://semanticscience.org/resource/TermVariant,term variant,equivalentClass,Complex class expression,,Complex class expression
+../Ontologies/materialsmine_converted.ttl,http://semanticscience.org/resource/Synonym,synonym,subClassOf,http://semanticscience.org/resource/TermVariant,term variant,A term variant is a term that is a variant of another term.
+../Ontologies/materialsmine_converted.ttl,http://semanticscience.org/resource/Hypernym,hypernym,subClassOf,http://semanticscience.org/resource/TermVariant,term variant,A term variant is a term that is a variant of another term.
+../Ontologies/materialsmine_converted.ttl,http://semanticscience.org/resource/Antonym,antonym,subClassOf,http://semanticscience.org/resource/TermVariant,term variant,A term variant is a term that is a variant of another term.
+../Ontologies/materialsmine_converted.ttl,http://semanticscience.org/resource/Homonym,homonym,subClassOf,http://semanticscience.org/resource/TermVariant,term variant,A term variant is a term that is a variant of another term.
+../Ontologies/materialsmine_converted.ttl,http://semanticscience.org/resource/Hyponym,hyponym,subClassOf,http://semanticscience.org/resource/TermVariant,term variant,A term variant is a term that is a variant of another term.
