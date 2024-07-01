@@ -1,0 +1,2176 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ns0: <http://data.bioontology.org/metadata/> .
+@prefix ns1: <https://w3id.org/pmd/co/> .
+
+<http://data.bioontology.org/metadata/prefixIRI> a owl:AnnotationProperty .
+dc:creator a owl:AnnotationProperty .
+dc:description a owl:AnnotationProperty .
+dc:title a owl:AnnotationProperty .
+skos:altLabel a owl:AnnotationProperty .
+skos:definition a owl:AnnotationProperty .
+<https://w3id.org/pmd/co/unit> a owl:AnnotationProperty .
+xsd:Sequence a rdfs:Datatype .
+<https://w3id.org/pmd/co/characteristicOf>
+  a owl:ObjectProperty ;
+  rdfs:domain <https://cwrusdle.bitbucket.io/mds#BeamlineConfiguration>, <https://cwrusdle.bitbucket.io/mds#DarkCorrectionMethod1>, <https://cwrusdle.bitbucket.io/mds#DarkCorrectionMethod2>, <https://cwrusdle.bitbucket.io/mds#DetectorCalibration>, <https://cwrusdle.bitbucket.io/mds#DetectorParameters>, <https://cwrusdle.bitbucket.io/mds#DiffractionFrame>, <https://cwrusdle.bitbucket.io/mds#HeatTreatmentProcess>, <https://cwrusdle.bitbucket.io/mds#Integration>, <https://cwrusdle.bitbucket.io/mds#Modeling>, <https://cwrusdle.bitbucket.io/mds#PhotovoltaicBacksheet>, <https://cwrusdle.bitbucket.io/mds#PhotovoltaicCell>, <https://cwrusdle.bitbucket.io/mds#PhotovoltaicInverter>, <https://cwrusdle.bitbucket.io/mds#PhotovoltaicModule>, <https://cwrusdle.bitbucket.io/mds#PhotovoltaicRacking>, <https://cwrusdle.bitbucket.io/mds#PhotovoltaicSite>, <https://cwrusdle.bitbucket.io/mds#RingSamplingMethod>, <https://cwrusdle.bitbucket.io/mds#SampleAlignment>, <https://cwrusdle.bitbucket.io/mds#TextureMeasurement>, <https://cwrusdle.bitbucket.io/mds#XrayDetector>, <https://cwrusdle.bitbucket.io/mds#XrayRecipe>, <https://cwrusdle.bitbucket.io/mds#XrayResult>, <https://cwrusdle.bitbucket.io/mds#XraySample>, <https://cwrusdle.bitbucket.io/mds#XrayTool> ;
+  rdfs:range <https://cwrusdle.bitbucket.io/mds#Architecture>, <https://cwrusdle.bitbucket.io/mds#BeamConvergence>, <https://cwrusdle.bitbucket.io/mds#BeamSize>, <https://cwrusdle.bitbucket.io/mds#BeamlineConfiguration>, <https://cwrusdle.bitbucket.io/mds#BitDepth>, <https://cwrusdle.bitbucket.io/mds#Calibration>, <https://cwrusdle.bitbucket.io/mds#DAQFrequency>, <https://cwrusdle.bitbucket.io/mds#DarkPatternUsed>, <https://cwrusdle.bitbucket.io/mds#DetectorLength>, <https://cwrusdle.bitbucket.io/mds#DetectorResolution>, <https://cwrusdle.bitbucket.io/mds#DetectorWidth>, <https://cwrusdle.bitbucket.io/mds#DistanceBetweenTwoRings>, <https://cwrusdle.bitbucket.io/mds#DistanceFromSample>, <https://cwrusdle.bitbucket.io/mds#EnergyRange>, <https://cwrusdle.bitbucket.io/mds#EnergyUsed>, <https://cwrusdle.bitbucket.io/mds#Epochs>, <https://cwrusdle.bitbucket.io/mds#ExposureTime>, <https://cwrusdle.bitbucket.io/mds#Facility>, <https://cwrusdle.bitbucket.io/mds#FramesPerFile>, <https://cwrusdle.bitbucket.io/mds#ImageSequence>, <https://cwrusdle.bitbucket.io/mds#IntegrationOptions>, <https://cwrusdle.bitbucket.io/mds#Length>, <https://cwrusdle.bitbucket.io/mds#LogFile>, <https://cwrusdle.bitbucket.io/mds#MaskFile>, <https://cwrusdle.bitbucket.io/mds#MaterialName>, <https://cwrusdle.bitbucket.io/mds#MaxBeamSize>, <https://cwrusdle.bitbucket.io/mds#MaxFrameRate>, <https://cwrusdle.bitbucket.io/mds#MountingType>, <https://cwrusdle.bitbucket.io/mds#NumberOfRings>, <https://cwrusdle.bitbucket.io/mds#PhotovoltaicBacksheetProperty>, <https://cwrusdle.bitbucket.io/mds#PhotovoltaicCellProperty>, <https://cwrusdle.bitbucket.io/mds#PhotovoltaicInverterProperty>, <https://cwrusdle.bitbucket.io/mds#PhotovoltaicModuleProperty>, <https://cwrusdle.bitbucket.io/mds#PhotovoltaicSite>, <https://cwrusdle.bitbucket.io/mds#PhotovoltaicSiteParameter>, <https://cwrusdle.bitbucket.io/mds#PixelSize>, <https://cwrusdle.bitbucket.io/mds#ProcessingMethod>, <https://cwrusdle.bitbucket.io/mds#RackingType>, <https://cwrusdle.bitbucket.io/mds#ReadOutTime>, <https://cwrusdle.bitbucket.io/mds#RingPointFile>, <https://cwrusdle.bitbucket.io/mds#RmsFitQuality>, <https://cwrusdle.bitbucket.io/mds#SampleToLabAlignment>, <https://cwrusdle.bitbucket.io/mds#StackNumber>, <https://cwrusdle.bitbucket.io/mds#StartEndTimeStamp>, <https://cwrusdle.bitbucket.io/mds#Station>, <https://cwrusdle.bitbucket.io/mds#TestingSplit>, <https://cwrusdle.bitbucket.io/mds#Thickness>, <https://cwrusdle.bitbucket.io/mds#TrackingAlgorithm>, <https://cwrusdle.bitbucket.io/mds#TrainingSplit>, <https://cwrusdle.bitbucket.io/mds#VersionNumber>, <https://cwrusdle.bitbucket.io/mds#WavelengthRange>, <https://cwrusdle.bitbucket.io/mds#WavelengthUsed>, <https://cwrusdle.bitbucket.io/mds#Width>, <https://w3id.org/pmd/co/Length>, <https://w3id.org/pmd/co/MaterialDesignation>, <https://w3id.org/pmd/co/Medium>, <https://w3id.org/pmd/co/Thickness>, <https://w3id.org/pmd/co/Width> ;
+  rdfs:label "characteristic of"@en ;
+  skos:altLabel "is characteristic of"^^xsd:string .
+
+<https://w3id.org/pmd/co/component>
+  a owl:ObjectProperty ;
+  rdfs:domain <https://cwrusdle.bitbucket.io/mds#Calibration>, <https://cwrusdle.bitbucket.io/mds#XrayRecipe>, <https://cwrusdle.bitbucket.io/mds#XrayTool> ;
+  rdfs:range <https://cwrusdle.bitbucket.io/mds#DetectorCalibration>, <https://cwrusdle.bitbucket.io/mds#SampleAlignment>, <https://cwrusdle.bitbucket.io/mds#XrayDetector>, <https://cwrusdle.bitbucket.io/mds#XrayTool>, <https://w3id.org/pmd/co/Sample> ;
+  rdfs:label "component"@en ;
+  skos:altLabel "has component"@en ;
+  skos:definition "Die Objekt-Eigenschaft Komponente, die in Verbindung mit ProzessKnoten und seinen (modularen) Elementen verwendet wird. Sie ermöglicht die Darstellung der einzelnen, unterschiedlichen Teile von ProzessKnoten. Im Wesentlichen ist die  \"Komponenten-Eigenschaft\" eine Möglichkeit, ein komplexes System in überschaubare und eindeutige Teile zu zerlegen, um die Rolle der einzelnen Teile innerhalb des Gesamtsystems zu verstehen und zu verwalten."@de, "The object property component, which is used in connection with ProcessingNode and its (modular) elements. It enables the representation of the individual, different parts of processing nodes. Essentially, the 'component property' is a way of breaking down a complex system into manageable and distinct parts in order to understand and manage the role of each part within the overall system."@en .
+
+<https://w3id.org/pmd/co/composedOf>
+  a owl:ObjectProperty ;
+  rdfs:domain <https://cwrusdle.bitbucket.io/mds#BeamlineConfiguration>, <https://cwrusdle.bitbucket.io/mds#DetectorResolution>, <https://cwrusdle.bitbucket.io/mds#DiffractionFrame>, <https://cwrusdle.bitbucket.io/mds#PhotovoltaicModule>, <https://cwrusdle.bitbucket.io/mds#XrayRecipe>, <https://w3id.org/pmd/co/Furnace> ;
+  rdfs:range <https://cwrusdle.bitbucket.io/mds#BeamlineConfiguration>, <https://cwrusdle.bitbucket.io/mds#Calibration>, <https://cwrusdle.bitbucket.io/mds#DataCollection>, <https://cwrusdle.bitbucket.io/mds#DetectorParameters>, <https://cwrusdle.bitbucket.io/mds#ExperimentType>, <https://cwrusdle.bitbucket.io/mds#PhotovoltaicBacksheet>, <https://cwrusdle.bitbucket.io/mds#PhotovoltaicCell>, <https://cwrusdle.bitbucket.io/mds#PhotovoltaicInverter>, <https://cwrusdle.bitbucket.io/mds#PixelHeight>, <https://cwrusdle.bitbucket.io/mds#PixelWidth>, <https://cwrusdle.bitbucket.io/mds#XrayRecipeParameters>, <https://w3id.org/pmd/co/Medium> ;
+  rdfs:label "composed of"@en ;
+  skos:definition """This property is used to describe the fact that and which objects are composed of other objects, i.e. it is used to describe the specific constituents or ingredients that form a particular entity or object. 
+As a prepositional phrase, it indicates the elements, parts, or components that make up a whole."""@en, "This property is used to describe which voxels and materials an object is composed of."@en .
+
+<https://w3id.org/pmd/co/composes>
+  a owl:ObjectProperty ;
+  rdfs:domain <https://w3id.org/pmd/co/Furnace> ;
+  rdfs:range <https://cwrusdle.bitbucket.io/mds#Design> ;
+  rdfs:label "composes"@en ;
+  skos:definition """Diese Eigenschaft wird verwendet, um die Tatsache zu beschreiben, dass und welche Objekte andere Objekte zusammensetzen, d. h. sie wird verwendet, um die spezifischen Bestandteile oder Zutaten zu beschreiben, aus denen ein bestimmtes Gebilde oder Objekt besteht. 
+Als Präpositionalphrase bezeichnet sie die Elemente, Teile oder Komponenten, aus denen sich ein anderes Objekt zusammensetzt."""@de, """This property is used to describe the fact that and which objects compose other objects, i.e. it is used to describe the specific constituents or ingredients forming a particular entity or object. 
+As a prepositional phrase, it indicates the elements, parts, or components that make up a whole of another object."""@en, "This property is used to describe which objects a voxel or a material contributes to compose."@en .
+
+<https://w3id.org/pmd/co/executedBy>
+  a owl:ObjectProperty ;
+  rdfs:domain <https://cwrusdle.bitbucket.io/mds#AzimuthalRegrouping>, <https://cwrusdle.bitbucket.io/mds#HeatTreatmentProcess> ;
+  rdfs:range <https://cwrusdle.bitbucket.io/mds#Integration>, <https://w3id.org/pmd/co/Furnace> ;
+  rdfs:label "executed by"@en ;
+  skos:definition "This property represents which process is executed by which process node."@en .
+
+<https://w3id.org/pmd/co/hasIdentifier>
+  a owl:ObjectProperty ;
+  rdfs:domain <https://cwrusdle.bitbucket.io/mds#BeamlineConfiguration>, <https://cwrusdle.bitbucket.io/mds#CroppingMethod>, <https://cwrusdle.bitbucket.io/mds#DarkCorrectionMethod1>, <https://cwrusdle.bitbucket.io/mds#DarkCorrectionMethod2>, <https://cwrusdle.bitbucket.io/mds#DetectorCalibration>, <https://cwrusdle.bitbucket.io/mds#DiffractionFrame>, <https://cwrusdle.bitbucket.io/mds#GravityMethod>, <https://cwrusdle.bitbucket.io/mds#Integration>, <https://cwrusdle.bitbucket.io/mds#Modeling>, <https://cwrusdle.bitbucket.io/mds#PhotovoltaicBacksheet>, <https://cwrusdle.bitbucket.io/mds#PhotovoltaicCell>, <https://cwrusdle.bitbucket.io/mds#PhotovoltaicInverter>, <https://cwrusdle.bitbucket.io/mds#PhotovoltaicModule>, <https://cwrusdle.bitbucket.io/mds#PhotovoltaicSite>, <https://cwrusdle.bitbucket.io/mds#PixelwiseCorrelation>, <https://cwrusdle.bitbucket.io/mds#RingSamplingMethod>, <https://cwrusdle.bitbucket.io/mds#RollingMethod>, <https://cwrusdle.bitbucket.io/mds#SampleAlignment>, <https://cwrusdle.bitbucket.io/mds#XrayDetector>, <https://cwrusdle.bitbucket.io/mds#XrayRecipe>, <https://cwrusdle.bitbucket.io/mds#XrayResult>, <https://cwrusdle.bitbucket.io/mds#XraySample>, <https://cwrusdle.bitbucket.io/mds#XrayTool> ;
+  rdfs:range <https://cwrusdle.bitbucket.io/mds#DetectorName>, <https://cwrusdle.bitbucket.io/mds#FrameID>, <https://cwrusdle.bitbucket.io/mds#IntegrationID>, <https://cwrusdle.bitbucket.io/mds#MethodName>, <https://cwrusdle.bitbucket.io/mds#ModelID>, <https://cwrusdle.bitbucket.io/mds#PhotovoltaicBacksheetID>, <https://cwrusdle.bitbucket.io/mds#PhotovoltaicCellID>, <https://cwrusdle.bitbucket.io/mds#PhotovoltaicInverterID>, <https://cwrusdle.bitbucket.io/mds#PhotovoltaicModuleID>, <https://cwrusdle.bitbucket.io/mds#PhotovoltaicSiteID>, <https://cwrusdle.bitbucket.io/mds#RecipeID>, <https://cwrusdle.bitbucket.io/mds#ResultID>, <https://cwrusdle.bitbucket.io/mds#SampleID>, <https://cwrusdle.bitbucket.io/mds#ToolID> .
+
+<https://w3id.org/pmd/co/hasSource>
+  a owl:ObjectProperty ;
+  rdfs:domain <https://cwrusdle.bitbucket.io/mds#InverterEfficiency>, <https://cwrusdle.bitbucket.io/mds#InverterOutput>, <https://cwrusdle.bitbucket.io/mds#ModuleRatingAtReference> ;
+  rdfs:range <https://cwrusdle.bitbucket.io/mds#OrangeButtonTerm> .
+
+<https://w3id.org/pmd/co/input>
+  a owl:ObjectProperty ;
+  rdfs:domain <https://cwrusdle.bitbucket.io/mds#PostProcessing> ;
+  rdfs:range <https://cwrusdle.bitbucket.io/mds#XrayResult> ;
+  rdfs:label "input"@en ;
+  skos:altLabel "has input"^^xsd:string ;
+  skos:definition "This property is used to link the processes to their input objects."@en .
+
+<https://w3id.org/pmd/co/inputOf>
+  a owl:ObjectProperty ;
+  rdfs:domain <https://cwrusdle.bitbucket.io/mds#AzimuthalRegrouping>, <https://cwrusdle.bitbucket.io/mds#DataReduction>, <https://cwrusdle.bitbucket.io/mds#Integration>, <https://cwrusdle.bitbucket.io/mds#PostProcessing>, <https://cwrusdle.bitbucket.io/mds#XraySample> ;
+  rdfs:range <https://cwrusdle.bitbucket.io/mds#DiffractionImage>, <https://cwrusdle.bitbucket.io/mds#ImageStack>, <https://cwrusdle.bitbucket.io/mds#Modeling>, <https://cwrusdle.bitbucket.io/mds#PoniFile>, <https://cwrusdle.bitbucket.io/mds#PostProcessing>, <https://cwrusdle.bitbucket.io/mds#XrayTool> ;
+  rdfs:label "input of"@en ;
+  skos:altLabel "is input of"^^xsd:string .
+
+<https://w3id.org/pmd/co/isPartOf>
+  a owl:ObjectProperty ;
+  rdfs:domain <https://cwrusdle.bitbucket.io/mds#ImageStack> ;
+  rdfs:range <https://cwrusdle.bitbucket.io/mds#DarkField>, <https://cwrusdle.bitbucket.io/mds#Frame> .
+
+<https://w3id.org/pmd/co/outputOf>
+  a owl:ObjectProperty ;
+  rdfs:domain <https://cwrusdle.bitbucket.io/mds#DataReduction>, <https://cwrusdle.bitbucket.io/mds#DetectorCalibration>, <https://cwrusdle.bitbucket.io/mds#XrayResult> ;
+  rdfs:range <https://cwrusdle.bitbucket.io/mds#AzimuthalRegrouping>, <https://cwrusdle.bitbucket.io/mds#PoniFile>, <https://cwrusdle.bitbucket.io/mds#XrayRecipe> ;
+  rdfs:label "output of"@en ;
+  skos:altLabel "is output of"@en .
+
+<https://w3id.org/pmd/co/value>
+  a owl:DatatypeProperty ;
+  rdfs:domain <https://cwrusdle.bitbucket.io/mds#AngularRangeX>, <https://cwrusdle.bitbucket.io/mds#AngularRangeY>, <https://cwrusdle.bitbucket.io/mds#Architecture>, <https://cwrusdle.bitbucket.io/mds#AzimuthRange>, <https://cwrusdle.bitbucket.io/mds#AzmVal>, <https://cwrusdle.bitbucket.io/mds#BacksheetManufacturer>, <https://cwrusdle.bitbucket.io/mds#BacksheetMaterial>, <https://cwrusdle.bitbucket.io/mds#BacksheetVintage>, <https://cwrusdle.bitbucket.io/mds#Bank-id>, <https://cwrusdle.bitbucket.io/mds#BankNo>, <https://cwrusdle.bitbucket.io/mds#BeamConvergence>, <https://cwrusdle.bitbucket.io/mds#BeamSize>, <https://cwrusdle.bitbucket.io/mds#BitDepth>, <https://cwrusdle.bitbucket.io/mds#Btm_rota>, <https://cwrusdle.bitbucket.io/mds#CECListingDate>, <https://cwrusdle.bitbucket.io/mds#CellCount>, <https://cwrusdle.bitbucket.io/mds#Cesr_>, <https://cwrusdle.bitbucket.io/mds#ChiDiscontinuity>, <https://cwrusdle.bitbucket.io/mds#Crys_rtrn>, <https://cwrusdle.bitbucket.io/mds#Crys_sply>, <https://cwrusdle.bitbucket.io/mds#CurrentACMax>, <https://cwrusdle.bitbucket.io/mds#CurrentAtMaximumPower>, <https://cwrusdle.bitbucket.io/mds#CurrentShortCircuit>, <https://cwrusdle.bitbucket.io/mds#DAQFrequency>, <https://cwrusdle.bitbucket.io/mds#DetectorLength>, <https://cwrusdle.bitbucket.io/mds#DetectorName>, <https://cwrusdle.bitbucket.io/mds#DetectorWidth>, <https://cwrusdle.bitbucket.io/mds#Diod>, <https://cwrusdle.bitbucket.io/mds#DistanceBetweenTwoRings>, <https://cwrusdle.bitbucket.io/mds#DistanceFromSample>, <https://cwrusdle.bitbucket.io/mds#DoPolarizationCorrection>, <https://cwrusdle.bitbucket.io/mds#DoRemoveNAN>, <https://cwrusdle.bitbucket.io/mds#DoSolidAngleCorrection>, <https://cwrusdle.bitbucket.io/mds#EfficiencyCECWtdVoltageMax>, <https://cwrusdle.bitbucket.io/mds#EfficiencyCECWtdVoltageMin>, <https://cwrusdle.bitbucket.io/mds#EfficiencyCECWtdVoltageNom>, <https://cwrusdle.bitbucket.io/mds#Elevation>, <https://cwrusdle.bitbucket.io/mds#EnergyRange>, <https://cwrusdle.bitbucket.io/mds#EnergyUsed>, <https://cwrusdle.bitbucket.io/mds#Epochs>, <https://cwrusdle.bitbucket.io/mds#ErrorModel>, <https://cwrusdle.bitbucket.io/mds#ExposureTime>, <https://cwrusdle.bitbucket.io/mds#Facility>, <https://cwrusdle.bitbucket.io/mds#File-format>, <https://cwrusdle.bitbucket.io/mds#FirstName>, <https://cwrusdle.bitbucket.io/mds#FluorescencePattern>, <https://cwrusdle.bitbucket.io/mds#FrequenciesAC>, <https://cwrusdle.bitbucket.io/mds#Fst_shtr>, <https://cwrusdle.bitbucket.io/mds#Fxn>, <https://cwrusdle.bitbucket.io/mds#FxyeGSASFileEntry>, <https://cwrusdle.bitbucket.io/mds#HasMeter>, <https://cwrusdle.bitbucket.io/mds#Htype>, <https://cwrusdle.bitbucket.io/mds#Ic0>, <https://cwrusdle.bitbucket.io/mds#Ic1>, <https://cwrusdle.bitbucket.io/mds#Ic2>, <https://cwrusdle.bitbucket.io/mds#Ic3>, <https://cwrusdle.bitbucket.io/mds#ImageSequence>, <https://cwrusdle.bitbucket.io/mds#Init-delta>, <https://cwrusdle.bitbucket.io/mds#Init-theta>, <https://cwrusdle.bitbucket.io/mds#IntegrationMethod>, <https://cwrusdle.bitbucket.io/mds#IntegrationType>, <https://cwrusdle.bitbucket.io/mds#Intensity>, <https://cwrusdle.bitbucket.io/mds#IntensityUnc>, <https://cwrusdle.bitbucket.io/mds#InverterEfficiency>, <https://cwrusdle.bitbucket.io/mds#InverterEfficiencyCEC>, <https://cwrusdle.bitbucket.io/mds#InverterEfficiencyIEC>, <https://cwrusdle.bitbucket.io/mds#InverterEfficiencyMax>, <https://cwrusdle.bitbucket.io/mds#InverterOutput>, <https://cwrusdle.bitbucket.io/mds#Irads>, <https://cwrusdle.bitbucket.io/mds#IsHybrid>, <https://cwrusdle.bitbucket.io/mds#IsPVInputCapable>, <https://cwrusdle.bitbucket.io/mds#Latitude>, <https://cwrusdle.bitbucket.io/mds#Length>, <https://cwrusdle.bitbucket.io/mds#Load_cll>, <https://cwrusdle.bitbucket.io/mds#Load_scrw>, <https://cwrusdle.bitbucket.io/mds#Longitude>, <https://cwrusdle.bitbucket.io/mds#MaterialName>, <https://cwrusdle.bitbucket.io/mds#MaxBeamSize>, <https://cwrusdle.bitbucket.io/mds#MaxFrameRate>, <https://cwrusdle.bitbucket.io/mds#MethodName>, <https://cwrusdle.bitbucket.io/mds#Mo_stab>, <https://cwrusdle.bitbucket.io/mds#ModelID>, <https://cwrusdle.bitbucket.io/mds#ModuleCountSeries>, <https://cwrusdle.bitbucket.io/mds#ModuleEfficiency>, <https://cwrusdle.bitbucket.io/mds#ModuleRatingAtReference>, <https://cwrusdle.bitbucket.io/mds#ModuleRatingCondition>, <https://cwrusdle.bitbucket.io/mds#MountingType>, <https://cwrusdle.bitbucket.io/mds#NptAzimuth>, <https://cwrusdle.bitbucket.io/mds#Nptradial>, <https://cwrusdle.bitbucket.io/mds#NumberInverters>, <https://cwrusdle.bitbucket.io/mds#NumberOfRings>, <https://cwrusdle.bitbucket.io/mds#OpenCLDevice>, <https://cwrusdle.bitbucket.io/mds#PhotovoltaicBacksheetID>, <https://cwrusdle.bitbucket.io/mds#PhotovoltaicCellID>, <https://cwrusdle.bitbucket.io/mds#PhotovoltaicCellProperty>, <https://cwrusdle.bitbucket.io/mds#PhotovoltaicInverterID>, <https://cwrusdle.bitbucket.io/mds#PhotovoltaicModuleID>, <https://cwrusdle.bitbucket.io/mds#PhotovoltaicSiteID>, <https://cwrusdle.bitbucket.io/mds#PixelHeight>, <https://cwrusdle.bitbucket.io/mds#PixelSize>, <https://cwrusdle.bitbucket.io/mds#PixelWidth>, <https://cwrusdle.bitbucket.io/mds#PolarizationFactor>, <https://cwrusdle.bitbucket.io/mds#PowerACMax>, <https://cwrusdle.bitbucket.io/mds#PowerACNom>, <https://cwrusdle.bitbucket.io/mds#PowerDC>, <https://cwrusdle.bitbucket.io/mds#PowerDCOut>, <https://cwrusdle.bitbucket.io/mds#PowerSTC>, <https://cwrusdle.bitbucket.io/mds#ProcessingMethod>, <https://cwrusdle.bitbucket.io/mds#RackingType>, <https://cwrusdle.bitbucket.io/mds#RadialRange>, <https://cwrusdle.bitbucket.io/mds#ReadOutTime>, <https://cwrusdle.bitbucket.io/mds#RecipeID>, <https://cwrusdle.bitbucket.io/mds#ResultID>, <https://cwrusdle.bitbucket.io/mds#SampleID>, <https://cwrusdle.bitbucket.io/mds#StackNumber>, <https://cwrusdle.bitbucket.io/mds#StartEndTimeStamp>, <https://cwrusdle.bitbucket.io/mds#Station>, <https://cwrusdle.bitbucket.io/mds#Sync_cnt>, <https://cwrusdle.bitbucket.io/mds#TestingSplit>, <https://cwrusdle.bitbucket.io/mds#Thickness>, <https://cwrusdle.bitbucket.io/mds#ToolID>, <https://cwrusdle.bitbucket.io/mds#Top_pzo>, <https://cwrusdle.bitbucket.io/mds#Top_rota>, <https://cwrusdle.bitbucket.io/mds#TrackingAlgorithm>, <https://cwrusdle.bitbucket.io/mds#TrainingSplit>, <https://cwrusdle.bitbucket.io/mds#VersionNumber>, <https://cwrusdle.bitbucket.io/mds#VoltageACMax>, <https://cwrusdle.bitbucket.io/mds#VoltageACMin>, <https://cwrusdle.bitbucket.io/mds#VoltageAtMaximumPower>, <https://cwrusdle.bitbucket.io/mds#VoltageOpenCircuit>, <https://cwrusdle.bitbucket.io/mds#WavelengthRange>, <https://cwrusdle.bitbucket.io/mds#WavelengthUsed>, <https://cwrusdle.bitbucket.io/mds#Weight>, <https://cwrusdle.bitbucket.io/mds#Width>, <https://cwrusdle.bitbucket.io/mds#2-theta-pos>, <https://w3id.org/pmd/co/Length>, <https://w3id.org/pmd/co/MaterialDesignation>, <https://w3id.org/pmd/co/Thickness>, <https://w3id.org/pmd/co/Width> ;
+  rdfs:range xsd:Sequence, xsd:boolean, xsd:float, xsd:integer, xsd:string ;
+  rdfs:label "hat Wert"@de, "value"@en ;
+  skos:definition "Provides the actual value a value object is referring to."@en .
+
+<https://cwrusdle.bitbucket.io/mds#ACOutputs>
+  a owl:Class ;
+  rdfs:subClassOf <https://cwrusdle.bitbucket.io/mds#InverterOutput> ;
+  ns0:prefixIRI "mds:ACOutputs"^^xsd:string ;
+  rdfs:label "ACOutputs"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "AC output of inverter"^^xsd:string .
+
+<https://cwrusdle.bitbucket.io/mds#AngularRangeX>
+  a owl:Class ;
+  rdfs:subClassOf <https://cwrusdle.bitbucket.io/mds#Parameters1ID> ;
+  ns0:prefixIRI "mds:AngularRangeX"^^xsd:string ;
+  rdfs:label "AngularRangeX"^^xsd:string ;
+  skos:altLabel ""^^xsd:string .
+
+<https://cwrusdle.bitbucket.io/mds#AngularRangeY>
+  a owl:Class ;
+  rdfs:subClassOf <https://cwrusdle.bitbucket.io/mds#Parameters1ID> ;
+  ns0:prefixIRI "mds:AngularRangeY"^^xsd:string ;
+  rdfs:label "AngularRangeY"^^xsd:string ;
+  skos:altLabel ""^^xsd:string .
+
+<https://cwrusdle.bitbucket.io/mds#Architecture>
+  a owl:Class ;
+  rdfs:subClassOf <https://cwrusdle.bitbucket.io/mds#ModelingParameters> ;
+  ns0:prefixIRI "mds:Architecture"^^xsd:string ;
+  rdfs:label "Architecture"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "Architecture of the model."^^xsd:string .
+
+<https://cwrusdle.bitbucket.io/mds#AzimuthRange>
+  a owl:Class ;
+  rdfs:subClassOf <https://cwrusdle.bitbucket.io/mds#IntegrationOptions> ;
+  ns0:prefixIRI "mds:AzimuthRange"^^xsd:string ;
+  rdfs:label "AzimuthRange"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "The azimuthal integration range."^^xsd:string .
+
+<https://cwrusdle.bitbucket.io/mds#AzimuthalRegrouping>
+  a owl:Class ;
+  rdfs:subClassOf <https://w3id.org/pmd/co/Algorithm> ;
+  ns0:prefixIRI "mds:AzimuthalRegrouping"^^xsd:string ;
+  rdfs:label "AzimuthalRegrouping"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "The azimuthal regrouping of XRD data."^^xsd:string .
+
+<https://cwrusdle.bitbucket.io/mds#AzmVal>
+  a owl:Class ;
+  rdfs:subClassOf <https://cwrusdle.bitbucket.io/mds#Parameters1ID> ;
+  ns0:prefixIRI "mds:AzmVal"^^xsd:string ;
+  rdfs:label "AzmVal"^^xsd:string ;
+  skos:altLabel ""^^xsd:string .
+
+<https://cwrusdle.bitbucket.io/mds#BacksheetManufacturer>
+  a owl:Class ;
+  rdfs:subClassOf <https://cwrusdle.bitbucket.io/mds#PhotovoltaicBacksheetProperty> ;
+  ns0:prefixIRI "mds:BacksheetManufacturer"^^xsd:string ;
+  rdfs:label "BacksheetManufacturer"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "Manufacturer (if known) of the backsheet"^^xsd:string .
+
+<https://cwrusdle.bitbucket.io/mds#BacksheetMaterial>
+  a owl:Class ;
+  rdfs:subClassOf <https://cwrusdle.bitbucket.io/mds#PhotovoltaicBacksheetProperty> ;
+  ns0:prefixIRI "mds:BacksheetMaterial"^^xsd:string ;
+  rdfs:label "BacksheetMaterial"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "Material (polymer) the PV backsheet is comprised of (EVA, POE, PET, etc)"^^xsd:string .
+
+<https://cwrusdle.bitbucket.io/mds#BacksheetVintage>
+  a owl:Class ;
+  rdfs:subClassOf <https://cwrusdle.bitbucket.io/mds#PhotovoltaicBacksheetProperty> ;
+  ns0:prefixIRI "mds:BacksheetVintage"^^xsd:string ;
+  rdfs:label "BacksheetVintage"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "Vintage (year of manufacture) of the backsheet"^^xsd:string .
+
+<https://cwrusdle.bitbucket.io/mds#Bank-id>
+  a owl:Class ;
+  rdfs:subClassOf <https://cwrusdle.bitbucket.io/mds#Parameters1ID> ;
+  ns0:prefixIRI "mds:Bank-id"^^xsd:string ;
+  rdfs:label "Bank-id"^^xsd:string ;
+  skos:altLabel ""^^xsd:string .
+
+<https://cwrusdle.bitbucket.io/mds#BankNo>
+  a owl:Class ;
+  rdfs:subClassOf <https://cwrusdle.bitbucket.io/mds#Parameters1ID> ;
+  ns0:prefixIRI "mds:BankNo"^^xsd:string ;
+  rdfs:label "BankNo"^^xsd:string ;
+  skos:altLabel ""^^xsd:string .
+
+<https://cwrusdle.bitbucket.io/mds#BeamConvergence>
+  a owl:Class ;
+  rdfs:subClassOf <https://w3id.org/pmd/co/Optical> ;
+  ns0:prefixIRI "mds:BeamConvergence"^^xsd:string ;
+  rdfs:label "BeamConvergence"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "Beam convergence of the incident beam."^^xsd:string .
+
+<https://cwrusdle.bitbucket.io/mds#BeamSize>
+  a owl:Class ;
+  rdfs:subClassOf <https://w3id.org/pmd/co/Optical> ;
+  ns0:prefixIRI "mds:BeamSize"^^xsd:string ;
+  rdfs:label "BeamSize"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "Size of the incident beam."^^xsd:string ;
+  ns1:unit <http://qudt.org/2.1/vocab/unit#MilliM> .
+
+<https://cwrusdle.bitbucket.io/mds#BeamlineConfiguration>
+  a owl:Class ;
+  rdfs:subClassOf ns1:ValueObject ;
+  ns0:prefixIRI "mds:BeamlineConfiguration"^^xsd:string ;
+  rdfs:label "BeamlineConfiguration"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "Configuration of the beamline after the calibration. "^^xsd:string .
+
+<https://cwrusdle.bitbucket.io/mds#BitDepth>
+  a owl:Class ;
+  rdfs:subClassOf <https://cwrusdle.bitbucket.io/mds#Depth> ;
+  ns0:prefixIRI "mds:BitDepth"^^xsd:string ;
+  rdfs:label "BitDepth"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "Bit depth of the resulting image."^^xsd:string .
+
+<https://cwrusdle.bitbucket.io/mds#Btm_rota>
+  a owl:Class ;
+  rdfs:subClassOf <https://cwrusdle.bitbucket.io/mds#ParametersFAST> ;
+  ns0:prefixIRI "mds:Btm_rota"^^xsd:string ;
+  rdfs:label "Btm_rota"^^xsd:string ;
+  skos:altLabel ""^^xsd:string .
+
+<https://cwrusdle.bitbucket.io/mds#CECListingDate>
+  a owl:Class ;
+  rdfs:subClassOf <https://cwrusdle.bitbucket.io/mds#PhotovoltaicInverterProperty> ;
+  ns0:prefixIRI "mds:CECListingDate"^^xsd:string ;
+  rdfs:label "CECListingDate"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "Date module measurements listed by CEC"^^xsd:string .
+
+<https://cwrusdle.bitbucket.io/mds#CECNotes>
+  a owl:Class ;
+  rdfs:subClassOf <https://cwrusdle.bitbucket.io/mds#PhotovoltaicInverterProperty> ;
+  ns0:prefixIRI "mds:CECNotes"^^xsd:string ;
+  rdfs:label "CECNotes"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "Notes from CEC testing of the inverter"^^xsd:string .
+
+<https://cwrusdle.bitbucket.io/mds#Calibration>
+  a owl:Class ;
+  rdfs:subClassOf ns1:Process ;
+  ns0:prefixIRI "mds:Calibration"^^xsd:string ;
+  rdfs:label "Calibration"^^xsd:string ;
+  skos:altLabel ""^^xsd:string .
+
+<https://cwrusdle.bitbucket.io/mds#CellCount>
+  a owl:Class ;
+  rdfs:subClassOf <https://cwrusdle.bitbucket.io/mds#PhotovoltaicModuleProperty> ;
+  ns0:prefixIRI "mds:CellCount"^^xsd:string ;
+  rdfs:label "CellCount"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "Number of cells in a module"^^xsd:string .
+
+<https://cwrusdle.bitbucket.io/mds#CellCutType>
+  a owl:Class ;
+  rdfs:subClassOf <https://cwrusdle.bitbucket.io/mds#PhotovoltaicCellProperty> ;
+  ns0:prefixIRI "mds:CellCutType"^^xsd:string ;
+  rdfs:label "CellCutType"^^xsd:string ;
+  skos:altLabel ""^^xsd:string .
+
+<https://cwrusdle.bitbucket.io/mds#CellTechnologyType>
+  a owl:Class ;
+  rdfs:subClassOf <https://cwrusdle.bitbucket.io/mds#PhotovoltaicCellProperty> ;
+  ns0:prefixIRI "mds:CellTechnologyType"^^xsd:string ;
+  rdfs:label "CellTechnologyType"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "Cell technology (PERC, TOPCon, Al-BSF, CdTe, CIGS, etc)"^^xsd:string .
+
+<https://cwrusdle.bitbucket.io/mds#Centering>
+  a owl:Class ;
+  rdfs:subClassOf <https://cwrusdle.bitbucket.io/mds#PostProcessing> ;
+  ns0:prefixIRI "mds:Centering"^^xsd:string ;
+  rdfs:label "Centering"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "Centering algorithm to center the images."^^xsd:string .
+
+<https://cwrusdle.bitbucket.io/mds#Cesr_>
+  a owl:Class ;
+  rdfs:subClassOf <https://cwrusdle.bitbucket.io/mds#ParametersFAST> ;
+  ns0:prefixIRI "mds:Cesr_"^^xsd:string ;
+  rdfs:label "Cesr_"^^xsd:string ;
+  skos:altLabel ""^^xsd:string .
+
+<https://cwrusdle.bitbucket.io/mds#ChiDiscontinuity>
+  a owl:Class ;
+  rdfs:subClassOf <https://cwrusdle.bitbucket.io/mds#IntegrationOptions> ;
+  ns0:prefixIRI "mds:ChiDiscontinuity"^^xsd:string ;
+  rdfs:label "ChiDiscontinuity"^^xsd:string ;
+  skos:altLabel ""^^xsd:string .
+
+<https://cwrusdle.bitbucket.io/mds#CroppingMethod>
+  a owl:Class ;
+  rdfs:subClassOf <https://cwrusdle.bitbucket.io/mds#Registration> ;
+  ns0:prefixIRI "mds:CroppingMethod"^^xsd:string ;
+  rdfs:label "CroppingMethod"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "The cropping method."^^xsd:string .
+
+<https://cwrusdle.bitbucket.io/mds#Crys_rtrn>
+  a owl:Class ;
+  rdfs:subClassOf <https://cwrusdle.bitbucket.io/mds#ParametersFAST> ;
+  ns0:prefixIRI "mds:Crys_rtrn"^^xsd:string ;
+  rdfs:label "Crys_rtrn"^^xsd:string ;
+  skos:altLabel ""^^xsd:string .
+
+<https://cwrusdle.bitbucket.io/mds#Crys_sply>
+  a owl:Class ;
+  rdfs:subClassOf <https://cwrusdle.bitbucket.io/mds#ParametersFAST> ;
+  ns0:prefixIRI "mds:Crys_sply"^^xsd:string ;
+  rdfs:label "Crys_sply"^^xsd:string ;
+  skos:altLabel ""^^xsd:string .
+
+<https://cwrusdle.bitbucket.io/mds#CurrentACMax>
+  a owl:Class ;
+  rdfs:subClassOf <https://cwrusdle.bitbucket.io/mds#InverterOutput> ;
+  ns0:prefixIRI "mds:CurrentACMax"^^xsd:string ;
+  rdfs:label "CurrentACMax"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "Current at maximum AC power"^^xsd:string ;
+  ns1:unit <http://qudt.org/2.1/vocab/unit#A> .
+
+<https://cwrusdle.bitbucket.io/mds#CurrentAtMaximumPower>
+  a owl:Class ;
+  rdfs:subClassOf <https://cwrusdle.bitbucket.io/mds#PhotovoltaicCellProperty> ;
+  ns0:prefixIRI "mds:CurrentAtMaximumPower"^^xsd:string ;
+  rdfs:label "CurrentAtMaximumPower"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "DC current at maximum power point"^^xsd:string ;
+  ns1:unit <http://qudt.org/2.1/vocab/unit#A> .
+
+<https://cwrusdle.bitbucket.io/mds#CurrentShortCircuit>
+  a owl:Class ;
+  rdfs:subClassOf <https://cwrusdle.bitbucket.io/mds#PhotovoltaicCellProperty> ;
+  ns0:prefixIRI "mds:CurrentShortCircuit"^^xsd:string ;
+  rdfs:label "CurrentShortCircuit"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "Short-circuit current of the cell"^^xsd:string ;
+  ns1:unit <http://qudt.org/2.1/vocab/unit#A> .
+
+<https://cwrusdle.bitbucket.io/mds#DAQFrequency>
+  a owl:Class ;
+  rdfs:subClassOf ns1:ValueObject ;
+  ns0:prefixIRI "mds:DAQFrequency"^^xsd:string ;
+  rdfs:label "DAQFrequency"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "DAQ frequency of the detector."^^xsd:string .
+
+<https://cwrusdle.bitbucket.io/mds#DarkCorrection>
+  a owl:Class ;
+  rdfs:subClassOf <https://cwrusdle.bitbucket.io/mds#PostProcessing> ;
+  ns0:prefixIRI "mds:DarkCorrection"^^xsd:string ;
+  rdfs:label "DarkCorrection"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "Dark correction of raw images."^^xsd:string .
+
+<https://cwrusdle.bitbucket.io/mds#DarkCorrectionMethod1>
+  a owl:Class ;
+  rdfs:subClassOf <https://cwrusdle.bitbucket.io/mds#DarkCorrection> ;
+  ns0:prefixIRI "mds:DarkCorrectionMethod1"^^xsd:string ;
+  rdfs:label "DarkCorrectionMethod1"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "Method 1 to perform dark correction."^^xsd:string .
+
+<https://cwrusdle.bitbucket.io/mds#DarkCorrectionMethod2>
+  a owl:Class ;
+  rdfs:subClassOf <https://cwrusdle.bitbucket.io/mds#DarkCorrection> ;
+  ns0:prefixIRI "mds:DarkCorrectionMethod2"^^xsd:string ;
+  rdfs:label "DarkCorrectionMethod2"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "Method 2 to perform dark correction."^^xsd:string .
+
+<https://cwrusdle.bitbucket.io/mds#DarkField>
+  a owl:Class ;
+  rdfs:subClassOf ns1:Image ;
+  ns0:prefixIRI "mds:DarkField"^^xsd:string ;
+  rdfs:label "DarkField"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "The dark field image."^^xsd:string .
+
+<https://cwrusdle.bitbucket.io/mds#DarkPatternUsed>
+  a owl:Class ;
+  rdfs:subClassOf ns1:PrimaryData ;
+  ns0:prefixIRI "mds:DarkPatternUsed"^^xsd:string ;
+  rdfs:label "DarkPatternUsed"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "The dark image used to perform dark correction."^^xsd:string .
+
+<https://cwrusdle.bitbucket.io/mds#DataCollection>
+  a owl:Class ;
+  rdfs:subClassOf ns1:PrimaryData ;
+  ns0:prefixIRI "mds:DataCollection"^^xsd:string ;
+  rdfs:label "DataCollection"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "Data collection stage of the experiment."^^xsd:string .
+
+<https://cwrusdle.bitbucket.io/mds#DataReduction>
+  a owl:Class ;
+  rdfs:subClassOf ns1:ComputingNode ;
+  ns0:prefixIRI "mds:DataReduction"^^xsd:string ;
+  rdfs:label "DataReduction"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "The data reduction of X-Ray diffraction data."^^xsd:string .
+
+<https://cwrusdle.bitbucket.io/mds#Depth>
+  a owl:Class ;
+  rdfs:subClassOf ns1:ValueObject ;
+  ns0:prefixIRI "mds:Depth"^^xsd:string ;
+  rdfs:label "Depth"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "the distance from the top or surface to the bottom of something"^^xsd:string .
+
+<https://cwrusdle.bitbucket.io/mds#Design>
+  a owl:Class ;
+  rdfs:subClassOf ns1:Description ;
+  ns0:prefixIRI "mds:Design"^^xsd:string ;
+  rdfs:label "Design"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "Design of the furnace."^^xsd:string .
+
+<https://cwrusdle.bitbucket.io/mds#DetectorCalibration>
+  a owl:Class ;
+  rdfs:subClassOf <https://cwrusdle.bitbucket.io/mds#Calibration> ;
+  ns0:prefixIRI "mds:DetectorCalibration"^^xsd:string ;
+  rdfs:label "DetectorCalibration"^^xsd:string ;
+  skos:altLabel ""^^xsd:string .
+
+<https://cwrusdle.bitbucket.io/mds#DetectorLength>
+  a owl:Class ;
+  rdfs:subClassOf ns1:Length ;
+  ns0:prefixIRI "mds:DetectorLength"^^xsd:string ;
+  rdfs:label "DetectorLength"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "Length of the detector."^^xsd:string ;
+  ns1:unit <http://qudt.org/2.1/vocab/unit#MilliM> .
+
+<https://cwrusdle.bitbucket.io/mds#DetectorName>
+  a owl:Class ;
+  rdfs:subClassOf ns1:NodeSeries ;
+  ns0:prefixIRI "mds:DetectorName"^^xsd:string ;
+  rdfs:label "DetectorName"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "Name of the detector."^^xsd:string .
+
+<https://cwrusdle.bitbucket.io/mds#DetectorParameters>
+  a owl:Class ;
+  rdfs:subClassOf <https://cwrusdle.bitbucket.io/mds#DiffractionFrame> ;
+  ns0:prefixIRI "mds:DetectorParameters"^^xsd:string ;
+  rdfs:label "DetectorParameters"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "Detector parameters for the frame."^^xsd:string .
+
+<https://cwrusdle.bitbucket.io/mds#DetectorResolution>
+  a owl:Class ;
+  rdfs:subClassOf <https://cwrusdle.bitbucket.io/mds#Resolution> ;
+  ns0:prefixIRI "mds:DetectorResolution"^^xsd:string ;
+  rdfs:label "DetectorResolution"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "The resolution of the detector."^^xsd:string .
+
+<https://cwrusdle.bitbucket.io/mds#DetectorWidth>
+  a owl:Class ;
+  rdfs:subClassOf ns1:Width ;
+  ns0:prefixIRI "mds:DetectorWidth"^^xsd:string ;
+  rdfs:label "DetectorWidth"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "Width of the detector."^^xsd:string ;
+  ns1:unit <http://qudt.org/2.1/vocab/unit#MilliM> .
+
+<https://cwrusdle.bitbucket.io/mds#DiffractionFrame>
+  a owl:Class ;
+  rdfs:subClassOf <https://cwrusdle.bitbucket.io/mds#DataCollection> ;
+  ns0:prefixIRI "mds:DiffractionFrame"^^xsd:string ;
+  rdfs:label "DiffractionFrame"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "The frame of diffraction."^^xsd:string .
+
+<https://cwrusdle.bitbucket.io/mds#DiffractionImage>
+  a owl:Class ;
+  rdfs:subClassOf ns1:Image ;
+  ns0:prefixIRI "mds:DiffractionImage"^^xsd:string ;
+  rdfs:label "DiffractionImage"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "The diffraction image being integrated."^^xsd:string .
+
+<https://cwrusdle.bitbucket.io/mds#Diod>
+  a owl:Class ;
+  rdfs:subClassOf <https://cwrusdle.bitbucket.io/mds#ParametersFAST> ;
+  ns0:prefixIRI "mds:Diod"^^xsd:string ;
+  rdfs:label "Diod"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  ns1:unit <http://qudt.org/2.1/vocab/unit#V> .
+
+<https://cwrusdle.bitbucket.io/mds#DistanceBetweenTwoRings>
+  a owl:Class ;
+  rdfs:subClassOf ns1:Distance ;
+  ns0:prefixIRI "mds:DistanceBetweenTwoRings"^^xsd:string ;
+  rdfs:label "DistanceBetweenTwoRings"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "Distance between two rings."^^xsd:string .
+
+<https://cwrusdle.bitbucket.io/mds#DistanceFromSample>
+  a owl:Class ;
+  rdfs:subClassOf ns1:Distance ;
+  ns0:prefixIRI "mds:DistanceFromSample"^^xsd:string ;
+  rdfs:label "DistanceFromSample"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "Distance of the detector from the sample. "^^xsd:string ;
+  ns1:unit <http://qudt.org/2.1/vocab/unit#MilliM> .
+
+<https://cwrusdle.bitbucket.io/mds#DoPolarizationCorrection>
+  a owl:Class ;
+  rdfs:subClassOf <https://cwrusdle.bitbucket.io/mds#IntegrationOptions> ;
+  ns0:prefixIRI "mds:DoPolarizationCorrection"^^xsd:string ;
+  rdfs:label "DoPolarizationCorrection"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "Is polarization correction required."^^xsd:string .
+
+<https://cwrusdle.bitbucket.io/mds#DoRemoveNAN>
+  a owl:Class ;
+  rdfs:subClassOf <https://cwrusdle.bitbucket.io/mds#IntegrationOptions> ;
+  ns0:prefixIRI "mds:DoRemoveNAN"^^xsd:string ;
+  rdfs:label "DoRemoveNAN"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "Is NAN removal required."^^xsd:string .
+
+<https://cwrusdle.bitbucket.io/mds#DoSolidAngleCorrection>
+  a owl:Class ;
+  rdfs:subClassOf <https://cwrusdle.bitbucket.io/mds#IntegrationOptions> ;
+  ns0:prefixIRI "mds:DoSolidAngleCorrection"^^xsd:string ;
+  rdfs:label "DoSolidAngleCorrection"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "Is solid angle correction required."^^xsd:string .
+
+<https://cwrusdle.bitbucket.io/mds#EfficiencyCECWtdVoltageMax>
+  a owl:Class ;
+  rdfs:subClassOf <https://cwrusdle.bitbucket.io/mds#InverterEfficiency> ;
+  ns0:prefixIRI "mds:EfficiencyCECWtdVoltageMax"^^xsd:string ;
+  rdfs:label "EfficiencyCECWtdVoltageMax"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "CEC measured voltage maximum"^^xsd:string ;
+  ns1:unit <http://qudt.org/2.1/vocab/unit#V> .
+
+<https://cwrusdle.bitbucket.io/mds#EfficiencyCECWtdVoltageMin>
+  a owl:Class ;
+  rdfs:subClassOf <https://cwrusdle.bitbucket.io/mds#InverterEfficiency> ;
+  ns0:prefixIRI "mds:EfficiencyCECWtdVoltageMin"^^xsd:string ;
+  rdfs:label "EfficiencyCECWtdVoltageMin"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "CEC measured voltage minimum"^^xsd:string ;
+  ns1:unit <http://qudt.org/2.1/vocab/unit#V> .
+
+<https://cwrusdle.bitbucket.io/mds#EfficiencyCECWtdVoltageNom>
+  a owl:Class ;
+  rdfs:subClassOf <https://cwrusdle.bitbucket.io/mds#InverterEfficiency> ;
+  ns0:prefixIRI "mds:EfficiencyCECWtdVoltageNom"^^xsd:string ;
+  rdfs:label "EfficiencyCECWtdVoltageNom"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "CEC measured nominal operating voltage"^^xsd:string ;
+  ns1:unit <http://qudt.org/2.1/vocab/unit#V> .
+
+<https://cwrusdle.bitbucket.io/mds#Elevation>
+  a owl:Class ;
+  rdfs:subClassOf <https://cwrusdle.bitbucket.io/mds#PhotovoltaicSiteParameter> ;
+  ns0:prefixIRI "mds:Elevation"^^xsd:string ;
+  rdfs:label "Elevation"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "Elevation above sea level"^^xsd:string ;
+  ns1:unit <http://qudt.org/2.1/vocab/unit#M> .
+
+<https://cwrusdle.bitbucket.io/mds#EncapsulantMaterial>
+  a owl:Class ;
+  rdfs:subClassOf <https://cwrusdle.bitbucket.io/mds#PhotovoltaicModuleProperty> ;
+  ns0:prefixIRI "mds:EncapsulantMaterial"^^xsd:string ;
+  rdfs:label "EncapsulantMaterial"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "Material of the polymer encapsulant"^^xsd:string .
+
+<https://cwrusdle.bitbucket.io/mds#EnergyRange>
+  a owl:Class ;
+  rdfs:subClassOf ns1:WorkingRange ;
+  ns0:prefixIRI "mds:EnergyRange"^^xsd:string ;
+  rdfs:label "EnergyRange"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "The energy range the tool can operate in. "^^xsd:string ;
+  ns1:unit <http://qudt.org/2.1/vocab/unit#KiloEV> .
+
+<https://cwrusdle.bitbucket.io/mds#EnergyUsed>
+  a owl:Class ;
+  rdfs:subClassOf ns1:Force ;
+  ns0:prefixIRI "mds:EnergyUsed"^^xsd:string ;
+  rdfs:label "EnergyUsed"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "The energy of the incident beam."^^xsd:string ;
+  ns1:unit <http://qudt.org/2.1/vocab/unit#KiloEV> .
+
+<https://cwrusdle.bitbucket.io/mds#Epochs>
+  a owl:Class ;
+  rdfs:subClassOf <https://cwrusdle.bitbucket.io/mds#ModelingParameters> ;
+  ns0:prefixIRI "mds:Epochs"^^xsd:string ;
+  rdfs:label "Epochs"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "Number of epochs the model was trained for."^^xsd:string .
+
+<https://cwrusdle.bitbucket.io/mds#ErrorModel>
+  a owl:Class ;
+  rdfs:subClassOf <https://cwrusdle.bitbucket.io/mds#IntegrationOptions> ;
+  ns0:prefixIRI "mds:ErrorModel"^^xsd:string ;
+  rdfs:label "ErrorModel"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "The error model used."^^xsd:string .
+
+<https://cwrusdle.bitbucket.io/mds#ExperimentType>
+  a owl:Class ;
+  rdfs:subClassOf ns1:Process ;
+  ns0:prefixIRI "mds:ExperimentType"^^xsd:string ;
+  rdfs:label "ExperimentType"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "Type of the experiment performed."^^xsd:string .
+
+<https://cwrusdle.bitbucket.io/mds#ExposureTime>
+  a owl:Class ;
+  rdfs:subClassOf ns1:Time ;
+  ns0:prefixIRI "mds:ExposureTime"^^xsd:string ;
+  rdfs:label "ExposureTime"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "Exposure time for the detector."^^xsd:string ;
+  ns1:unit <http://qudt.org/2.1/vocab/unit#SEC> .
+
+<https://cwrusdle.bitbucket.io/mds#Facility>
+  a owl:Class ;
+  rdfs:subClassOf ns1:Laboratory ;
+  ns0:prefixIRI "mds:Facility"^^xsd:string ;
+  rdfs:label "Facility"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "Facility where the experiment was performed."^^xsd:string .
+
+<https://cwrusdle.bitbucket.io/mds#File-format>
+  a owl:Class ;
+  rdfs:subClassOf <https://cwrusdle.bitbucket.io/mds#Parameters1ID> ;
+  ns0:prefixIRI "mds:File-format"^^xsd:string ;
+  rdfs:label "File-format"^^xsd:string ;
+  skos:altLabel ""^^xsd:string .
+
+<https://cwrusdle.bitbucket.io/mds#FirstName>
+  a owl:Class ;
+  rdfs:subClassOf <https://cwrusdle.bitbucket.io/mds#Parameters1ID> ;
+  ns0:prefixIRI "mds:FirstName"^^xsd:string ;
+  rdfs:label "FirstName"^^xsd:string ;
+  skos:altLabel ""^^xsd:string .
+
+<https://cwrusdle.bitbucket.io/mds#FluorescencePattern>
+  a owl:Class ;
+  rdfs:subClassOf <https://cwrusdle.bitbucket.io/mds#PhotovoltaicModuleProperty> ;
+  ns0:prefixIRI "mds:FluorescencePattern"^^xsd:string ;
+  rdfs:label "FluorescencePattern"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "A UVF fluorescence pattern of a module"^^xsd:string .
+
+<https://cwrusdle.bitbucket.io/mds#Frame>
+  a owl:Class ;
+  rdfs:subClassOf ns1:Image ;
+  ns0:prefixIRI "mds:Frame"^^xsd:string ;
+  rdfs:label "Frame"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "The frame of diffraction."^^xsd:string .
+
+<https://cwrusdle.bitbucket.io/mds#FrameID>
+  a owl:Class ;
+  rdfs:subClassOf ns1:ProvidedIdentifier ;
+  ns0:prefixIRI "mds:FrameID"^^xsd:string ;
+  rdfs:label "FrameID"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "Identifier of the frame."^^xsd:string .
+
+<https://cwrusdle.bitbucket.io/mds#FramesPerFile>
+  a owl:Class ;
+  rdfs:subClassOf ns1:DataAcquisitionRate ;
+  ns0:prefixIRI "mds:FramesPerFile"^^xsd:string ;
+  rdfs:label "FramesPerFile"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "Number of frames per file."^^xsd:string .
+
+<https://cwrusdle.bitbucket.io/mds#FrequenciesAC>
+  a owl:Class ;
+  rdfs:subClassOf <https://cwrusdle.bitbucket.io/mds#InverterOutput> ;
+  ns0:prefixIRI "mds:FrequenciesAC"^^xsd:string ;
+  rdfs:label "FrequenciesAC"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "AC frequency, typically 60Hz (Americas) or 50Hz (elsewhere)"^^xsd:string ;
+  ns1:unit <http://qudt.org/2.1/vocab/unit#Hertz> .
+
+<https://cwrusdle.bitbucket.io/mds#Fst_shtr>
+  a owl:Class ;
+  rdfs:subClassOf <https://cwrusdle.bitbucket.io/mds#ParametersFAST> ;
+  ns0:prefixIRI "mds:Fst_shtr"^^xsd:string ;
+  rdfs:label "Fst_shtr"^^xsd:string ;
+  skos:altLabel ""^^xsd:string .
+
+<https://cwrusdle.bitbucket.io/mds#Fxn>
+  a owl:Class ;
+  rdfs:subClassOf <https://cwrusdle.bitbucket.io/mds#Parameters1ID> ;
+  ns0:prefixIRI "mds:Fxn"^^xsd:string ;
+  rdfs:label "Fxn"^^xsd:string ;
+  skos:altLabel ""^^xsd:string .
+
+<https://cwrusdle.bitbucket.io/mds#FxyeGSASFileEntry>
+  a owl:Class ;
+  rdfs:subClassOf <https://cwrusdle.bitbucket.io/mds#Parameters1ID> ;
+  ns0:prefixIRI "mds:FxyeGSASFileEntry"^^xsd:string ;
+  rdfs:label "FxyeGSASFileEntry"^^xsd:string ;
+  skos:altLabel ""^^xsd:string .
+
+<https://cwrusdle.bitbucket.io/mds#GravityMethod>
+  a owl:Class ;
+  rdfs:subClassOf <https://cwrusdle.bitbucket.io/mds#Centering> ;
+  ns0:prefixIRI "mds:GravityMethod"^^xsd:string ;
+  rdfs:label "GravityMethod"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "The gravity centering method."^^xsd:string .
+
+<https://cwrusdle.bitbucket.io/mds#GridInterfaceType>
+  a owl:Class ;
+  rdfs:subClassOf <https://cwrusdle.bitbucket.io/mds#PhotovoltaicInverterProperty> ;
+  ns0:prefixIRI "mds:GridInterfaceType"^^xsd:string ;
+  rdfs:label "GridInterfaceType"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "Grid interface phase (monophase, biphase, triphase)"^^xsd:string .
+
+<https://cwrusdle.bitbucket.io/mds#HasMeter>
+  a owl:Class ;
+  rdfs:subClassOf <https://cwrusdle.bitbucket.io/mds#PhotovoltaicInverterProperty> ;
+  ns0:prefixIRI "mds:HasMeter"^^xsd:string ;
+  rdfs:label "HasMeter"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "Does the inverter measure output AC power and input DC power?"^^xsd:string .
+
+<https://cwrusdle.bitbucket.io/mds#HeatTreatmentProcess>
+  a owl:Class ;
+  rdfs:subClassOf <https://cwrusdle.bitbucket.io/mds#ExperimentType> ;
+  ns0:prefixIRI "mds:HeatTreatmentProcess"^^xsd:string ;
+  rdfs:label "HeatTreatmentProcess"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "Heat treatment experiment."^^xsd:string .
+
+<https://cwrusdle.bitbucket.io/mds#Htype>
+  a owl:Class ;
+  rdfs:subClassOf <https://cwrusdle.bitbucket.io/mds#Parameters1ID> ;
+  ns0:prefixIRI "mds:Htype"^^xsd:string ;
+  rdfs:label "Htype"^^xsd:string ;
+  skos:altLabel ""^^xsd:string .
+
+<https://cwrusdle.bitbucket.io/mds#Ic0>
+  a owl:Class ;
+  rdfs:subClassOf <https://cwrusdle.bitbucket.io/mds#ParametersFAST> ;
+  ns0:prefixIRI "mds:Ic0"^^xsd:string ;
+  rdfs:label "Ic0"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  ns1:unit <http://qudt.org/2.1/vocab/unit#S> .
+
+<https://cwrusdle.bitbucket.io/mds#Ic1>
+  a owl:Class ;
+  rdfs:subClassOf <https://cwrusdle.bitbucket.io/mds#ParametersFAST> ;
+  ns0:prefixIRI "mds:Ic1"^^xsd:string ;
+  rdfs:label "Ic1"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  ns1:unit <http://qudt.org/2.1/vocab/unit#S> .
+
+<https://cwrusdle.bitbucket.io/mds#Ic2>
+  a owl:Class ;
+  rdfs:subClassOf <https://cwrusdle.bitbucket.io/mds#ParametersFAST> ;
+  ns0:prefixIRI "mds:Ic2"^^xsd:string ;
+  rdfs:label "Ic2"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  ns1:unit <http://qudt.org/2.1/vocab/unit#S> .
+
+<https://cwrusdle.bitbucket.io/mds#Ic3>
+  a owl:Class ;
+  rdfs:subClassOf <https://cwrusdle.bitbucket.io/mds#ParametersFAST> ;
+  ns0:prefixIRI "mds:Ic3"^^xsd:string ;
+  rdfs:label "Ic3"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  ns1:unit <http://qudt.org/2.1/vocab/unit#S> .
+
+<https://cwrusdle.bitbucket.io/mds#ImageSequence>
+  a owl:Class ;
+  rdfs:subClassOf ns1:SequenceNumber ;
+  ns0:prefixIRI "mds:ImageSequence"^^xsd:string ;
+  rdfs:label "ImageSequence"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "Running sequence of the image taken."^^xsd:string .
+
+<https://cwrusdle.bitbucket.io/mds#ImageStack>
+  a owl:Class ;
+  rdfs:subClassOf ns1:Image ;
+  ns0:prefixIRI "mds:ImageStack"^^xsd:string ;
+  rdfs:label "ImageStack"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "The image stack."^^xsd:string .
+
+<https://cwrusdle.bitbucket.io/mds#Init-delta>
+  a owl:Class ;
+  rdfs:subClassOf <https://cwrusdle.bitbucket.io/mds#Parameters1ID> ;
+  ns0:prefixIRI "mds:Init-delta"^^xsd:string ;
+  rdfs:label "Init-delta"^^xsd:string ;
+  skos:altLabel ""^^xsd:string .
+
+<https://cwrusdle.bitbucket.io/mds#Init-theta>
+  a owl:Class ;
+  rdfs:subClassOf <https://cwrusdle.bitbucket.io/mds#Parameters1ID> ;
+  ns0:prefixIRI "mds:Init-theta"^^xsd:string ;
+  rdfs:label "Init-theta"^^xsd:string ;
+  skos:altLabel ""^^xsd:string .
+
+<https://cwrusdle.bitbucket.io/mds#Integration>
+  a owl:Class ;
+  rdfs:subClassOf ns1:Algorithm ;
+  ns0:prefixIRI "mds:Integration"^^xsd:string ;
+  rdfs:label "Integration"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "Integration of diffraction patterns azimuthally."^^xsd:string .
+
+<https://cwrusdle.bitbucket.io/mds#IntegrationID>
+  a owl:Class ;
+  rdfs:subClassOf ns1:ProvidedIdentifier ;
+  ns0:prefixIRI "mds:IntegrationID"^^xsd:string ;
+  rdfs:label "IntegrationID"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "Identifier for the integration process."^^xsd:string .
+
+<https://cwrusdle.bitbucket.io/mds#IntegrationMethod>
+  a owl:Class ;
+  rdfs:subClassOf <https://cwrusdle.bitbucket.io/mds#IntegrationOptions> ;
+  ns0:prefixIRI "mds:IntegrationMethod"^^xsd:string ;
+  rdfs:label "IntegrationMethod"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "The method used for integration."^^xsd:string .
+
+<https://cwrusdle.bitbucket.io/mds#IntegrationOptions>
+  a owl:Class ;
+  rdfs:subClassOf ns1:ValueObject ;
+  ns0:prefixIRI "mds:IntegrationOptions"^^xsd:string ;
+  rdfs:label "IntegrationOptions"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "The various optoins used for integration."^^xsd:string .
+
+<https://cwrusdle.bitbucket.io/mds#IntegrationType>
+  a owl:Class ;
+  rdfs:subClassOf <https://cwrusdle.bitbucket.io/mds#IntegrationOptions> ;
+  ns0:prefixIRI "mds:IntegrationType"^^xsd:string ;
+  rdfs:label "IntegrationType"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "Type of integration, either 1 or 2D."^^xsd:string .
+
+<https://cwrusdle.bitbucket.io/mds#Intensity>
+  a owl:Class ;
+  rdfs:subClassOf <https://cwrusdle.bitbucket.io/mds#Parameters1ID> ;
+  ns0:prefixIRI "mds:Intensity"^^xsd:string ;
+  rdfs:label "Intensity"^^xsd:string ;
+  skos:altLabel ""^^xsd:string .
+
+<https://cwrusdle.bitbucket.io/mds#IntensityUnc>
+  a owl:Class ;
+  rdfs:subClassOf <https://cwrusdle.bitbucket.io/mds#Parameters1ID> ;
+  ns0:prefixIRI "mds:IntensityUnc"^^xsd:string ;
+  rdfs:label "IntensityUnc"^^xsd:string ;
+  skos:altLabel ""^^xsd:string .
+
+<https://cwrusdle.bitbucket.io/mds#InterconnectionLineCount>
+  a owl:Class ;
+  rdfs:subClassOf <https://cwrusdle.bitbucket.io/mds#InverterOutput> ;
+  ns0:prefixIRI "mds:InterconnectionLineCount"^^xsd:string ;
+  rdfs:label "InterconnectionLineCount"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "Number of interconnection lines"^^xsd:string .
+
+<https://cwrusdle.bitbucket.io/mds#InterconnectionPhaseType>
+  a owl:Class ;
+  rdfs:subClassOf <https://cwrusdle.bitbucket.io/mds#InverterOutput> ;
+  ns0:prefixIRI "mds:InterconnectionPhaseType"^^xsd:string ;
+  rdfs:label "InterconnectionPhaseType"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "Interconnection phase type"^^xsd:string .
+
+<https://cwrusdle.bitbucket.io/mds#InverterEfficiency>
+  a owl:Class ;
+  rdfs:subClassOf <https://cwrusdle.bitbucket.io/mds#PhotovoltaicInverterProperty> ;
+  ns0:prefixIRI "mds:InverterEfficiency"^^xsd:string ;
+  rdfs:label "InverterEfficiency"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "Inverter efficency from DC to AC power"^^xsd:string .
+
+<https://cwrusdle.bitbucket.io/mds#InverterEfficiencyCEC>
+  a owl:Class ;
+  rdfs:subClassOf <https://cwrusdle.bitbucket.io/mds#InverterEfficiency> ;
+  ns0:prefixIRI "mds:InverterEfficiencyCEC"^^xsd:string ;
+  rdfs:label "InverterEfficiencyCEC"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "CEC measured inverter efficency"^^xsd:string .
+
+<https://cwrusdle.bitbucket.io/mds#InverterEfficiencyIEC>
+  a owl:Class ;
+  rdfs:subClassOf <https://cwrusdle.bitbucket.io/mds#InverterEfficiency> ;
+  ns0:prefixIRI "mds:InverterEfficiencyIEC"^^xsd:string ;
+  rdfs:label "InverterEfficiencyIEC"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "IEC inverter efficency"^^xsd:string .
+
+<https://cwrusdle.bitbucket.io/mds#InverterEfficiencyMax>
+  a owl:Class ;
+  rdfs:subClassOf <https://cwrusdle.bitbucket.io/mds#InverterEfficiency> ;
+  ns0:prefixIRI "mds:InverterEfficiencyMax"^^xsd:string ;
+  rdfs:label "InverterEfficiencyMax"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "Theoretical maximum inverter efficency (nameplate)"^^xsd:string .
+
+<https://cwrusdle.bitbucket.io/mds#InverterOutput>
+  a owl:Class ;
+  rdfs:subClassOf <https://cwrusdle.bitbucket.io/mds#PhotovoltaicInverterProperty> ;
+  ns0:prefixIRI "mds:InverterOutput"^^xsd:string ;
+  rdfs:label "InverterOutput"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "Output AC power of the inverter"^^xsd:string ;
+  ns1:unit <http://qudt.org/2.1/vocab/unit#KiloW> .
+
+<https://cwrusdle.bitbucket.io/mds#InverterSwitchoverTime>
+  a owl:Class ;
+  rdfs:subClassOf <https://cwrusdle.bitbucket.io/mds#InverterOutput> ;
+  ns0:prefixIRI "mds:InverterSwitchoverTime"^^xsd:string ;
+  rdfs:label "InverterSwitchoverTime"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "Switch over time between grid import and inverter export to grid"^^xsd:string .
+
+<https://cwrusdle.bitbucket.io/mds#Irads>
+  a owl:Class ;
+  rdfs:subClassOf <https://cwrusdle.bitbucket.io/mds#Parameters1ID> ;
+  ns0:prefixIRI "mds:Irads"^^xsd:string ;
+  rdfs:label "Irads"^^xsd:string ;
+  skos:altLabel ""^^xsd:string .
+
+<https://cwrusdle.bitbucket.io/mds#IsHybrid>
+  a owl:Class ;
+  rdfs:subClassOf <https://cwrusdle.bitbucket.io/mds#PhotovoltaicInverterProperty> ;
+  ns0:prefixIRI "mds:IsHybrid"^^xsd:string ;
+  rdfs:label "IsHybrid"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "System connected only to grid, or also to batteries?"^^xsd:string .
+
+<https://cwrusdle.bitbucket.io/mds#IsPVInputCapable>
+  a owl:Class ;
+  rdfs:subClassOf <https://cwrusdle.bitbucket.io/mds#PhotovoltaicInverterProperty> ;
+  ns0:prefixIRI "mds:IsPVInputCapable"^^xsd:string ;
+  rdfs:label "IsPVInputCapable"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "Is inverter capable of directly accepting PV input?"^^xsd:string .
+
+<https://cwrusdle.bitbucket.io/mds#Latitude>
+  a owl:Class ;
+  rdfs:subClassOf <https://cwrusdle.bitbucket.io/mds#PhotovoltaicSiteParameter> ;
+  ns0:prefixIRI "mds:Latitude"^^xsd:string ;
+  rdfs:label "Latitude"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "North/south position of a point on the Earth, decimal format"^^xsd:string .
+
+<https://cwrusdle.bitbucket.io/mds#Length>
+  a owl:Class ;
+  rdfs:subClassOf <https://cwrusdle.bitbucket.io/mds#PhotovoltaicModuleProperty> ;
+  ns0:prefixIRI "mds:Length"^^xsd:string ;
+  rdfs:label "Length"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "Length of the module along longest side"^^xsd:string ;
+  ns1:unit <http://qudt.org/2.1/vocab/unit#CentiM> .
+
+<https://cwrusdle.bitbucket.io/mds#Load_cll>
+  a owl:Class ;
+  rdfs:subClassOf <https://cwrusdle.bitbucket.io/mds#ParametersFAST> ;
+  ns0:prefixIRI "mds:Load_cll"^^xsd:string ;
+  rdfs:label "Load_cll"^^xsd:string ;
+  skos:altLabel ""^^xsd:string .
+
+<https://cwrusdle.bitbucket.io/mds#Load_scrw>
+  a owl:Class ;
+  rdfs:subClassOf <https://cwrusdle.bitbucket.io/mds#ParametersFAST> ;
+  ns0:prefixIRI "mds:Load_scrw"^^xsd:string ;
+  rdfs:label "Load_scrw"^^xsd:string ;
+  skos:altLabel ""^^xsd:string .
+
+<https://cwrusdle.bitbucket.io/mds#LogFile>
+  a owl:Class ;
+  rdfs:subClassOf ns1:Metadata ;
+  ns0:prefixIRI "mds:LogFile"^^xsd:string ;
+  rdfs:label "LogFile"^^xsd:string ;
+  skos:altLabel ""^^xsd:string .
+
+<https://cwrusdle.bitbucket.io/mds#Longitude>
+  a owl:Class ;
+  rdfs:subClassOf <https://cwrusdle.bitbucket.io/mds#PhotovoltaicSiteParameter> ;
+  ns0:prefixIRI "mds:Longitude"^^xsd:string ;
+  rdfs:label "Longitude"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "East/west position of a point on the Earth, decimal format"^^xsd:string .
+
+<https://cwrusdle.bitbucket.io/mds#MaskFile>
+  a owl:Class ;
+  rdfs:subClassOf ns1:CalibrationDocument ;
+  ns0:prefixIRI "mds:MaskFile"^^xsd:string ;
+  rdfs:label "MaskFile"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "Mask file of the detector."^^xsd:string .
+
+<https://cwrusdle.bitbucket.io/mds#MaterialName>
+  a owl:Class ;
+  rdfs:subClassOf ns1:MaterialDesignation ;
+  ns0:prefixIRI "mds:MaterialName"^^xsd:string ;
+  rdfs:label "MaterialName"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "Name of the material."^^xsd:string .
+
+<https://cwrusdle.bitbucket.io/mds#MaxBeamSize>
+  a owl:Class ;
+  rdfs:subClassOf ns1:Optical ;
+  ns0:prefixIRI "mds:MaxBeamSize"^^xsd:string ;
+  rdfs:label "MaxBeamSize"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "Maximum beam size."^^xsd:string ;
+  ns1:unit <http://qudt.org/2.1/vocab/unit#DEG> .
+
+<https://cwrusdle.bitbucket.io/mds#MaxFrameRate>
+  a owl:Class ;
+  rdfs:subClassOf ns1:DataAcquisitionRate ;
+  ns0:prefixIRI "mds:MaxFrameRate"^^xsd:string ;
+  rdfs:label "MaxFrameRate"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "Maximum frame rate the detector can capture."^^xsd:string ;
+  ns1:unit <http://qudt.org/2.1/vocab/unit#HZ> .
+
+<https://cwrusdle.bitbucket.io/mds#MethodName>
+  a owl:Class ;
+  rdfs:subClassOf ns1:Identifier ;
+  ns0:prefixIRI "mds:MethodName"^^xsd:string ;
+  rdfs:label "MethodName"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "Name of the method."^^xsd:string .
+
+<https://cwrusdle.bitbucket.io/mds#Mo_stab>
+  a owl:Class ;
+  rdfs:subClassOf <https://cwrusdle.bitbucket.io/mds#ParametersFAST> ;
+  ns0:prefixIRI "mds:Mo_stab"^^xsd:string ;
+  rdfs:label "Mo_stab"^^xsd:string ;
+  skos:altLabel ""^^xsd:string .
+
+<https://cwrusdle.bitbucket.io/mds#ModelID>
+  a owl:Class ;
+  rdfs:subClassOf ns1:ProvidedIdentifier ;
+  ns0:prefixIRI "mds:ModelID"^^xsd:string ;
+  rdfs:label "ModelID"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "An identifier for the model."^^xsd:string .
+
+<https://cwrusdle.bitbucket.io/mds#Modeling>
+  a owl:Class ;
+  rdfs:subClassOf ns1:ComputingNode ;
+  ns0:prefixIRI "mds:Modeling"^^xsd:string ;
+  rdfs:label "Modeling"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "Modeling applied to the collected or modified data."^^xsd:string .
+
+<https://cwrusdle.bitbucket.io/mds#ModelingParameters>
+  a owl:Class ;
+  rdfs:subClassOf ns1:ValueObject ;
+  ns0:prefixIRI "mds:ModelingParameters"^^xsd:string ;
+  rdfs:label "ModelingParameters"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "Parameters of the model."^^xsd:string .
+
+<https://cwrusdle.bitbucket.io/mds#ModuleCountParallel>
+  a owl:Class ;
+  rdfs:subClassOf <https://cwrusdle.bitbucket.io/mds#PhotovoltaicInverterProperty> ;
+  ns0:prefixIRI "mds:ModuleCountParallel"^^xsd:string ;
+  rdfs:label "ModuleCountParallel"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "Number of strings of modules connected in parallel"^^xsd:string .
+
+<https://cwrusdle.bitbucket.io/mds#ModuleCountSeries>
+  a owl:Class ;
+  rdfs:subClassOf <https://cwrusdle.bitbucket.io/mds#PhotovoltaicInverterProperty> ;
+  ns0:prefixIRI "mds:ModuleCountSeries"^^xsd:string ;
+  rdfs:label "ModuleCountSeries"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "Number of modules per string connected in series"^^xsd:string .
+
+<https://cwrusdle.bitbucket.io/mds#ModuleEfficiency>
+  a owl:Class ;
+  rdfs:subClassOf <https://cwrusdle.bitbucket.io/mds#ModuleRatingAtReference> ;
+  ns0:prefixIRI "mds:ModuleEfficiency"^^xsd:string ;
+  rdfs:label "ModuleEfficiency"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "Theoretical efficency of a module"^^xsd:string .
+
+<https://cwrusdle.bitbucket.io/mds#ModuleEncapsulant>
+  a owl:Class ;
+  rdfs:subClassOf <https://cwrusdle.bitbucket.io/mds#PhotovoltaicModuleProperty> ;
+  ns0:prefixIRI "mds:ModuleEncapsulant"^^xsd:string ;
+  rdfs:label "ModuleEncapsulant"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "Polymer encapsulant of a module"^^xsd:string .
+
+<https://cwrusdle.bitbucket.io/mds#ModuleJunctionBox>
+  a owl:Class ;
+  rdfs:subClassOf <https://cwrusdle.bitbucket.io/mds#PhotovoltaicModuleProperty> ;
+  ns0:prefixIRI "mds:ModuleJunctionBox"^^xsd:string ;
+  rdfs:label "ModuleJunctionBox"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "Electrical junction box for connection to the module"^^xsd:string .
+
+<https://cwrusdle.bitbucket.io/mds#ModuleRatingAtReference>
+  a owl:Class ;
+  rdfs:subClassOf <https://cwrusdle.bitbucket.io/mds#PhotovoltaicModuleProperty> ;
+  ns0:prefixIRI "mds:ModuleRatingAtReference"^^xsd:string ;
+  rdfs:label "ModuleRatingAtReference"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "Measurements of a module taken at STC and 1000 W/m^2 irradiance"^^xsd:string .
+
+<https://cwrusdle.bitbucket.io/mds#ModuleRatingCondition>
+  a owl:Class ;
+  rdfs:subClassOf <https://cwrusdle.bitbucket.io/mds#PhotovoltaicCellProperty> ;
+  ns0:prefixIRI "mds:ModuleRatingCondition"^^xsd:string ;
+  rdfs:label "ModuleRatingCondition"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "Condition of the cell"^^xsd:string .
+
+<https://cwrusdle.bitbucket.io/mds#MountingType>
+  a owl:Class ;
+  rdfs:subClassOf ns1:MaterialProperty ;
+  ns0:prefixIRI "mds:MountingType"^^xsd:string ;
+  rdfs:label "MountingType"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "How the arrays are mounted (fixed, one axis tracker, two axis tracker, vertical, etc)"^^xsd:string .
+
+<https://cwrusdle.bitbucket.io/mds#NightTare>
+  a owl:Class ;
+  rdfs:subClassOf <https://cwrusdle.bitbucket.io/mds#PhotovoltaicInverterProperty> ;
+  ns0:prefixIRI "mds:NightTare"^^xsd:string ;
+  rdfs:label "NightTare"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "Power consumption of the device during nighttime"^^xsd:string .
+
+<https://cwrusdle.bitbucket.io/mds#NptAzimuth>
+  a owl:Class ;
+  rdfs:subClassOf <https://cwrusdle.bitbucket.io/mds#IntegrationOptions> ;
+  ns0:prefixIRI "mds:NptAzimuth"^^xsd:string ;
+  rdfs:label "NptAzimuth"^^xsd:string ;
+  skos:altLabel ""^^xsd:string .
+
+<https://cwrusdle.bitbucket.io/mds#Nptradial>
+  a owl:Class ;
+  rdfs:subClassOf <https://cwrusdle.bitbucket.io/mds#IntegrationOptions> ;
+  ns0:prefixIRI "mds:Nptradial"^^xsd:string ;
+  rdfs:label "Nptradial"^^xsd:string ;
+  skos:altLabel ""^^xsd:string .
+
+<https://cwrusdle.bitbucket.io/mds#NumberInverters>
+  a owl:Class ;
+  rdfs:subClassOf <https://cwrusdle.bitbucket.io/mds#PhotovoltaicSiteParameter> ;
+  ns0:prefixIRI "mds:NumberInverters"^^xsd:string ;
+  rdfs:label "NumberInverters"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "Number of inverters located at the site"^^xsd:string .
+
+<https://cwrusdle.bitbucket.io/mds#NumberOfRings>
+  a owl:Class ;
+  rdfs:subClassOf ns1:ValueObject ;
+  ns0:prefixIRI "mds:NumberOfRings"^^xsd:string ;
+  rdfs:label "NumberOfRings"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "Number of rings in the diffractogram."^^xsd:string .
+
+<https://cwrusdle.bitbucket.io/mds#OpenCLDevice>
+  a owl:Class ;
+  rdfs:subClassOf <https://cwrusdle.bitbucket.io/mds#IntegrationOptions> ;
+  ns0:prefixIRI "mds:OpenCLDevice"^^xsd:string ;
+  rdfs:label "OpenCLDevice"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "The device used. Either CPU or GPU."^^xsd:string .
+
+<https://cwrusdle.bitbucket.io/mds#OrangeButtonTerm>
+  a owl:Class ;
+  rdfs:subClassOf ns1:ValueObject ;
+  ns0:prefixIRI "mds:OrangeButtonTerm"^^xsd:string ;
+  rdfs:label "OrangeButtonTerm"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "Term from the OrangeButton Taxonomy"^^xsd:string .
+
+<https://cwrusdle.bitbucket.io/mds#Parameters1ID>
+  a owl:Class ;
+  rdfs:subClassOf <https://cwrusdle.bitbucket.io/mds#XrayRecipeParameters> ;
+  ns0:prefixIRI "mds:Parameters1ID"^^xsd:string ;
+  rdfs:label "Parameters1ID"^^xsd:string ;
+  skos:altLabel ""^^xsd:string .
+
+<https://cwrusdle.bitbucket.io/mds#ParametersFAST>
+  a owl:Class ;
+  rdfs:subClassOf <https://cwrusdle.bitbucket.io/mds#XrayRecipeParameters> ;
+  ns0:prefixIRI "mds:ParametersFAST"^^xsd:string ;
+  rdfs:label "ParametersFAST"^^xsd:string ;
+  skos:altLabel ""^^xsd:string .
+
+<https://cwrusdle.bitbucket.io/mds#PhotovoltaicBacksheet>
+  a owl:Class ;
+  rdfs:subClassOf ns1:ProcessingNode ;
+  ns0:prefixIRI "mds:PhotovoltaicBacksheet"^^xsd:string ;
+  rdfs:label "PhotovoltaicBacksheet"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "Polymer backsheet of a PV cell or module"^^xsd:string .
+
+<https://cwrusdle.bitbucket.io/mds#PhotovoltaicBacksheetID>
+  a owl:Class ;
+  rdfs:subClassOf ns1:ProvidedIdentifier ;
+  ns0:prefixIRI "mds:PhotovoltaicBacksheetID"^^xsd:string ;
+  rdfs:label "PhotovoltaicBacksheetID"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "Identifier for a PV backsheet"^^xsd:string .
+
+<https://cwrusdle.bitbucket.io/mds#PhotovoltaicBacksheetProperty>
+  a owl:Class ;
+  rdfs:subClassOf ns1:ValueObject ;
+  ns0:prefixIRI "mds:PhotovoltaicBacksheetProperty"^^xsd:string ;
+  rdfs:label "PhotovoltaicBacksheetProperty"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "Property of a PV backsheet"^^xsd:string .
+
+<https://cwrusdle.bitbucket.io/mds#PhotovoltaicCell>
+  a owl:Class ;
+  rdfs:subClassOf ns1:ProcessingNode ;
+  ns0:prefixIRI "mds:PhotovoltaicCell"^^xsd:string ;
+  rdfs:label "PhotovoltaicCell"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "PV cell that composes a module"^^xsd:string .
+
+<https://cwrusdle.bitbucket.io/mds#PhotovoltaicCellID>
+  a owl:Class ;
+  rdfs:subClassOf ns1:ProvidedIdentifier ;
+  ns0:prefixIRI "mds:PhotovoltaicCellID"^^xsd:string ;
+  rdfs:label "PhotovoltaicCellID"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "Identifier for the PV cell"^^xsd:string .
+
+<https://cwrusdle.bitbucket.io/mds#PhotovoltaicCellProperty>
+  a owl:Class ;
+  rdfs:subClassOf ns1:ValueObject ;
+  ns0:prefixIRI "mds:PhotovoltaicCellProperty"^^xsd:string ;
+  rdfs:label "PhotovoltaicCellProperty"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "A property of a PV cell"^^xsd:string .
+
+<https://cwrusdle.bitbucket.io/mds#PhotovoltaicInverter>
+  a owl:Class ;
+  rdfs:subClassOf ns1:ProcessingNode ;
+  ns0:prefixIRI "mds:PhotovoltaicInverter"^^xsd:string ;
+  rdfs:label "PhotovoltaicInverter"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "An inverter for a PV system"^^xsd:string .
+
+<https://cwrusdle.bitbucket.io/mds#PhotovoltaicInverterID>
+  a owl:Class ;
+  rdfs:subClassOf ns1:ProvidedIdentifier ;
+  ns0:prefixIRI "mds:PhotovoltaicInverterID"^^xsd:string ;
+  rdfs:label "PhotovoltaicInverterID"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "Identifier for a PV inverter"^^xsd:string .
+
+<https://cwrusdle.bitbucket.io/mds#PhotovoltaicInverterProperty>
+  a owl:Class ;
+  rdfs:subClassOf ns1:ValueObject ;
+  ns0:prefixIRI "mds:PhotovoltaicInverterProperty"^^xsd:string ;
+  rdfs:label "PhotovoltaicInverterProperty"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "Property of a PV inverter"^^xsd:string .
+
+<https://cwrusdle.bitbucket.io/mds#PhotovoltaicModule>
+  a owl:Class ;
+  rdfs:subClassOf ns1:ProcessingNode ;
+  ns0:prefixIRI "mds:PhotovoltaicModule"^^xsd:string ;
+  rdfs:label "PhotovoltaicModule"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "A PV module, comprised of cells, for field deployment"^^xsd:string .
+
+<https://cwrusdle.bitbucket.io/mds#PhotovoltaicModuleID>
+  a owl:Class ;
+  rdfs:subClassOf ns1:ProvidedIdentifier ;
+  ns0:prefixIRI "mds:PhotovoltaicModuleID"^^xsd:string ;
+  rdfs:label "PhotovoltaicModuleID"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "Module identifier"^^xsd:string .
+
+<https://cwrusdle.bitbucket.io/mds#PhotovoltaicModuleProperty>
+  a owl:Class ;
+  rdfs:subClassOf ns1:ValueObject ;
+  ns0:prefixIRI "mds:PhotovoltaicModuleProperty"^^xsd:string ;
+  rdfs:label "PhotovoltaicModuleProperty"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "A property of a PV module"^^xsd:string .
+
+<https://cwrusdle.bitbucket.io/mds#PhotovoltaicRacking>
+  a owl:Class ;
+  rdfs:subClassOf <https://cwrusdle.bitbucket.io/mds#PhotovoltaicSiteParameter> ;
+  ns0:prefixIRI "mds:PhotovoltaicRacking"^^xsd:string ;
+  rdfs:label "PhotovoltaicRacking"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "How PV modules are arranged within the system"^^xsd:string .
+
+<https://cwrusdle.bitbucket.io/mds#PhotovoltaicSite>
+  a owl:Class ;
+  rdfs:subClassOf ns1:Location ;
+  ns0:prefixIRI "mds:PhotovoltaicSite"^^xsd:string ;
+  rdfs:label "PhotovoltaicSite"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "Physical location of a PV site"^^xsd:string .
+
+<https://cwrusdle.bitbucket.io/mds#PhotovoltaicSiteID>
+  a owl:Class ;
+  rdfs:subClassOf ns1:ProvidedIdentifier ;
+  ns0:prefixIRI "mds:PhotovoltaicSiteID"^^xsd:string ;
+  rdfs:label "PhotovoltaicSiteID"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "Site identifier"^^xsd:string .
+
+<https://cwrusdle.bitbucket.io/mds#PhotovoltaicSiteParameter>
+  a owl:Class ;
+  rdfs:subClassOf ns1:ValueObject ;
+  ns0:prefixIRI "mds:PhotovoltaicSiteParameter"^^xsd:string ;
+  rdfs:label "PhotovoltaicSiteParameter"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "Parameter or property a PV site has"^^xsd:string .
+
+<https://cwrusdle.bitbucket.io/mds#PixelHeight>
+  a owl:Class ;
+  rdfs:subClassOf ns1:Length ;
+  ns0:prefixIRI "mds:PixelHeight"^^xsd:string ;
+  rdfs:label "PixelHeight"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "Pixel height of the detector."^^xsd:string .
+
+<https://cwrusdle.bitbucket.io/mds#PixelSize>
+  a owl:Class ;
+  rdfs:subClassOf ns1:Length ;
+  ns0:prefixIRI "mds:PixelSize"^^xsd:string ;
+  rdfs:label "PixelSize"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "Pixel size of the detector."^^xsd:string ;
+  ns1:unit <http://qudt.org/2.1/vocab/unit#MicroM> .
+
+<https://cwrusdle.bitbucket.io/mds#PixelWidth>
+  a owl:Class ;
+  rdfs:subClassOf ns1:Width ;
+  ns0:prefixIRI "mds:PixelWidth"^^xsd:string ;
+  rdfs:label "PixelWidth"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "Pixel width of the detector."^^xsd:string .
+
+<https://cwrusdle.bitbucket.io/mds#PixelwiseCorrelation>
+  a owl:Class ;
+  rdfs:subClassOf <https://cwrusdle.bitbucket.io/mds#Rescaling> ;
+  ns0:prefixIRI "mds:PixelwiseCorrelation"^^xsd:string ;
+  rdfs:label "PixelwiseCorrelation"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "Pixelwise correlation for rescaling."^^xsd:string .
+
+<https://cwrusdle.bitbucket.io/mds#PolarizationFactor>
+  a owl:Class ;
+  rdfs:subClassOf <https://cwrusdle.bitbucket.io/mds#IntegrationOptions> ;
+  ns0:prefixIRI "mds:PolarizationFactor"^^xsd:string ;
+  rdfs:label "PolarizationFactor"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "Polarization factor of the diffractometer."^^xsd:string ;
+  ns1:unit <http://qudt.org/2.1/vocab/unit#Degree> .
+
+<https://cwrusdle.bitbucket.io/mds#PoniFile>
+  a owl:Class ;
+  rdfs:subClassOf ns1:CalibrationDocument ;
+  ns0:prefixIRI "mds:PoniFile"^^xsd:string ;
+  rdfs:label "PoniFile"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "PONI file of the detector."^^xsd:string .
+
+<https://cwrusdle.bitbucket.io/mds#PostProcessing>
+  a owl:Class ;
+  rdfs:subClassOf ns1:Algorithm ;
+  ns0:prefixIRI "mds:PostProcessing"^^xsd:string ;
+  rdfs:label "PostProcessing"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "Post processing appplied to the original collected data."^^xsd:string .
+
+<https://cwrusdle.bitbucket.io/mds#PowerACMax>
+  a owl:Class ;
+  rdfs:subClassOf <https://cwrusdle.bitbucket.io/mds#InverterOutput> ;
+  ns0:prefixIRI "mds:PowerACMax"^^xsd:string ;
+  rdfs:label "PowerACMax"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "Maximum AC power"^^xsd:string ;
+  ns1:unit <http://qudt.org/2.1/vocab/unit#KiloW> .
+
+<https://cwrusdle.bitbucket.io/mds#PowerACNom>
+  a owl:Class ;
+  rdfs:subClassOf <https://cwrusdle.bitbucket.io/mds#InverterOutput> ;
+  ns0:prefixIRI "mds:PowerACNom"^^xsd:string ;
+  rdfs:label "PowerACNom"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "Nominal AC power"^^xsd:string ;
+  ns1:unit <http://qudt.org/2.1/vocab/unit#KiloW> .
+
+<https://cwrusdle.bitbucket.io/mds#PowerDC>
+  a owl:Class ;
+  rdfs:subClassOf <https://cwrusdle.bitbucket.io/mds#ModuleRatingAtReference> ;
+  ns0:prefixIRI "mds:PowerDC"^^xsd:string ;
+  rdfs:label "PowerDC"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "DC power at STC, 1 sun of irradiance"^^xsd:string ;
+  ns1:unit <http://qudt.org/2.1/vocab/unit#KiloW> .
+
+<https://cwrusdle.bitbucket.io/mds#PowerDCOut>
+  a owl:Class ;
+  rdfs:subClassOf <https://cwrusdle.bitbucket.io/mds#InverterOutput> ;
+  ns0:prefixIRI "mds:PowerDCOut"^^xsd:string ;
+  rdfs:label "PowerDCOut"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "DC power output of PV array"^^xsd:string .
+
+<https://cwrusdle.bitbucket.io/mds#PowerFactorMax>
+  a owl:Class ;
+  rdfs:subClassOf <https://cwrusdle.bitbucket.io/mds#InverterOutput> ;
+  ns0:prefixIRI "mds:PowerFactorMax"^^xsd:string ;
+  rdfs:label "PowerFactorMax"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "Maximum power factor"^^xsd:string ;
+  ns1:unit <http://qudt.org/2.1/vocab/unit#KiloW> .
+
+<https://cwrusdle.bitbucket.io/mds#PowerFactorMin>
+  a owl:Class ;
+  rdfs:subClassOf <https://cwrusdle.bitbucket.io/mds#InverterOutput> ;
+  ns0:prefixIRI "mds:PowerFactorMin"^^xsd:string ;
+  rdfs:label "PowerFactorMin"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "Minimum power factor"^^xsd:string ;
+  ns1:unit <http://qudt.org/2.1/vocab/unit#KiloW> .
+
+<https://cwrusdle.bitbucket.io/mds#PowerSTC>
+  a owl:Class ;
+  rdfs:subClassOf <https://cwrusdle.bitbucket.io/mds#ModuleRatingAtReference> ;
+  ns0:prefixIRI "mds:PowerSTC"^^xsd:string ;
+  rdfs:label "PowerSTC"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "Power at refrence conditions"^^xsd:string ;
+  ns1:unit <http://qudt.org/2.1/vocab/unit#KiloW> .
+
+<https://cwrusdle.bitbucket.io/mds#ProcessingMethod>
+  a owl:Class ;
+  rdfs:subClassOf ns1:ManufacturingProcess ;
+  ns0:prefixIRI "mds:ProcessingMethod"^^xsd:string ;
+  rdfs:label "ProcessingMethod"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "The manufacturing method by ehich the sample was created."^^xsd:string .
+
+<https://cwrusdle.bitbucket.io/mds#RackingType>
+  a owl:Class ;
+  rdfs:subClassOf ns1:MaterialDesignation ;
+  ns0:prefixIRI "mds:RackingType"^^xsd:string ;
+  rdfs:label "RackingType"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "Type of racking used (open, closed, roof, etc)"^^xsd:string .
+
+<https://cwrusdle.bitbucket.io/mds#RadialRange>
+  a owl:Class ;
+  rdfs:subClassOf <https://cwrusdle.bitbucket.io/mds#IntegrationOptions> ;
+  ns0:prefixIRI "mds:RadialRange"^^xsd:string ;
+  rdfs:label "RadialRange"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "The radial range."^^xsd:string .
+
+<https://cwrusdle.bitbucket.io/mds#ReadOutTime>
+  a owl:Class ;
+  rdfs:subClassOf ns1:Time ;
+  ns0:prefixIRI "mds:ReadOutTime"^^xsd:string ;
+  rdfs:label "ReadOutTime"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "Time to read out the data."^^xsd:string ;
+  ns1:unit <http://qudt.org/2.1/vocab/unit#MilliSEC> .
+
+<https://cwrusdle.bitbucket.io/mds#RecipeID>
+  a owl:Class ;
+  rdfs:subClassOf ns1:ProvidedIdentifier ;
+  ns0:prefixIRI "mds:RecipeID"^^xsd:string ;
+  rdfs:label "RecipeID"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "An identifier for the recipe."^^xsd:string .
+
+<https://cwrusdle.bitbucket.io/mds#Registration>
+  a owl:Class ;
+  rdfs:subClassOf <https://cwrusdle.bitbucket.io/mds#PostProcessing> ;
+  ns0:prefixIRI "mds:Registration"^^xsd:string ;
+  rdfs:label "Registration"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "Registration of an image."^^xsd:string .
+
+<https://cwrusdle.bitbucket.io/mds#Rescaling>
+  a owl:Class ;
+  rdfs:subClassOf <https://cwrusdle.bitbucket.io/mds#PostProcessing> ;
+  ns0:prefixIRI "mds:Rescaling"^^xsd:string ;
+  rdfs:label "Rescaling"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "Rescaling of images."^^xsd:string .
+
+<https://cwrusdle.bitbucket.io/mds#Resolution>
+  a owl:Class ;
+  rdfs:subClassOf ns1:ValueObject ;
+  ns0:prefixIRI "mds:Resolution"^^xsd:string ;
+  rdfs:label "Resolution"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "the smallest interval measurable by a scientific (especially optical) instrument"^^xsd:string .
+
+<https://cwrusdle.bitbucket.io/mds#ResultID>
+  a owl:Class ;
+  rdfs:subClassOf ns1:ProvidedIdentifier ;
+  ns0:prefixIRI "mds:ResultID"^^xsd:string ;
+  rdfs:label "ResultID"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "An identifier for the results."^^xsd:string .
+
+<https://cwrusdle.bitbucket.io/mds#RevenueGrade>
+  a owl:Class ;
+  rdfs:subClassOf <https://cwrusdle.bitbucket.io/mds#PhotovoltaicInverterProperty> ;
+  ns0:prefixIRI "mds:RevenueGrade"^^xsd:string ;
+  rdfs:label "RevenueGrade"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "Is the inverter revenue grade? (accuracy of 0.5% or better)"^^xsd:string .
+
+<https://cwrusdle.bitbucket.io/mds#RingPointFile>
+  a owl:Class ;
+  rdfs:subClassOf ns1:CalibrationDocument ;
+  ns0:prefixIRI "mds:RingPointFile"^^xsd:string ;
+  rdfs:label "RingPointFile"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "Ring point file of the detector."^^xsd:string .
+
+<https://cwrusdle.bitbucket.io/mds#RingSamplingMethod>
+  a owl:Class ;
+  rdfs:subClassOf <https://cwrusdle.bitbucket.io/mds#PostProcessing> ;
+  ns0:prefixIRI "mds:RingSamplingMethod"^^xsd:string ;
+  rdfs:label "RingSamplingMethod"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "The ring sampling method."^^xsd:string .
+
+<https://cwrusdle.bitbucket.io/mds#RmsFitQuality>
+  a owl:Class ;
+  rdfs:subClassOf ns1:ValueObject ;
+  ns0:prefixIRI "mds:RmsFitQuality"^^xsd:string ;
+  rdfs:label "RmsFitQuality"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "RMS fit quality of the detector."^^xsd:string .
+
+<https://cwrusdle.bitbucket.io/mds#RollingMethod>
+  a owl:Class ;
+  rdfs:subClassOf <https://cwrusdle.bitbucket.io/mds#Registration> ;
+  ns0:prefixIRI "mds:RollingMethod"^^xsd:string ;
+  rdfs:label "RollingMethod"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "The rolling method."^^xsd:string .
+
+<https://cwrusdle.bitbucket.io/mds#SampleAlignment>
+  a owl:Class ;
+  rdfs:subClassOf <https://cwrusdle.bitbucket.io/mds#Calibration> ;
+  ns0:prefixIRI "mds:SampleAlignment"^^xsd:string ;
+  rdfs:label "SampleAlignment"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "Alignment of the sample and stage."^^xsd:string .
+
+<https://cwrusdle.bitbucket.io/mds#SampleID>
+  a owl:Class ;
+  rdfs:subClassOf ns1:SpecimenName ;
+  ns0:prefixIRI "mds:SampleID"^^xsd:string ;
+  rdfs:label "SampleID"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "A human-labeled sample identifier."^^xsd:string .
+
+<https://cwrusdle.bitbucket.io/mds#SampleToLabAlignment>
+  a owl:Class ;
+  rdfs:subClassOf <https://cwrusdle.bitbucket.io/mds#SampleAlignment> ;
+  ns0:prefixIRI "mds:SampleToLabAlignment"^^xsd:string ;
+  rdfs:label "SampleToLabAlignment"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "Alignment of the sample in lab coordinates."^^xsd:string .
+
+<https://cwrusdle.bitbucket.io/mds#StackNumber>
+  a owl:Class ;
+  rdfs:subClassOf ns1:ProjectIdentifier ;
+  ns0:prefixIRI "mds:StackNumber"^^xsd:string ;
+  rdfs:label "StackNumber"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "The stack of the data."^^xsd:string .
+
+<https://cwrusdle.bitbucket.io/mds#StartEndTimeStamp>
+  a owl:Class ;
+  rdfs:subClassOf ns1:Time ;
+  ns0:prefixIRI "mds:StartEndTimeStamp"^^xsd:string ;
+  rdfs:label "StartEndTimeStamp"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "Start and end time stamp. "^^xsd:string ;
+  ns1:unit <http://qudt.org/2.1/vocab/unit#SEC> .
+
+<https://cwrusdle.bitbucket.io/mds#Station>
+  a owl:Class ;
+  rdfs:subClassOf ns1:Department ;
+  ns0:prefixIRI "mds:Station"^^xsd:string ;
+  rdfs:label "Station"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "Particular beamline within the facility."^^xsd:string .
+
+<https://cwrusdle.bitbucket.io/mds#Sync_cnt>
+  a owl:Class ;
+  rdfs:subClassOf <https://cwrusdle.bitbucket.io/mds#ParametersFAST> ;
+  ns0:prefixIRI "mds:Sync_cnt"^^xsd:string ;
+  rdfs:label "Sync_cnt"^^xsd:string ;
+  skos:altLabel ""^^xsd:string .
+
+<https://cwrusdle.bitbucket.io/mds#TestingSplit>
+  a owl:Class ;
+  rdfs:subClassOf <https://cwrusdle.bitbucket.io/mds#ModelingParameters> ;
+  ns0:prefixIRI "mds:TestingSplit"^^xsd:string ;
+  rdfs:label "TestingSplit"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "The testing split."^^xsd:string .
+
+<https://cwrusdle.bitbucket.io/mds#TextureMeasurement>
+  a owl:Class ;
+  rdfs:subClassOf <https://cwrusdle.bitbucket.io/mds#ExperimentType> ;
+  ns0:prefixIRI "mds:TextureMeasurement"^^xsd:string ;
+  rdfs:label "TextureMeasurement"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "An experiment to measure texture in a sample."^^xsd:string .
+
+<https://cwrusdle.bitbucket.io/mds#Thickness>
+  a owl:Class ;
+  rdfs:subClassOf <https://cwrusdle.bitbucket.io/mds#PhotovoltaicModuleProperty> ;
+  ns0:prefixIRI "mds:Thickness"^^xsd:string ;
+  rdfs:label "Thickness"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "Thickness of the module, not counting the framing"^^xsd:string ;
+  ns1:unit <http://qudt.org/2.1/vocab/unit#CentiM> .
+
+<https://cwrusdle.bitbucket.io/mds#ToolID>
+  a owl:Class ;
+  rdfs:subClassOf ns1:ProvidedIdentifier ;
+  ns0:prefixIRI "mds:ToolID"^^xsd:string ;
+  rdfs:label "ToolID"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "An identifier for the instrument."^^xsd:string .
+
+<https://cwrusdle.bitbucket.io/mds#Top_pzo>
+  a owl:Class ;
+  rdfs:subClassOf <https://cwrusdle.bitbucket.io/mds#ParametersFAST> ;
+  ns0:prefixIRI "mds:Top_pzo"^^xsd:string ;
+  rdfs:label "Top_pzo"^^xsd:string ;
+  skos:altLabel ""^^xsd:string .
+
+<https://cwrusdle.bitbucket.io/mds#Top_rota>
+  a owl:Class ;
+  rdfs:subClassOf <https://cwrusdle.bitbucket.io/mds#ParametersFAST> ;
+  ns0:prefixIRI "mds:Top_rota"^^xsd:string ;
+  rdfs:label "Top_rota"^^xsd:string ;
+  skos:altLabel ""^^xsd:string .
+
+<https://cwrusdle.bitbucket.io/mds#TotalHarmonicDistortionCurrent>
+  a owl:Class ;
+  rdfs:subClassOf <https://cwrusdle.bitbucket.io/mds#InverterOutput> ;
+  ns0:prefixIRI "mds:TotalHarmonicDistortionCurrent"^^xsd:string ;
+  rdfs:label "TotalHarmonicDistortionCurrent"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "Harmonic distortion of current"^^xsd:string .
+
+<https://cwrusdle.bitbucket.io/mds#TotalHarmonicDistortionPower>
+  a owl:Class ;
+  rdfs:subClassOf <https://cwrusdle.bitbucket.io/mds#InverterOutput> ;
+  ns0:prefixIRI "mds:TotalHarmonicDistortionPower"^^xsd:string ;
+  rdfs:label "TotalHarmonicDistortionPower"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "Total harmonic distortion of power"^^xsd:string ;
+  ns1:unit <http://qudt.org/2.1/vocab/unit#KiloW> .
+
+<https://cwrusdle.bitbucket.io/mds#TrackingAlgorithm>
+  a owl:Class ;
+  rdfs:subClassOf ns1:Algorithm ;
+  ns0:prefixIRI "mds:TrackingAlgorithm"^^xsd:string ;
+  rdfs:label "TrackingAlgorithm"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "If system is tracking, method used (truetracking, backtracking, diffuse tracking, etc)"^^xsd:string .
+
+<https://cwrusdle.bitbucket.io/mds#TrainingSplit>
+  a owl:Class ;
+  rdfs:subClassOf <https://cwrusdle.bitbucket.io/mds#ModelingParameters> ;
+  ns0:prefixIRI "mds:TrainingSplit"^^xsd:string ;
+  rdfs:label "TrainingSplit"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "The training split."^^xsd:string .
+
+<https://cwrusdle.bitbucket.io/mds#VersionNumber>
+  a owl:Class ;
+  rdfs:subClassOf ns1:SequenceNumber ;
+  ns0:prefixIRI "mds:VersionNumber"^^xsd:string ;
+  rdfs:label "VersionNumber"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "Version number of the method."^^xsd:string .
+
+<https://cwrusdle.bitbucket.io/mds#VoltageACMax>
+  a owl:Class ;
+  rdfs:subClassOf <https://cwrusdle.bitbucket.io/mds#InverterOutput> ;
+  ns0:prefixIRI "mds:VoltageACMax"^^xsd:string ;
+  rdfs:label "VoltageACMax"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "Maximum AC voltage "^^xsd:string ;
+  ns1:unit <http://qudt.org/2.1/vocab/unit#V> .
+
+<https://cwrusdle.bitbucket.io/mds#VoltageACMin>
+  a owl:Class ;
+  rdfs:subClassOf <https://cwrusdle.bitbucket.io/mds#InverterOutput> ;
+  ns0:prefixIRI "mds:VoltageACMin"^^xsd:string ;
+  rdfs:label "VoltageACMin"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "Minimum AC voltage"^^xsd:string ;
+  ns1:unit <http://qudt.org/2.1/vocab/unit#V> .
+
+<https://cwrusdle.bitbucket.io/mds#VoltageACNom>
+  a owl:Class ;
+  rdfs:subClassOf <https://cwrusdle.bitbucket.io/mds#InverterOutput> ;
+  ns0:prefixIRI "mds:VoltageACNom"^^xsd:string ;
+  rdfs:label "VoltageACNom"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "Nominal AC voltage"^^xsd:string ;
+  ns1:unit <http://qudt.org/2.1/vocab/unit#V> .
+
+<https://cwrusdle.bitbucket.io/mds#VoltageAtMaximumPower>
+  a owl:Class ;
+  rdfs:subClassOf <https://cwrusdle.bitbucket.io/mds#ModuleRatingAtReference> ;
+  ns0:prefixIRI "mds:VoltageAtMaximumPower"^^xsd:string ;
+  rdfs:label "VoltageAtMaximumPower"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "DC voltage at the maximum power point under STC"^^xsd:string ;
+  ns1:unit <http://qudt.org/2.1/vocab/unit#V> .
+
+<https://cwrusdle.bitbucket.io/mds#VoltageDCInverterStart>
+  a owl:Class ;
+  rdfs:subClassOf <https://cwrusdle.bitbucket.io/mds#PhotovoltaicInverterProperty> ;
+  ns0:prefixIRI "mds:VoltageDCInverterStart"^^xsd:string ;
+  rdfs:label "VoltageDCInverterStart"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "Turn-on input DC voltage required for inverter to output AC power"^^xsd:string ;
+  ns1:unit <http://qudt.org/2.1/vocab/unit#V> .
+
+<https://cwrusdle.bitbucket.io/mds#VoltageOpenCircuit>
+  a owl:Class ;
+  rdfs:subClassOf <https://cwrusdle.bitbucket.io/mds#ModuleRatingAtReference> ;
+  ns0:prefixIRI "mds:VoltageOpenCircuit"^^xsd:string ;
+  rdfs:label "VoltageOpenCircuit"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "Module open circuit voltage, maximum voltage the module can provide"^^xsd:string ;
+  ns1:unit <http://qudt.org/2.1/vocab/unit#V> .
+
+<https://cwrusdle.bitbucket.io/mds#WavelengthRange>
+  a owl:Class ;
+  rdfs:subClassOf ns1:WorkingRange ;
+  ns0:prefixIRI "mds:WavelengthRange"^^xsd:string ;
+  rdfs:label "WavelengthRange"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "The wavelength range the given beamline can operate in."^^xsd:string .
+
+<https://cwrusdle.bitbucket.io/mds#WavelengthUsed>
+  a owl:Class ;
+  rdfs:subClassOf ns1:Length ;
+  ns0:prefixIRI "mds:WavelengthUsed"^^xsd:string ;
+  rdfs:label "WavelengthUsed"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "The wavelength used for the experiment."^^xsd:string ;
+  ns1:unit <http://qudt.org/2.1/vocab/unit#ANGSTROM> .
+
+<https://cwrusdle.bitbucket.io/mds#Weight>
+  a owl:Class ;
+  rdfs:subClassOf <https://cwrusdle.bitbucket.io/mds#PhotovoltaicModuleProperty> ;
+  ns0:prefixIRI "mds:Weight"^^xsd:string ;
+  rdfs:label "Weight"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "Module weight"^^xsd:string ;
+  ns1:unit <http://qudt.org/2.1/vocab/unit#LB> .
+
+<https://cwrusdle.bitbucket.io/mds#Width>
+  a owl:Class ;
+  rdfs:subClassOf <https://cwrusdle.bitbucket.io/mds#PhotovoltaicModuleProperty> ;
+  ns0:prefixIRI "mds:Width"^^xsd:string ;
+  rdfs:label "Width"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "Width of module along shortest side"^^xsd:string ;
+  ns1:unit <http://qudt.org/2.1/vocab/unit#CentiM> .
+
+<https://cwrusdle.bitbucket.io/mds#XrayDetector>
+  a owl:Class ;
+  rdfs:subClassOf ns1:MeasuringDevice ;
+  ns0:prefixIRI "mds:XrayDetector"^^xsd:string ;
+  rdfs:label "XrayDetector"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "The detector used to capture the transmitted X-rays."^^xsd:string .
+
+<https://cwrusdle.bitbucket.io/mds#XrayRecipe>
+  a owl:Class ;
+  rdfs:subClassOf ns1:MeasuringProcess ;
+  ns0:prefixIRI "mds:XrayRecipe"^^xsd:string ;
+  rdfs:label "XrayRecipe"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "Th experimental setttings used to get a set of data."^^xsd:string .
+
+<https://cwrusdle.bitbucket.io/mds#XrayRecipeParameters>
+  a owl:Class ;
+  rdfs:subClassOf ns1:ValueObject ;
+  ns0:prefixIRI "mds:XrayRecipeParameters"^^xsd:string ;
+  rdfs:label "XrayRecipeParameters"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "Various parmeters of the testing equipment."^^xsd:string .
+
+<https://cwrusdle.bitbucket.io/mds#XrayResult>
+  a owl:Class ;
+  rdfs:subClassOf ns1:PrimaryData ;
+  ns0:prefixIRI "mds:XrayResult"^^xsd:string ;
+  rdfs:label "XrayResult"^^xsd:string ;
+  skos:altLabel ""^^xsd:string .
+
+<https://cwrusdle.bitbucket.io/mds#XraySample>
+  a owl:Class ;
+  rdfs:subClassOf ns1:Sample ;
+  ns0:prefixIRI "mds:XraySample"^^xsd:string ;
+  rdfs:label "XraySample"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  ns1:unit <http://qudt.org/2.1/vocab/unit#MilliM> .
+
+<https://cwrusdle.bitbucket.io/mds#XrayTool>
+  a owl:Class ;
+  rdfs:subClassOf ns1:ProcessingNode ;
+  ns0:prefixIRI "mds:XrayTool"^^xsd:string ;
+  rdfs:label "XrayTool"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "The instrument used to perform the experiment."^^xsd:string .
+
+<https://cwrusdle.bitbucket.io/mds#2-theta-pos>
+  a owl:Class ;
+  rdfs:subClassOf <https://cwrusdle.bitbucket.io/mds#Parameters1ID> ;
+  rdfs:label "2-theta-pos"^^xsd:string ;
+  skos:altLabel ""^^xsd:string .
+
+ns1:Algorithm
+  a owl:Class ;
+  rdfs:subClassOf owl:Thing ;
+  ns0:prefixIRI "pmd:Algorithm"^^xsd:string ;
+  rdfs:label "Algorithm"@en, "Algorithm"^^xsd:string, "Algorithmus"@de ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "A procedure for solving a mathematical problem (as of finding the greatest common divisor) in a finite number of steps that frequently involves repetition of an operation."@en .
+
+ns1:CalibrationDocument
+  a owl:Class ;
+  rdfs:subClassOf owl:Thing ;
+  ns0:prefixIRI "pmd:CalibrationDocument"^^xsd:string ;
+  rdfs:label "Calibration Document"@en, "CalibrationDocument"^^xsd:string, "Kalibrierschein"@de, "Kalibrierungsdokument"@de ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "Diese Entität beschreibt ein Dokument, welches Abweichungen eines Messgerätes oder einer Maßverkörperung gegenüber einem anderen Gerät oder einer anderen Maßverkörperung feststellt und dokumentiert. Typischerweise ist die Person, welche die Kalibrierung durchführte, angegeben."@de, "This entity describes a document used to state that a set of graduations to indicate values or positions has been performed. Typically, the calibration operator is included."@en .
+
+ns1:ComputingNode
+  a owl:Class ;
+  rdfs:subClassOf owl:Thing ;
+  ns0:prefixIRI "pmd:ComputingNode"^^xsd:string ;
+  rdfs:label "Computerknoten"@de, "Computing Node"@en, "ComputingNode"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition """A computing system that provides an execution environment for, e.g., simulation processes or prediction models.
+A Computing Node can be virtual (e.g., a container or virtual machine) or physical (e.g., a bare-metal servers), uses digital represenations of objects as inputs and produces digital measurements, such as simulation results or predictions, as outputs."""@en, """Ein Rechnersystem, das eine Ausführungsumgebung bspw. für Simulationsprozesse oder Vorhersagemodelle bereitstellt.
+Ein Rechenknoten kann virtuell (bspw. ein Container oder eine virtuelle Maschine) oder physisch (z. B. ein Bare-Metal-Server) ausgestaltet sein und verwendet in der Regel digitale Repräsentationen von Objekten als Eingaben und erzeugt digitale Messungen, wie z.B. Simulationsergebnisse oder Vorhersagen, als Ausgaben."""@de .
+
+ns1:DataAcquisitionRate
+  a owl:Class ;
+  rdfs:subClassOf owl:Thing ;
+  ns0:prefixIRI "pmd:DataAcquisitionRate"^^xsd:string ;
+  rdfs:label "Data Acquisition Rate"@en, "DataAcquisitionRate"^^xsd:string, "Datenerfassungsrate"@de ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "Diese Eigenschaft bezeichnet die Anzahl der Messungen / Abfragen pro Zeiteinheit bei einer betrachteten Messung einer Messgröße (Abtast-/Abfragerate bei der Datenerfassung)."@de, "This property denotes the number of measurements / queries per time period for a considered measurement of a measurement parameter (sampling / query rate during data acquisition)."@en .
+
+ns1:Department
+  a owl:Class ;
+  rdfs:subClassOf owl:Thing ;
+  ns0:prefixIRI "pmd:Department"^^xsd:string ;
+  rdfs:label "Abteilung"@de, "Department"@en, "Department"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "A sub section of an organization."@en .
+
+ns1:Description
+  a owl:Class ;
+  rdfs:subClassOf owl:Thing ;
+  ns0:prefixIRI "pmd:Description"^^xsd:string ;
+  rdfs:label "Beschreibung"@de, "Description"@en, "Description"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "A descriptive text qualifying the nature of a thing (e.g. agent, activity, entity, object, ...)."^^xsd:string, "Ein beschreibender Text, der die Natur / Beschaffenheit / Informationen zu einer Entität qualifiziert (z.B. Aktivitäten, Entitäten, Objekten, ...)."@de .
+
+ns1:Distance
+  a owl:Class ;
+  rdfs:subClassOf owl:Thing ;
+  ns0:prefixIRI "pmd:Distance"^^xsd:string ;
+  rdfs:label "Abstand"@de, "Distance"@en, "Distance"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "Spatial remoteness."@en .
+
+ns1:Force
+  a owl:Class ;
+  rdfs:subClassOf owl:Thing ;
+  ns0:prefixIRI "pmd:Force"^^xsd:string ;
+  rdfs:label "Force"@en, "Force"^^xsd:string, "Kraft"@de ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "Strength or energy exerted or brought to bear : cause of motion or change : active power."@en .
+
+ns1:Furnace
+  a owl:Class ;
+  rdfs:subClassOf owl:Thing ;
+  ns0:prefixIRI "pmd:Furnace"^^xsd:string ;
+  rdfs:label "Furnace"@en, "Furnace"^^xsd:string, "Ofen"@de ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "An enclosed structure in which heat is produced (as for heating a house or for reducing ore)."@en, "Eine geschlossene Struktur, in der Wärme erzeugt wird (z. B. zum Heizen eines Hauses oder zum Einschmelzen von Erz)."@de .
+
+ns1:Identifier
+  a owl:Class ;
+  rdfs:subClassOf owl:Thing ;
+  ns0:prefixIRI "pmd:Identifier"^^xsd:string ;
+  rdfs:label "Identifier"@en, "Identifier"^^xsd:string, "Identifikator"@de ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "A named value intended to distinguish between entities."@en .
+
+ns1:Image
+  a owl:Class ;
+  rdfs:subClassOf owl:Thing ;
+  ns0:prefixIRI "pmd:Image"^^xsd:string ;
+  rdfs:label "Bild"@de, "Image"@en, "Image"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "A visual representation of something"@en .
+
+ns1:Laboratory
+  a owl:Class ;
+  rdfs:subClassOf owl:Thing ;
+  ns0:prefixIRI "pmd:Laboratory"^^xsd:string ;
+  rdfs:label "Labor"@de, "Laboratory"@en, "Laboratory"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "A place equipped for experimental study in a science or for testing and analysis."@en .
+
+ns1:Length
+  a owl:Class ;
+  rdfs:subClassOf owl:Thing ;
+  ns0:prefixIRI "pmd:Length"^^xsd:string ;
+  rdfs:label "Length"@en, "Length"^^xsd:string, "Länge"@de ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "A measured distance or dimension of an object, usually the longer or longest dimension of the object."@en, "Eine gemessene Entfernung oder Abmessung eines Objekts, normalerweise die längere oder längste Abmessung des Objekts."@de .
+
+ns1:Location
+  a owl:Class ;
+  rdfs:subClassOf owl:Thing ;
+  ns0:prefixIRI "pmd:Location"^^xsd:string ;
+  rdfs:label "Location"@en, "Location"^^xsd:string, "Ort"@de ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "A position or site occupied or available for occupancy or marked by some distinguishing feature."@en, "Eine Position oder ein Ort, der besetzt ist oder besetzt werden kann oder durch ein bestimmtes Merkmal gekennzeichnet ist."@de .
+
+ns1:ManufacturingProcess
+  a owl:Class ;
+  rdfs:subClassOf owl:Thing ;
+  ns0:prefixIRI "pmd:ManufacturingProcess"^^xsd:string ;
+  rdfs:label "Herstellungsprozess"@de, "Manufacture Process"@en, "ManufacturingProcess"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "A process that is driven by the primary intent to transform objects."@en .
+
+ns1:MaterialDesignation
+  a owl:Class ;
+  rdfs:subClassOf owl:Thing ;
+  ns0:prefixIRI "pmd:MaterialDesignation"^^xsd:string ;
+  rdfs:label "Material Designation"@en, "MaterialDesignation"^^xsd:string, "Materialbezeichnung"@de ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition """It is a name or identifier of a material type. It designates a material. 
+E.g. "steel", "aluminium", "wood", "plastic", "rubber"."""^^xsd:string .
+
+ns1:MaterialProperty
+  a owl:Class ;
+  rdfs:subClassOf owl:Thing ;
+  ns0:prefixIRI "pmd:MaterialProperty"^^xsd:string ;
+  rdfs:label "Material Property"@en, "MaterialProperty"^^xsd:string, "Materialeigenschaft"@de ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "A materials property is an intensive property of a material, i.e., a physical property that does not depend on the amount of the material. These quantitative properties may be used as a metric by which the benefits of one material versus another can be compared, thereby aiding in materials selection."@en, "Eine Materialeigenschaft ist eine intensive Eigenschaft eines Materials, d. h. eine physikalische Eigenschaft, die nicht von der Menge des Materials abhängt. Diese quantitativen Eigenschaften können als Maßstab verwendet werden, um die Vorteile eines Materials mit denen eines anderen zu vergleichen und so die Materialauswahl zu erleichtern."@de .
+
+ns1:MeasuringDevice
+  a owl:Class ;
+  rdfs:subClassOf owl:Thing ;
+  ns0:prefixIRI "pmd:MeasuringDevice"^^xsd:string ;
+  rdfs:label "Measuring Device"@en, "MeasuringDevice"^^xsd:string, "Messgerät"@de ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "A processing node capable of determining a specific quality."^^xsd:string .
+
+ns1:MeasuringProcess
+  a owl:Class ;
+  rdfs:subClassOf owl:Thing ;
+  ns0:prefixIRI "pmd:MeasuringProcess"^^xsd:string ;
+  rdfs:label "Measuring Process"@en, "MeasuringProcess"^^xsd:string, "Messprozess"@de ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "A measurement process is an analysis process that acquires data (usually expressed in numbers) by using tools."@en .
+
+ns1:Medium
+  a owl:Class ;
+  rdfs:subClassOf owl:Thing ;
+  ns0:prefixIRI "pmd:Medium"^^xsd:string ;
+  rdfs:label "Medium"@de, "Medium"@en, "Medium"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "Substance that surrounds an object inside the system boundaries of a processing node."@en .
+
+ns1:Metadata
+  a owl:Class ;
+  rdfs:subClassOf owl:Thing ;
+  ns0:prefixIRI "pmd:Metadata"^^xsd:string ;
+  rdfs:label "Metadata"@en, "Metadata"^^xsd:string, "Metadaten"@de ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "Die DataScope Metadaten umfassen Attribute und zusätzliche Daten (Provenienz), die z.B. die Fabrik, das Labor, das Prozesssystem und die Objekte betreffen und die eine Bewertung der Qualität / Zuverlässigkeit der Messungen und eine systematische Suche in einer Datenbank ermöglichen."@de, "This data scope expresses that a :ValueObject refers to attributes and additional data (provenance) on production, laboratory, process system and objects that enable an evaluation of the quality/reliability of the measurements and a systematic search task in a database."@en .
+
+ns1:NodeSeries
+  a owl:Class ;
+  rdfs:subClassOf owl:Thing ;
+  ns0:prefixIRI "pmd:NodeSeries"^^xsd:string ;
+  rdfs:label "Node Series"@en, "NodeSeries"^^xsd:string, "Serie"@de ;
+  skos:altLabel ""^^xsd:string, "Knotentyp"@de, "Node Type"@en ;
+  skos:definition "Processing Node typename, e.g. \"ProTherm500\""@en .
+
+ns1:Optical
+  a owl:Class ;
+  rdfs:subClassOf owl:Thing ;
+  ns0:prefixIRI "pmd:Optical"^^xsd:string ;
+  rdfs:label "Optical"@en, "Optical"^^xsd:string, "Optisch"@de ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "Optical is relating to the science of optics. Here specifically to the optical properties of a material."@en, "Optisch bezieht sich auf die Wissenschaft der Optik. Hier speziell auf die optischen Eigenschaften eines Materials."@de .
+
+ns1:PrimaryData
+  a owl:Class ;
+  rdfs:subClassOf owl:Thing ;
+  ns0:prefixIRI "pmd:PrimaryData"^^xsd:string ;
+  rdfs:label "Primary Data"@en, "PrimaryData"^^xsd:string, "Primärdaten"@de ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "Die Datenkategorie Primärdaten umfasst Daten, die vor / nach einem Prozess erfasst werden, entweder bezogen auf die Geometrie des Objekts (z.B. ao, bo, do, au, bu, du, Lu) oder als Register des gesamten Aufbaus (z.B. Skizzen, Fotos oder Videos)"@de, "This data scope expresses that a ValueObject refers to data that is directly acquired during a process by sensors (time, force, length, temperature)"@en .
+
+ns1:Process
+  a owl:Class ;
+  rdfs:subClassOf owl:Thing ;
+  ns0:prefixIRI "pmd:Process"^^xsd:string ;
+  rdfs:label "Process"@en, "Process"^^xsd:string, "Prozess"@de ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "A process is an activity including a series of actions or operations conducing to an end. In PMD, a process is conducted via processing nodes and has a discernable duration as part of a workflow. A process consumes objects and parameters. A process potentially generates new objects and measurements."@en .
+
+ns1:ProcessingNode
+  a owl:Class ;
+  rdfs:subClassOf owl:Thing ;
+  ns0:prefixIRI "pmd:ProcessingNode"^^xsd:string ;
+  rdfs:label "Processing Node"@en, "ProcessingNode"^^xsd:string, "Prozessknoten"@de ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "Processing nodes are tools, equipment and accessories as well as software that are relevant for the performance of processes, such as e.g. mechanical and chemical test as well as simulation, prediction, and machine learning. Accordingly, processing nodes may be machines, parts of machines, and software applications."@en, "Prozessknoten sind Werkzeuge, Geräte und Zubehör sowie Software, die für die Durchführung von Prozessen relevant sind, wie z. B. mechanische und chemische Tests sowie Simulationen, Vorhersagen und maschinelles Lernen. Dementsprechend können Prozessknoten Maschinen, Teile von Maschinen und Softwareanwendungen sein."@de .
+
+ns1:ProjectIdentifier
+  a owl:Class ;
+  rdfs:subClassOf owl:Thing ;
+  ns0:prefixIRI "pmd:ProjectIdentifier"^^xsd:string ;
+  rdfs:label "Project Identifier"@en, "ProjectIdentifier"^^xsd:string, "Projektidentifikator"@de ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "A colloquial, human-generated, descriptive text qualifying the nature of a project."@en, "Ein umgangssprachlicher, von Menschen erstellter, beschreibender Text, der die Art eines Projekts qualifiziert."@de .
+
+ns1:ProvidedIdentifier
+  a owl:Class ;
+  rdfs:subClassOf owl:Thing ;
+  ns0:prefixIRI "pmd:ProvidedIdentifier"^^xsd:string ;
+  rdfs:label "Bereitgestellter Identifikator"@de, "Provided Identifier"@en, "ProvidedIdentifier"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "A colloquial, human-generated descriptor."@en .
+
+ns1:Sample
+  a owl:Class ;
+  rdfs:subClassOf owl:Thing ;
+  ns0:prefixIRI "pmd:Sample"^^xsd:string ;
+  rdfs:label "Probe"@de, "Sample"@en, "Sample"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "Portion of material, usually selected from a larger quantity of material, collected and taken away for testing"@en .
+
+ns1:SequenceNumber
+  a owl:Class ;
+  rdfs:subClassOf owl:Thing ;
+  ns0:prefixIRI "pmd:SequenceNumber"^^xsd:string ;
+  rdfs:label "Sequence Number"@en, "SequenceNumber"^^xsd:string, "Sequenznummer"@de ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "Strict monotonically increasing integer that indicates the position in an ordered list."@en .
+
+ns1:SpecimenName
+  a owl:Class ;
+  rdfs:subClassOf owl:Thing ;
+  ns0:prefixIRI "pmd:SpecimenName"^^xsd:string ;
+  rdfs:label "Prüfstück Name"@de, "Specimen Name"@en, "SpecimenName"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "Diese Eigenschaft beschreibt die Bezeichnung eines Prüfstücks, die in der Regel von Menschen als von Menschen lesbarer Identifikator vergeben wird."@de, "This property describes the designation of a specimen, usually given as human-readable identifier by humans."@de .
+
+ns1:Thickness
+  a owl:Class ;
+  rdfs:subClassOf owl:Thing ;
+  ns0:prefixIRI "pmd:Thickness"^^xsd:string ;
+  rdfs:label "Dicke"@de, "Thickness"@en, "Thickness"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "Diese Entität beschreibt die gemessene Dimension in einer Richtung eines Prüfstücks."@de, "Thickness of the sample."^^xsd:string, "This entity describes the measured dimension in one direction of a test piece."@en ;
+  ns1:unit <http://qudt.org/2.1/vocab/unit#MilliM> .
+
+ns1:Time
+  a owl:Class ;
+  rdfs:subClassOf owl:Thing ;
+  ns0:prefixIRI "pmd:Time"^^xsd:string ;
+  rdfs:label "Time"@en, "Time"^^xsd:string, "Zeit"@de ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "A nonspatial continuum that is measured in terms of events which succeed one another from past through present to future."@en .
+
+ns1:ValueObject
+  a owl:Class ;
+  rdfs:subClassOf owl:Thing ;
+  ns0:prefixIRI "pmd:ValueObject"^^xsd:string ;
+  rdfs:label "Value Object"@en, "ValueObject"^^xsd:string, "Wertobjekt"@de ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition """A :ValueObject is an entity which represents a specific value. This value can be a numerical, textual, or a more complex data structure. If a literal value is to be specified, the :value datatype property has to be used. In cases where the value is represented by a resource (e.g. URI), the :resource object property has to be used.
+
+A value object, respectively its value, is always associated with an entity of type :Process, :ProcessingNode, :Object (e.g. :Specimen), :DigitalEntity, :Project, or other :ValueObject. The value is meant to be a charactaristic of the associated entity. To express this association it is indended to use the :characteristic object property if the value decribes some \\"quality\\", or the :participant (:input,:output) if it is participating a process.
+
+A value object might also refer to a unit. The :unit property might be used (e.g. with QUDT ontology).
+
+Instances of a value object might also be a type of :ValueScope, namely a :SetPoint (nominal value), or :Measurement (measured value). With :Setpoint the intend is to express, that the value is meant to be some preset, setting or nominal value. :Measurement expresses, that the value has been measured or determined somehow (see example).
+
+Instances of a value object might also be specified in a specific :DataScope (:Metadata, :PrimaryData, :SecondaryData)."""@en .
+
+ns1:Width
+  a owl:Class ;
+  rdfs:subClassOf owl:Thing ;
+  ns0:prefixIRI "pmd:Width"^^xsd:string ;
+  rdfs:label "Breite"@de, "Width"@en, "Width"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "Diese Entität bezeichnet eine horizontale Messung, die im rechten Winkel zur Länge eines Objekts vorgenommen wird."@de, "This entity describes a horizontal measurement of an object taken at right angles to the length of the object."@en .
+
+ns1:WorkingRange
+  a owl:Class ;
+  rdfs:subClassOf owl:Thing ;
+  ns0:prefixIRI "pmd:WorkingRange"^^xsd:string ;
+  rdfs:label "Arbeitsbereich"@de, "Working Range"@en, "WorkingRange"^^xsd:string ;
+  skos:altLabel ""^^xsd:string ;
+  skos:definition "Diese Eigenschaft beschreibt den Bereich zwischen den Grenzen, innerhalb derer ein Prozessknoten (z. B. eine Maschine) für ihren vorgesehenen Zweck verwendet werden kann, ausgedrückt durch die Angabe der in Rede stehenden unteren und oberen Bereichswerte."@de, "This property describes the region between the limits within which a processing node (e.g., a machine) is capable of being used for its intended purpose, expressed by stating the lower and upper range values of interest."@en .
+
+<http://bioportal.bioontology.org/ontologies/versionSubject> owl:versionInfo "0.2.0.5"^^xsd:string .
+<https://cwrusdle.bitbucket.io/mds#Ontology>
+  dc:creator "Alexander C. Harding Bradley"^^xsd:string, "Balashanmuga Priyan Rajamohan"^^xsd:string, "Erika I. Barcelos"^^xsd:string, "Finley Holt"^^xsd:string, "Frank Ernst"^^xsd:string, "Matthew Willard"^^xsd:string, "Mohommad Redad Mehdi"^^xsd:string, "Pawan K. Tripathi"^^xsd:string, "Roger H. French"^^xsd:string, "Weiqi Yue"^^xsd:string ;
+  dc:description "The Materials Data Science Ontology"^^xsd:string ;
+  dc:title "mds"^^xsd:string ;
+  rdfs:label "mds"^^xsd:string ;
+  owl:versionInfo "0.2.0.5"^^xsd:string .
+
+[]
+  a owl:Ontology ;
+  dc:creator "Alexander C. Harding Bradley"^^xsd:string, "Balashanmuga Priyan Rajamohan"^^xsd:string, "Erika I. Barcelos"^^xsd:string, "Finley Holt"^^xsd:string, "Frank Ernst"^^xsd:string, "Matthew Willard"^^xsd:string, "Mohommad Redad Mehdi"^^xsd:string, "Pawan K. Tripathi"^^xsd:string, "Roger H. French"^^xsd:string, "Weiqi Yue"^^xsd:string ;
+  dc:description "The Materials Data Science Ontology"^^xsd:string ;
+  dc:title "mds"^^xsd:string ;
+  rdfs:label "mds"^^xsd:string ;
+  owl:versionInfo "0.2.0.5"^^xsd:string .
