@@ -1,0 +1,20 @@
+Subject,Predicate,Object
+drug,type,Class
+drug,subClassOf,ChemicalSubstance
+drug,subClassOf,Blank Node
+Blank Node,type,Restriction
+Blank Node,onProperty,hasCapability
+Blank Node,someValuesFrom,Blank Node
+Blank Node,type,Class
+Blank Node,intersectionOf,Blank Node
+Blank Node,first,ToRegulate
+Blank Node,rest,Blank Node
+Blank Node,first,Blank Node
+Blank Node,type,Restriction
+Blank Node,onProperty,inRelationTo
+Blank Node,someValuesFrom,BiologicalEntity
+Blank Node,rest,nil
+drug,prefixIRI,sio:Drug
+drug,description,A drug is a chemical substance that contains one or more active ingredients that regulate one or more biological processes.
+drug,isDefinedBy,sio-subset-labels.owl
+drug,label,drug
