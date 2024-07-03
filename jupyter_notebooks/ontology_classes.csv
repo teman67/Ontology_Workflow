@@ -1,1 +1,2 @@
-../Ontologies/materialsmine_converted.ttl,http://semanticscience.org/resource/Drug,drug,A drug is a chemical substance that contains one or more active ingredients that regulate one or more biological processes.
+http://materialsmine.org/ns/Compression,Compression,Describing countervailing forces applied inward along the central axis of a material.
+http://materialsmine.org/ns/Stress,Stress,"When a material is loaded with a force, it produces a stress, which then causes a material to deform. "
