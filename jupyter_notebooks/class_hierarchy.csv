@@ -1,16 +1,78 @@
 Class URI,Class Name,Class Description,Relation Type,Related Class URI,Related Class Name,Related Class Description,File
-http://materialsmine.org/ns/Compression,Compression,Describing countervailing forces applied inward along the central axis of a material.,subClassOf,http://materialsmine.org/ns/ViscoelasticProperty,Viscoelastic Property,Properties of materials that exhibit both viscous and elastic behaviors,Properties of materials that exhibit both viscous and elastic behaviors
-http://materialsmine.org/ns/ViscoelasticProperty,Viscoelastic Property,Properties of materials that exhibit both viscous and elastic behaviors,subClassOf,http://semanticscience.org/resource/Quantity,Amount,A quantity is an informational entity that gives the magnitude of a property.,A quantity is an informational entity that gives the magnitude of a property.
-http://semanticscience.org/resource/Quantity,Amount,A quantity is an informational entity that gives the magnitude of a property.,subClassOf,http://semanticscience.org/resource/MeasurementValue,measurement value,A measurement value is a quantitative description that reflects the magnitude of some attribute.,A measurement value is a quantitative description that reflects the magnitude of some attribute.
-http://semanticscience.org/resource/MeasurementValue,measurement value,A measurement value is a quantitative description that reflects the magnitude of some attribute.,subClassOf,http://semanticscience.org/resource/Number,number,A number is a tensor of rank 0.,A number is a tensor of rank 0.
-http://semanticscience.org/resource/Number,number,A number is a tensor of rank 0.,subClassOf,http://semanticscience.org/resource/Scalar,scalar,a scalar is a rank 0 tensor and is an element of a field that is used to define a vector space.,a scalar is a rank 0 tensor and is an element of a field that is used to define a vector space.
-http://semanticscience.org/resource/Scalar,scalar,a scalar is a rank 0 tensor and is an element of a field that is used to define a vector space.,subClassOf,http://semanticscience.org/resource/Tensor,tensor,a tensor is a n-dimensional array.,a tensor is a n-dimensional array.
-http://semanticscience.org/resource/Tensor,tensor,a tensor is a n-dimensional array.,subClassOf,http://semanticscience.org/resource/MathematicalEntity,mathematical entity,A mathematical entity is an information content entity that are components of a mathematical system or can be defined in mathematical terms.,A mathematical entity is an information content entity that are components of a mathematical system or can be defined in mathematical terms.
-http://semanticscience.org/resource/MathematicalEntity,mathematical entity,A mathematical entity is an information content entity that are components of a mathematical system or can be defined in mathematical terms.,subClassOf,http://semanticscience.org/resource/InformationContentEntity,information content entity,information content entity is an object that requires some background knowledge or procedure to correctly interpret.,information content entity is an object that requires some background knowledge or procedure to correctly interpret.
-http://semanticscience.org/resource/InformationContentEntity,information content entity,information content entity is an object that requires some background knowledge or procedure to correctly interpret.,subClassOf,http://semanticscience.org/resource/Object,object,An object is an entity that is wholly identifiable at any instant of time during which it exists.,An object is an entity that is wholly identifiable at any instant of time during which it exists.
+https://w3id.org/emmo#EMMO_4207e895_8b83_4318_996a_72cfb32acd94,Material,,subClassOf,https://w3id.org/emmo#EMMO_6e9cb807_fc68_4bcf_b3ba_5fccc887c644,OrdinaryMatter,,
+https://w3id.org/emmo#EMMO_4207e895_8b83_4318_996a_72cfb32acd94,Material,,subClassOf,https://w3id.org/emmo#EMMO_bc37743c_37c4_4ec7_9d58_d1aae5567352,Substance,,
+https://w3id.org/emmo#EMMO_bc37743c_37c4_4ec7_9d58_d1aae5567352,Substance,,subClassOf,https://w3id.org/emmo#EMMO_57d977ab_0036_4779_b59a_e47620afdb9c,CompositePhysicalObject,,
+https://w3id.org/emmo#EMMO_bc37743c_37c4_4ec7_9d58_d1aae5567352,Substance,,subClassOf,https://w3id.org/emmo#EMMO_5b2222df_4da6_442f_8244_96e9e45887d1,PhysicalSubstance,,
+https://w3id.org/emmo#EMMO_5b2222df_4da6_442f_8244_96e9e45887d1,PhysicalSubstance,,subClassOf,https://w3id.org/emmo#EMMO_38b579de_4331_40e0_803d_09efa298e726,PhysicalObject,,
+https://w3id.org/pmd/co/Stiffness,Stiffness,"Die Steifigkeit ist das Maß, bis zu dem ein Objekt einer Verformung als Reaktion auf eine einwirkende Kraft widersteht. Stiffness is the extent to which an object resists deformation in response to an applied force.",subClassOf,https://w3id.org/pmd/co/ValueObject,Value Object,"A :ValueObject is a simple entity which represents a specific value. This value can be a numerical, textual, or a more complex data structure. If a literal value is to be specified, the :value datatype property has to be used. In cases where the value is represented by a resource (e.g. URI), the :resource object property has to be used.
+
+A value object, respectively its value, is always associated with an entity of type :Process, :ProcessingNode, or :Object (e.g. :Specimen). The value is meant to be a charactaristic of the associated entity. To express this association it is indended to use the :participant object property.
+
+A value object might also refer to a certain unit. The :unit property might be used (e.g. with QUDT ontology).
+
+Instances of a value object might be specified as a specific Parameter, namely a SetPoint (nominal value), or Measurement. With :Setpoint the intend is to express, that the value is meant to be some preset, setting or nominal value. :Measurement expresses, that the value has been measured or determined somehow (see example).
+
+Instances of a value object might also be specified in a specific DataScope (:Metadata, :PrimaryData, :SecondaryData).","A :ValueObject is a simple entity which represents a specific value. This value can be a numerical, textual, or a more complex data structure. If a literal value is to be specified, the :value datatype property has to be used. In cases where the value is represented by a resource (e.g. URI), the :resource object property has to be used.
+
+A value object, respectively its value, is always associated with an entity of type :Process, :ProcessingNode, or :Object (e.g. :Specimen). The value is meant to be a charactaristic of the associated entity. To express this association it is indended to use the :participant object property.
+
+A value object might also refer to a certain unit. The :unit property might be used (e.g. with QUDT ontology).
+
+Instances of a value object might be specified as a specific Parameter, namely a SetPoint (nominal value), or Measurement. With :Setpoint the intend is to express, that the value is meant to be some preset, setting or nominal value. :Measurement expresses, that the value has been measured or determined somehow (see example).
+
+Instances of a value object might also be specified in a specific DataScope (:Metadata, :PrimaryData, :SecondaryData)."
+https://w3id.org/pmd/co/ValueObject,Value Object,"A :ValueObject is a simple entity which represents a specific value. This value can be a numerical, textual, or a more complex data structure. If a literal value is to be specified, the :value datatype property has to be used. In cases where the value is represented by a resource (e.g. URI), the :resource object property has to be used.
+
+A value object, respectively its value, is always associated with an entity of type :Process, :ProcessingNode, or :Object (e.g. :Specimen). The value is meant to be a charactaristic of the associated entity. To express this association it is indended to use the :participant object property.
+
+A value object might also refer to a certain unit. The :unit property might be used (e.g. with QUDT ontology).
+
+Instances of a value object might be specified as a specific Parameter, namely a SetPoint (nominal value), or Measurement. With :Setpoint the intend is to express, that the value is meant to be some preset, setting or nominal value. :Measurement expresses, that the value has been measured or determined somehow (see example).
+
+Instances of a value object might also be specified in a specific DataScope (:Metadata, :PrimaryData, :SecondaryData).",subClassOf,http://www.w3.org/ns/prov#Entity,,,
+https://w3id.org/pmd/co/ValueObject,Value Object,"A :ValueObject is a simple entity which represents a specific value. This value can be a numerical, textual, or a more complex data structure. If a literal value is to be specified, the :value datatype property has to be used. In cases where the value is represented by a resource (e.g. URI), the :resource object property has to be used.
+
+A value object, respectively its value, is always associated with an entity of type :Process, :ProcessingNode, or :Object (e.g. :Specimen). The value is meant to be a charactaristic of the associated entity. To express this association it is indended to use the :participant object property.
+
+A value object might also refer to a certain unit. The :unit property might be used (e.g. with QUDT ontology).
+
+Instances of a value object might be specified as a specific Parameter, namely a SetPoint (nominal value), or Measurement. With :Setpoint the intend is to express, that the value is meant to be some preset, setting or nominal value. :Measurement expresses, that the value has been measured or determined somehow (see example).
+
+Instances of a value object might also be specified in a specific DataScope (:Metadata, :PrimaryData, :SecondaryData).",equivalentClass,Complex class expression,,,Complex class expression
+http://materialsmine.org/ns/Particle,Particle,"particles between 1 and 100 nanometers in size. In nanotechnology, a particle is defined as a small object that behaves as a whole unit with respect to its transport and properties.",subClassOf,http://materialsmine.org/ns/Nanomaterial,Nanomaterial,materials of which a single unit is sized (in at least one dimension) between 1 and 1000 nanometres (10−9 meter) but is usually 1—100 nm,materials of which a single unit is sized (in at least one dimension) between 1 and 1000 nanometres (10−9 meter) but is usually 1—100 nm
+http://materialsmine.org/ns/Nanomaterial,Nanomaterial,materials of which a single unit is sized (in at least one dimension) between 1 and 1000 nanometres (10−9 meter) but is usually 1—100 nm,subClassOf,http://semanticscience.org/resource/MaterialEntity,Material Entity,"A material entity is a physical entity that is spatially extended, exists as a whole at any point in time and has mass. A material entity is a physical entity that is spatially extended, exists as a whole at any point in time and has mass.","A material entity is a physical entity that is spatially extended, exists as a whole at any point in time and has mass. A material entity is a physical entity that is spatially extended, exists as a whole at any point in time and has mass."
+http://semanticscience.org/resource/MaterialEntity,Material Entity,"A material entity is a physical entity that is spatially extended, exists as a whole at any point in time and has mass. A material entity is a physical entity that is spatially extended, exists as a whole at any point in time and has mass.",subClassOf,http://semanticscience.org/resource/Object,object,An object is an entity that is wholly identifiable at any instant of time during which it exists.,An object is an entity that is wholly identifiable at any instant of time during which it exists.
+https://w3id.org/emmo#EMMO_6f5af708_f825_4feb_a0d1_a8d813d3022b,Object,"Here is assumed that the concept of 'object' is always relative to a 'semiotic' process. An 'object' does not exists per se, but it's always part of an interpretation.
+
+The EMMO relies on strong reductionism, i.e. everything real is a formless collection of elementary particles: we give a meaning to real world entities only by giving them boundaries and defining them using 'sign'-s.
+
+In this way the 'sign'-ed entity becomes an 'object', and the 'object' is the basic entity needed in order to apply a logical formalism to the real world entities (i.e. we can speak of it through its sign, and use logics on it through its sign).",equivalentClass,Complex class expression,,,Complex class expression
+https://w3id.org/pmd/co/Object,Object,"A discernable, tangible or simulated entity that is processed in a process by a processing node.",subClassOf,http://www.w3.org/ns/prov#Entity,,,
 http://semanticscience.org/resource/Object,object,An object is an entity that is wholly identifiable at any instant of time during which it exists.,subClassOf,http://semanticscience.org/resource/Entity,entity,Every thing is an entity.,Every thing is an entity.
 http://semanticscience.org/resource/Entity,entity,Every thing is an entity.,subClassOf,http://www.w3.org/2002/07/owl#Thing,,,
-http://semanticscience.org/resource/Quantity,Amount,A quantity is an informational entity that gives the magnitude of a property.,equivalentClass,Complex class expression,,,Complex class expression
+https://w3id.org/emmo#EMMO_5d659e25_a508_43ed_903c_3707c7c7cd4b,NanoMaterial,,subClassOf,https://w3id.org/emmo#EMMO_e4e80813_f379_4091_b017_ee059811f806,SizeDefinedMaterial,,
+https://w3id.org/emmo#EMMO_e4e80813_f379_4091_b017_ee059811f806,SizeDefinedMaterial,,subClassOf,https://w3id.org/emmo#EMMO_4207e895_8b83_4318_996a_72cfb32acd94,Material,,
+https://w3id.org/emmo#EMMO_4207e895_8b83_4318_996a_72cfb32acd94,Material,,subClassOf,https://w3id.org/emmo#EMMO_6e9cb807_fc68_4bcf_b3ba_5fccc887c644,OrdinaryMatter,,
+https://w3id.org/emmo#EMMO_4207e895_8b83_4318_996a_72cfb32acd94,Material,,subClassOf,https://w3id.org/emmo#EMMO_bc37743c_37c4_4ec7_9d58_d1aae5567352,Substance,,
+https://w3id.org/emmo#EMMO_bc37743c_37c4_4ec7_9d58_d1aae5567352,Substance,,subClassOf,https://w3id.org/emmo#EMMO_57d977ab_0036_4779_b59a_e47620afdb9c,CompositePhysicalObject,,
+https://w3id.org/emmo#EMMO_bc37743c_37c4_4ec7_9d58_d1aae5567352,Substance,,subClassOf,https://w3id.org/emmo#EMMO_5b2222df_4da6_442f_8244_96e9e45887d1,PhysicalSubstance,,
+https://w3id.org/emmo#EMMO_5b2222df_4da6_442f_8244_96e9e45887d1,PhysicalSubstance,,subClassOf,https://w3id.org/emmo#EMMO_38b579de_4331_40e0_803d_09efa298e726,PhysicalObject,,
+https://w3id.org/pmd/co/Particle,Particle,"A particle is a small localized object to which can be ascribed several physical or chemical properties, such as volume, density, or mass.",subClassOf,https://w3id.org/pmd/co/Object,Object,"A discernable, tangible or simulated entity that is processed in a process by a processing node.","A discernable, tangible or simulated entity that is processed in a process by a processing node."
+https://w3id.org/emmo#EMMO_6f5af708_f825_4feb_a0d1_a8d813d3022b,Object,"Here is assumed that the concept of 'object' is always relative to a 'semiotic' process. An 'object' does not exists per se, but it's always part of an interpretation.
+
+The EMMO relies on strong reductionism, i.e. everything real is a formless collection of elementary particles: we give a meaning to real world entities only by giving them boundaries and defining them using 'sign'-s.
+
+In this way the 'sign'-ed entity becomes an 'object', and the 'object' is the basic entity needed in order to apply a logical formalism to the real world entities (i.e. we can speak of it through its sign, and use logics on it through its sign).",equivalentClass,Complex class expression,,,Complex class expression
+https://w3id.org/pmd/co/Object,Object,"A discernable, tangible or simulated entity that is processed in a process by a processing node.",subClassOf,http://www.w3.org/ns/prov#Entity,,,
+http://semanticscience.org/resource/Object,object,An object is an entity that is wholly identifiable at any instant of time during which it exists.,subClassOf,http://semanticscience.org/resource/Entity,entity,Every thing is an entity.,Every thing is an entity.
+http://semanticscience.org/resource/Entity,entity,Every thing is an entity.,subClassOf,http://www.w3.org/2002/07/owl#Thing,,,
+http://semanticscience.org/resource/ChemicalReaction,chemical reaction,A chemical reaction is a process that leads to the transformation of one set of chemical substances to another.,subClassOf,http://semanticscience.org/resource/ChemicalInteraction,chemical interaction,A chemical interaction is a biochemical process in which chemical entities interact through some set of attractive forces.,A chemical interaction is a biochemical process in which chemical entities interact through some set of attractive forces.
+http://semanticscience.org/resource/ChemicalInteraction,chemical interaction,A chemical interaction is a biochemical process in which chemical entities interact through some set of attractive forces.,subClassOf,http://semanticscience.org/resource/Interacting,interacting,interacting is a process characterized by the interaction between two or more entities.,interacting is a process characterized by the interaction between two or more entities.
+http://semanticscience.org/resource/Interacting,interacting,interacting is a process characterized by the interaction between two or more entities.,subClassOf,http://semanticscience.org/resource/Process,process,"A process is an entity that is identifiable only through the unfolding of time, has temporal parts, and unless otherwise specified/predicted, cannot be identified from any instant of time in which it exists.","A process is an entity that is identifiable only through the unfolding of time, has temporal parts, and unless otherwise specified/predicted, cannot be identified from any instant of time in which it exists."
+https://w3id.org/pmd/co/Process,Process,"A series of actions or operations conducing to an end
+In PMD, a process is conducted via processing nodes and has a discernable duration as part of a workflow. A process consumes objects and parameters. A process potentially generates new objects and measurements. A process is either a transformative process or a non-transformative process with respect to objects processed via a processing node. There are primarily two types of distinguishable processes: manufacture process, analysis process. A process is a series of operations that are subordinate processes.",subClassOf,http://www.w3.org/ns/prov#Activity,,,
+http://semanticscience.org/resource/Process,process,"A process is an entity that is identifiable only through the unfolding of time, has temporal parts, and unless otherwise specified/predicted, cannot be identified from any instant of time in which it exists.",subClassOf,http://semanticscience.org/resource/Entity,entity,Every thing is an entity.,Every thing is an entity.
+http://semanticscience.org/resource/Entity,entity,Every thing is an entity.,subClassOf,http://www.w3.org/2002/07/owl#Thing,,,
 http://materialsmine.org/ns/Stress,Stress,"When a material is loaded with a force, it produces a stress, which then causes a material to deform. ",subClassOf,http://materialsmine.org/ns/MechanicalProperty,Mechanical Property,A materials property related to the response of a material under some external applied load.,A materials property related to the response of a material under some external applied load.
 http://materialsmine.org/ns/MechanicalProperty,Mechanical Property,A materials property related to the response of a material under some external applied load.,subClassOf,http://semanticscience.org/resource/Quantity,Amount,A quantity is an informational entity that gives the magnitude of a property.,A quantity is an informational entity that gives the magnitude of a property.
 http://semanticscience.org/resource/Quantity,Amount,A quantity is an informational entity that gives the magnitude of a property.,subClassOf,http://semanticscience.org/resource/MeasurementValue,measurement value,A measurement value is a quantitative description that reflects the magnitude of some attribute.,A measurement value is a quantitative description that reflects the magnitude of some attribute.
@@ -20,6 +82,372 @@ http://semanticscience.org/resource/Scalar,scalar,a scalar is a rank 0 tensor an
 http://semanticscience.org/resource/Tensor,tensor,a tensor is a n-dimensional array.,subClassOf,http://semanticscience.org/resource/MathematicalEntity,mathematical entity,A mathematical entity is an information content entity that are components of a mathematical system or can be defined in mathematical terms.,A mathematical entity is an information content entity that are components of a mathematical system or can be defined in mathematical terms.
 http://semanticscience.org/resource/MathematicalEntity,mathematical entity,A mathematical entity is an information content entity that are components of a mathematical system or can be defined in mathematical terms.,subClassOf,http://semanticscience.org/resource/InformationContentEntity,information content entity,information content entity is an object that requires some background knowledge or procedure to correctly interpret.,information content entity is an object that requires some background knowledge or procedure to correctly interpret.
 http://semanticscience.org/resource/InformationContentEntity,information content entity,information content entity is an object that requires some background knowledge or procedure to correctly interpret.,subClassOf,http://semanticscience.org/resource/Object,object,An object is an entity that is wholly identifiable at any instant of time during which it exists.,An object is an entity that is wholly identifiable at any instant of time during which it exists.
+https://w3id.org/emmo#EMMO_6f5af708_f825_4feb_a0d1_a8d813d3022b,Object,"Here is assumed that the concept of 'object' is always relative to a 'semiotic' process. An 'object' does not exists per se, but it's always part of an interpretation.
+
+The EMMO relies on strong reductionism, i.e. everything real is a formless collection of elementary particles: we give a meaning to real world entities only by giving them boundaries and defining them using 'sign'-s.
+
+In this way the 'sign'-ed entity becomes an 'object', and the 'object' is the basic entity needed in order to apply a logical formalism to the real world entities (i.e. we can speak of it through its sign, and use logics on it through its sign).",equivalentClass,Complex class expression,,,Complex class expression
+https://w3id.org/pmd/co/Object,Object,"A discernable, tangible or simulated entity that is processed in a process by a processing node.",subClassOf,http://www.w3.org/ns/prov#Entity,,,
+http://semanticscience.org/resource/Object,object,An object is an entity that is wholly identifiable at any instant of time during which it exists.,subClassOf,http://semanticscience.org/resource/Entity,entity,Every thing is an entity.,Every thing is an entity.
+http://semanticscience.org/resource/Entity,entity,Every thing is an entity.,subClassOf,http://www.w3.org/2002/07/owl#Thing,,,
+http://semanticscience.org/resource/Quantity,Amount,A quantity is an informational entity that gives the magnitude of a property.,equivalentClass,Complex class expression,,,Complex class expression
+https://w3id.org/emmo#EMMO_d1917609_db5e_4b8a_9b76_ef1d6f860a81,Stress,Force per unit oriented surface area . Measure of the internal forces that neighboring particles of a continuous material exert on each other.,subClassOf,https://w3id.org/emmo#EMMO_2946d40b_24a1_47fa_8176_e3f79bb45064,ISQDerivedQuantity,,
+https://w3id.org/emmo#EMMO_2946d40b_24a1_47fa_8176_e3f79bb45064,ISQDerivedQuantity,,subClassOf,https://w3id.org/emmo#EMMO_71f6ab56_342c_484b_bbe0_de86b7367cb3,DerivedQuantity,,
+https://w3id.org/emmo#EMMO_2946d40b_24a1_47fa_8176_e3f79bb45064,ISQDerivedQuantity,,subClassOf,https://w3id.org/emmo#EMMO_f35cff4d_dc09_44cf_a729_22fb79e3bfb2,InternationalSystemOfQuantity,,
+https://w3id.org/emmo#EMMO_f35cff4d_dc09_44cf_a729_22fb79e3bfb2,InternationalSystemOfQuantity,,subClassOf,https://w3id.org/emmo#EMMO_9c407ac0_fd4c_4178_8763_95fad9fe29ec,StandardizedPhysicalQuantity,,
+https://w3id.org/emmo#EMMO_9c407ac0_fd4c_4178_8763_95fad9fe29ec,StandardizedPhysicalQuantity,,subClassOf,https://w3id.org/emmo#EMMO_02c0621e_a527_4790_8a0f_2bb51973c819,PhysicalQuantity,"In the same system of quantities, dim ρB = ML−3 is the quantity dimension of mass concentration of component B, and ML−3 is also the quantity dimension of mass density, ρ.
+ISO 80000-1 Measured or simulated 'physical propertiy'-s are always defined by a physical law, connected to a physical entity through a model perspective and measurement is done according to the same model.
+
+Systems of units suggests that this is the correct approach, since except for the fundamental units (length, time, charge) every other unit is derived by mathematical relations between these fundamental units, implying a physical laws or definitions. Measurement units of quantities of the same quantity dimension may be designated by the same name and symbol even when the quantities are not of the same kind.
+
+For example, joule per kelvin and J/K are respectively the name and symbol of both a measurement unit of heat capacity and a measurement unit of entropy, which are generally not considered to be quantities of the same kind.
+
+However, in some cases special measurement unit names are restricted to be used with quantities of specific kind only.
+
+For example, the measurement unit ‘second to the power minus one’ (1/s) is called hertz (Hz) when used for frequencies and becquerel (Bq) when used for activities of radionuclides.
+
+As another example, the joule (J) is used as a unit of energy, but never as a unit of moment of force, i.e. the newton metre (N · m). — quantities of the same kind have the same quantity dimension,
+— quantities of different quantity dimensions are always of different kinds, and
+— quantities having the same quantity dimension are not necessarily of the same kind.
+ISO 80000-1","In the same system of quantities, dim ρB = ML−3 is the quantity dimension of mass concentration of component B, and ML−3 is also the quantity dimension of mass density, ρ.
+ISO 80000-1 Measured or simulated 'physical propertiy'-s are always defined by a physical law, connected to a physical entity through a model perspective and measurement is done according to the same model.
+
+Systems of units suggests that this is the correct approach, since except for the fundamental units (length, time, charge) every other unit is derived by mathematical relations between these fundamental units, implying a physical laws or definitions. Measurement units of quantities of the same quantity dimension may be designated by the same name and symbol even when the quantities are not of the same kind.
+
+For example, joule per kelvin and J/K are respectively the name and symbol of both a measurement unit of heat capacity and a measurement unit of entropy, which are generally not considered to be quantities of the same kind.
+
+However, in some cases special measurement unit names are restricted to be used with quantities of specific kind only.
+
+For example, the measurement unit ‘second to the power minus one’ (1/s) is called hertz (Hz) when used for frequencies and becquerel (Bq) when used for activities of radionuclides.
+
+As another example, the joule (J) is used as a unit of energy, but never as a unit of moment of force, i.e. the newton metre (N · m). — quantities of the same kind have the same quantity dimension,
+— quantities of different quantity dimensions are always of different kinds, and
+— quantities having the same quantity dimension are not necessarily of the same kind.
+ISO 80000-1"
+https://w3id.org/pmd/co/Stress,Stress,"At any moment during the test, force divided by the original cross-sectional area, S_o, of the test piece
+
+Note: Here, all references to stress are to engineering stress. Dimensional Analysis: 
+ML*-1T*-2 Kraft zu einem beliebigen Zeitpunkt während des Versuchs dividiert durch den Anfangsquerschnitt (S_o) der Probe
+
+Anmerkung: Mit dem Begriff Spannung ist hier die technische Spannung ('Ingenieur-Spannung') gemeint. Units: Pa (SI), psi",subClassOf,https://w3id.org/pmd/co/ValueObject,Value Object,"A :ValueObject is a simple entity which represents a specific value. This value can be a numerical, textual, or a more complex data structure. If a literal value is to be specified, the :value datatype property has to be used. In cases where the value is represented by a resource (e.g. URI), the :resource object property has to be used.
+
+A value object, respectively its value, is always associated with an entity of type :Process, :ProcessingNode, or :Object (e.g. :Specimen). The value is meant to be a charactaristic of the associated entity. To express this association it is indended to use the :participant object property.
+
+A value object might also refer to a certain unit. The :unit property might be used (e.g. with QUDT ontology).
+
+Instances of a value object might be specified as a specific Parameter, namely a SetPoint (nominal value), or Measurement. With :Setpoint the intend is to express, that the value is meant to be some preset, setting or nominal value. :Measurement expresses, that the value has been measured or determined somehow (see example).
+
+Instances of a value object might also be specified in a specific DataScope (:Metadata, :PrimaryData, :SecondaryData).","A :ValueObject is a simple entity which represents a specific value. This value can be a numerical, textual, or a more complex data structure. If a literal value is to be specified, the :value datatype property has to be used. In cases where the value is represented by a resource (e.g. URI), the :resource object property has to be used.
+
+A value object, respectively its value, is always associated with an entity of type :Process, :ProcessingNode, or :Object (e.g. :Specimen). The value is meant to be a charactaristic of the associated entity. To express this association it is indended to use the :participant object property.
+
+A value object might also refer to a certain unit. The :unit property might be used (e.g. with QUDT ontology).
+
+Instances of a value object might be specified as a specific Parameter, namely a SetPoint (nominal value), or Measurement. With :Setpoint the intend is to express, that the value is meant to be some preset, setting or nominal value. :Measurement expresses, that the value has been measured or determined somehow (see example).
+
+Instances of a value object might also be specified in a specific DataScope (:Metadata, :PrimaryData, :SecondaryData)."
+https://w3id.org/pmd/co/ValueObject,Value Object,"A :ValueObject is a simple entity which represents a specific value. This value can be a numerical, textual, or a more complex data structure. If a literal value is to be specified, the :value datatype property has to be used. In cases where the value is represented by a resource (e.g. URI), the :resource object property has to be used.
+
+A value object, respectively its value, is always associated with an entity of type :Process, :ProcessingNode, or :Object (e.g. :Specimen). The value is meant to be a charactaristic of the associated entity. To express this association it is indended to use the :participant object property.
+
+A value object might also refer to a certain unit. The :unit property might be used (e.g. with QUDT ontology).
+
+Instances of a value object might be specified as a specific Parameter, namely a SetPoint (nominal value), or Measurement. With :Setpoint the intend is to express, that the value is meant to be some preset, setting or nominal value. :Measurement expresses, that the value has been measured or determined somehow (see example).
+
+Instances of a value object might also be specified in a specific DataScope (:Metadata, :PrimaryData, :SecondaryData).",subClassOf,http://www.w3.org/ns/prov#Entity,,,
+https://w3id.org/pmd/co/ValueObject,Value Object,"A :ValueObject is a simple entity which represents a specific value. This value can be a numerical, textual, or a more complex data structure. If a literal value is to be specified, the :value datatype property has to be used. In cases where the value is represented by a resource (e.g. URI), the :resource object property has to be used.
+
+A value object, respectively its value, is always associated with an entity of type :Process, :ProcessingNode, or :Object (e.g. :Specimen). The value is meant to be a charactaristic of the associated entity. To express this association it is indended to use the :participant object property.
+
+A value object might also refer to a certain unit. The :unit property might be used (e.g. with QUDT ontology).
+
+Instances of a value object might be specified as a specific Parameter, namely a SetPoint (nominal value), or Measurement. With :Setpoint the intend is to express, that the value is meant to be some preset, setting or nominal value. :Measurement expresses, that the value has been measured or determined somehow (see example).
+
+Instances of a value object might also be specified in a specific DataScope (:Metadata, :PrimaryData, :SecondaryData).",equivalentClass,Complex class expression,,,Complex class expression
+https://w3id.org/pmd/co/Stress,Stress,"At any moment during the test, force divided by the original cross-sectional area, S_o, of the test piece
+
+Note: Here, all references to stress are to engineering stress. Dimensional Analysis: 
+ML*-1T*-2 Kraft zu einem beliebigen Zeitpunkt während des Versuchs dividiert durch den Anfangsquerschnitt (S_o) der Probe
+
+Anmerkung: Mit dem Begriff Spannung ist hier die technische Spannung ('Ingenieur-Spannung') gemeint. Units: Pa (SI), psi",equivalentClass,Complex class expression,Intersection of Restriction on relates to some Area and Restriction on relates to some Force,,Complex class expression
+http://materialsmine.org/ns/Strain,Strain,Engineering strain is defined as the amount of deformation in the direction of the applied force divided by the initial length of the material.,subClassOf,http://materialsmine.org/ns/MechanicalProperty,Mechanical Property,A materials property related to the response of a material under some external applied load.,A materials property related to the response of a material under some external applied load.
+http://materialsmine.org/ns/MechanicalProperty,Mechanical Property,A materials property related to the response of a material under some external applied load.,subClassOf,http://semanticscience.org/resource/Quantity,Amount,A quantity is an informational entity that gives the magnitude of a property.,A quantity is an informational entity that gives the magnitude of a property.
+http://semanticscience.org/resource/Quantity,Amount,A quantity is an informational entity that gives the magnitude of a property.,subClassOf,http://semanticscience.org/resource/MeasurementValue,measurement value,A measurement value is a quantitative description that reflects the magnitude of some attribute.,A measurement value is a quantitative description that reflects the magnitude of some attribute.
+http://semanticscience.org/resource/MeasurementValue,measurement value,A measurement value is a quantitative description that reflects the magnitude of some attribute.,subClassOf,http://semanticscience.org/resource/Number,number,A number is a tensor of rank 0.,A number is a tensor of rank 0.
+http://semanticscience.org/resource/Number,number,A number is a tensor of rank 0.,subClassOf,http://semanticscience.org/resource/Scalar,scalar,a scalar is a rank 0 tensor and is an element of a field that is used to define a vector space.,a scalar is a rank 0 tensor and is an element of a field that is used to define a vector space.
+http://semanticscience.org/resource/Scalar,scalar,a scalar is a rank 0 tensor and is an element of a field that is used to define a vector space.,subClassOf,http://semanticscience.org/resource/Tensor,tensor,a tensor is a n-dimensional array.,a tensor is a n-dimensional array.
+http://semanticscience.org/resource/Tensor,tensor,a tensor is a n-dimensional array.,subClassOf,http://semanticscience.org/resource/MathematicalEntity,mathematical entity,A mathematical entity is an information content entity that are components of a mathematical system or can be defined in mathematical terms.,A mathematical entity is an information content entity that are components of a mathematical system or can be defined in mathematical terms.
+http://semanticscience.org/resource/MathematicalEntity,mathematical entity,A mathematical entity is an information content entity that are components of a mathematical system or can be defined in mathematical terms.,subClassOf,http://semanticscience.org/resource/InformationContentEntity,information content entity,information content entity is an object that requires some background knowledge or procedure to correctly interpret.,information content entity is an object that requires some background knowledge or procedure to correctly interpret.
+http://semanticscience.org/resource/InformationContentEntity,information content entity,information content entity is an object that requires some background knowledge or procedure to correctly interpret.,subClassOf,http://semanticscience.org/resource/Object,object,An object is an entity that is wholly identifiable at any instant of time during which it exists.,An object is an entity that is wholly identifiable at any instant of time during which it exists.
+https://w3id.org/emmo#EMMO_6f5af708_f825_4feb_a0d1_a8d813d3022b,Object,"Here is assumed that the concept of 'object' is always relative to a 'semiotic' process. An 'object' does not exists per se, but it's always part of an interpretation.
+
+The EMMO relies on strong reductionism, i.e. everything real is a formless collection of elementary particles: we give a meaning to real world entities only by giving them boundaries and defining them using 'sign'-s.
+
+In this way the 'sign'-ed entity becomes an 'object', and the 'object' is the basic entity needed in order to apply a logical formalism to the real world entities (i.e. we can speak of it through its sign, and use logics on it through its sign).",equivalentClass,Complex class expression,,,Complex class expression
+https://w3id.org/pmd/co/Object,Object,"A discernable, tangible or simulated entity that is processed in a process by a processing node.",subClassOf,http://www.w3.org/ns/prov#Entity,,,
+http://semanticscience.org/resource/Object,object,An object is an entity that is wholly identifiable at any instant of time during which it exists.,subClassOf,http://semanticscience.org/resource/Entity,entity,Every thing is an entity.,Every thing is an entity.
+http://semanticscience.org/resource/Entity,entity,Every thing is an entity.,subClassOf,http://www.w3.org/2002/07/owl#Thing,,,
+http://semanticscience.org/resource/Quantity,Amount,A quantity is an informational entity that gives the magnitude of a property.,equivalentClass,Complex class expression,,,Complex class expression
+https://w3id.org/emmo#EMMO_acf636d4_9ac2_4ce3_960a_d54338e6cae3,Strain,,subClassOf,https://w3id.org/emmo#EMMO_faab3f84_e475_4a46_af9c_7d249f0b9aef,RatioQuantity,"Quantities defined as ratios `Q=A/B` having equal dimensions in numerator and denominator are dimensionless quantities but still have a physical dimension defined as dim(A)/dim(B).
+
+Johansson, Ingvar (2010). ""Metrological thinking needs the notions of parametric quantities, units and dimensions"". Metrologia. 47 (3): 219–230. doi:10.1088/0026-1394/47/3/012. ISSN 0026-1394.","Quantities defined as ratios `Q=A/B` having equal dimensions in numerator and denominator are dimensionless quantities but still have a physical dimension defined as dim(A)/dim(B).
+
+Johansson, Ingvar (2010). ""Metrological thinking needs the notions of parametric quantities, units and dimensions"". Metrologia. 47 (3): 219–230. doi:10.1088/0026-1394/47/3/012. ISSN 0026-1394."
+https://w3id.org/emmo#EMMO_faab3f84_e475_4a46_af9c_7d249f0b9aef,RatioQuantity,"Quantities defined as ratios `Q=A/B` having equal dimensions in numerator and denominator are dimensionless quantities but still have a physical dimension defined as dim(A)/dim(B).
+
+Johansson, Ingvar (2010). ""Metrological thinking needs the notions of parametric quantities, units and dimensions"". Metrologia. 47 (3): 219–230. doi:10.1088/0026-1394/47/3/012. ISSN 0026-1394.",subClassOf,https://w3id.org/emmo#EMMO_a66427d1_9932_4363_9ec5_7d91f2bfda1e,ISQDimensionlessQuantity,,
+https://w3id.org/emmo#EMMO_a66427d1_9932_4363_9ec5_7d91f2bfda1e,ISQDimensionlessQuantity,,subClassOf,https://w3id.org/emmo#EMMO_2946d40b_24a1_47fa_8176_e3f79bb45064,ISQDerivedQuantity,,
+https://w3id.org/emmo#EMMO_2946d40b_24a1_47fa_8176_e3f79bb45064,ISQDerivedQuantity,,subClassOf,https://w3id.org/emmo#EMMO_71f6ab56_342c_484b_bbe0_de86b7367cb3,DerivedQuantity,,
+https://w3id.org/emmo#EMMO_2946d40b_24a1_47fa_8176_e3f79bb45064,ISQDerivedQuantity,,subClassOf,https://w3id.org/emmo#EMMO_f35cff4d_dc09_44cf_a729_22fb79e3bfb2,InternationalSystemOfQuantity,,
+https://w3id.org/emmo#EMMO_f35cff4d_dc09_44cf_a729_22fb79e3bfb2,InternationalSystemOfQuantity,,subClassOf,https://w3id.org/emmo#EMMO_9c407ac0_fd4c_4178_8763_95fad9fe29ec,StandardizedPhysicalQuantity,,
+https://w3id.org/emmo#EMMO_9c407ac0_fd4c_4178_8763_95fad9fe29ec,StandardizedPhysicalQuantity,,subClassOf,https://w3id.org/emmo#EMMO_02c0621e_a527_4790_8a0f_2bb51973c819,PhysicalQuantity,"In the same system of quantities, dim ρB = ML−3 is the quantity dimension of mass concentration of component B, and ML−3 is also the quantity dimension of mass density, ρ.
+ISO 80000-1 Measured or simulated 'physical propertiy'-s are always defined by a physical law, connected to a physical entity through a model perspective and measurement is done according to the same model.
+
+Systems of units suggests that this is the correct approach, since except for the fundamental units (length, time, charge) every other unit is derived by mathematical relations between these fundamental units, implying a physical laws or definitions. Measurement units of quantities of the same quantity dimension may be designated by the same name and symbol even when the quantities are not of the same kind.
+
+For example, joule per kelvin and J/K are respectively the name and symbol of both a measurement unit of heat capacity and a measurement unit of entropy, which are generally not considered to be quantities of the same kind.
+
+However, in some cases special measurement unit names are restricted to be used with quantities of specific kind only.
+
+For example, the measurement unit ‘second to the power minus one’ (1/s) is called hertz (Hz) when used for frequencies and becquerel (Bq) when used for activities of radionuclides.
+
+As another example, the joule (J) is used as a unit of energy, but never as a unit of moment of force, i.e. the newton metre (N · m). — quantities of the same kind have the same quantity dimension,
+— quantities of different quantity dimensions are always of different kinds, and
+— quantities having the same quantity dimension are not necessarily of the same kind.
+ISO 80000-1","In the same system of quantities, dim ρB = ML−3 is the quantity dimension of mass concentration of component B, and ML−3 is also the quantity dimension of mass density, ρ.
+ISO 80000-1 Measured or simulated 'physical propertiy'-s are always defined by a physical law, connected to a physical entity through a model perspective and measurement is done according to the same model.
+
+Systems of units suggests that this is the correct approach, since except for the fundamental units (length, time, charge) every other unit is derived by mathematical relations between these fundamental units, implying a physical laws or definitions. Measurement units of quantities of the same quantity dimension may be designated by the same name and symbol even when the quantities are not of the same kind.
+
+For example, joule per kelvin and J/K are respectively the name and symbol of both a measurement unit of heat capacity and a measurement unit of entropy, which are generally not considered to be quantities of the same kind.
+
+However, in some cases special measurement unit names are restricted to be used with quantities of specific kind only.
+
+For example, the measurement unit ‘second to the power minus one’ (1/s) is called hertz (Hz) when used for frequencies and becquerel (Bq) when used for activities of radionuclides.
+
+As another example, the joule (J) is used as a unit of energy, but never as a unit of moment of force, i.e. the newton metre (N · m). — quantities of the same kind have the same quantity dimension,
+— quantities of different quantity dimensions are always of different kinds, and
+— quantities having the same quantity dimension are not necessarily of the same kind.
+ISO 80000-1"
+http://semanticscience.org/resource/Strain,strain,A strain is a genetic variant or kind of microorganism.,subClassOf,http://semanticscience.org/resource/Organism,organism,A biological organisn is a biological entity that consists of one or more cells and is capable of genomic replication (independently or not).,A biological organisn is a biological entity that consists of one or more cells and is capable of genomic replication (independently or not).
+http://semanticscience.org/resource/Organism,organism,A biological organisn is a biological entity that consists of one or more cells and is capable of genomic replication (independently or not).,subClassOf,http://semanticscience.org/resource/BiologicalEntity,biological entity,A biological entity is a heterogeneous substance that contains genomic material or is the product of a biological process.,A biological entity is a heterogeneous substance that contains genomic material or is the product of a biological process.
+http://semanticscience.org/resource/BiologicalEntity,biological entity,A biological entity is a heterogeneous substance that contains genomic material or is the product of a biological process.,subClassOf,http://semanticscience.org/resource/HeterogeneousSubstance,heterogeneous substance,A heterogeneous substance is a chemical substance that is composed of more than one different kind of component.,A heterogeneous substance is a chemical substance that is composed of more than one different kind of component.
+http://semanticscience.org/resource/HeterogeneousSubstance,heterogeneous substance,A heterogeneous substance is a chemical substance that is composed of more than one different kind of component.,subClassOf,http://semanticscience.org/resource/ChemicalSubstance,chemical substance,A chemical substance is a chemical entity composed of two or more weakly (non-covalently) interacting chemical entities.,A chemical substance is a chemical entity composed of two or more weakly (non-covalently) interacting chemical entities.
+http://semanticscience.org/resource/ChemicalSubstance,chemical substance,A chemical substance is a chemical entity composed of two or more weakly (non-covalently) interacting chemical entities.,subClassOf,http://semanticscience.org/resource/ChemicalEntity,chemical entity,A chemical entity is a material entity that pertains to chemistry.,A chemical entity is a material entity that pertains to chemistry.
+http://semanticscience.org/resource/ChemicalEntity,chemical entity,A chemical entity is a material entity that pertains to chemistry.,subClassOf,http://semanticscience.org/resource/MaterialEntity,Material Entity,"A material entity is a physical entity that is spatially extended, exists as a whole at any point in time and has mass. A material entity is a physical entity that is spatially extended, exists as a whole at any point in time and has mass.","A material entity is a physical entity that is spatially extended, exists as a whole at any point in time and has mass. A material entity is a physical entity that is spatially extended, exists as a whole at any point in time and has mass."
+http://semanticscience.org/resource/MaterialEntity,Material Entity,"A material entity is a physical entity that is spatially extended, exists as a whole at any point in time and has mass. A material entity is a physical entity that is spatially extended, exists as a whole at any point in time and has mass.",subClassOf,http://semanticscience.org/resource/Object,object,An object is an entity that is wholly identifiable at any instant of time during which it exists.,An object is an entity that is wholly identifiable at any instant of time during which it exists.
+https://w3id.org/emmo#EMMO_6f5af708_f825_4feb_a0d1_a8d813d3022b,Object,"Here is assumed that the concept of 'object' is always relative to a 'semiotic' process. An 'object' does not exists per se, but it's always part of an interpretation.
+
+The EMMO relies on strong reductionism, i.e. everything real is a formless collection of elementary particles: we give a meaning to real world entities only by giving them boundaries and defining them using 'sign'-s.
+
+In this way the 'sign'-ed entity becomes an 'object', and the 'object' is the basic entity needed in order to apply a logical formalism to the real world entities (i.e. we can speak of it through its sign, and use logics on it through its sign).",equivalentClass,Complex class expression,,,Complex class expression
+https://w3id.org/pmd/co/Object,Object,"A discernable, tangible or simulated entity that is processed in a process by a processing node.",subClassOf,http://www.w3.org/ns/prov#Entity,,,
+http://semanticscience.org/resource/Object,object,An object is an entity that is wholly identifiable at any instant of time during which it exists.,subClassOf,http://semanticscience.org/resource/Entity,entity,Every thing is an entity.,Every thing is an entity.
+http://semanticscience.org/resource/Entity,entity,Every thing is an entity.,subClassOf,http://www.w3.org/2002/07/owl#Thing,,,
+https://w3id.org/emmo#EMMO_47338839_6cca_4a8e_b565_3c4d5517e2c0,ChemicalEntity,"A chemical entity comprises the two different ways to represents matter: as single recognizable particle entity (molecular entity) and as a composition of particle entities (substance).
+
+This distinction is not well assessed in actual chemical nomenclature, in which an element name refers to both the pure elemental substance or the atom.
+
+In the EMMO we force the adoption of a more strict categorization based on mereotopology.
+
+The class Material hosts the subclasses for which a substance can be identified without necessarily considering its nature of molecule/atom or substance (e.g. hydrocarbon is the class of both hydrocarbon molecules or gases).",subClassOf,https://w3id.org/emmo#EMMO_5b2222df_4da6_442f_8244_96e9e45887d1,PhysicalSubstance,,
+https://w3id.org/emmo#EMMO_5b2222df_4da6_442f_8244_96e9e45887d1,PhysicalSubstance,,subClassOf,https://w3id.org/emmo#EMMO_38b579de_4331_40e0_803d_09efa298e726,PhysicalObject,,
+https://w3id.org/emmo#EMMO_21205421_5783_4d3e_81e5_10c5d894a88a,ChemicalEntity,"Molecular entity is used as a general term for singular entities, irrespective of their nature, while chemical species stands for sets or ensembles of molecular entities.
+
+Note that the name of a compound may refer to the respective molecular entity or to the chemical species,",subClassOf,https://w3id.org/emmo#EMMO_5b2222df_4da6_442f_8244_96e9e45887d1,PhysicalSubstance,,
+https://w3id.org/emmo#EMMO_5b2222df_4da6_442f_8244_96e9e45887d1,PhysicalSubstance,,subClassOf,https://w3id.org/emmo#EMMO_38b579de_4331_40e0_803d_09efa298e726,PhysicalObject,,
+https://w3id.org/emmo#EMMO_21205421_5783_4d3e_81e5_10c5d894a88a,ChemicalEntity,"Molecular entity is used as a general term for singular entities, irrespective of their nature, while chemical species stands for sets or ensembles of molecular entities.
+
+Note that the name of a compound may refer to the respective molecular entity or to the chemical species,",subClassOf,https://w3id.org/emmo#EMMO_8b1367d6_0133_4b56_acc1_fa8b058169e3,CompositePhysicalParticle,,
+https://w3id.org/emmo#EMMO_8b1367d6_0133_4b56_acc1_fa8b058169e3,CompositePhysicalParticle,,subClassOf,https://w3id.org/emmo#EMMO_38b579de_4331_40e0_803d_09efa298e726,PhysicalObject,,
+http://semanticscience.org/resource/ChemicalSubstance,chemical substance,A chemical substance is a chemical entity composed of two or more weakly (non-covalently) interacting chemical entities.,equivalentClass,Complex class expression,,,Complex class expression
+https://w3id.org/emmo#EMMO_df96cbb6_b5ee_4222_8eab_b3675df24bea,ChemicalSubstance,A substance is always composed of more than one molecular entity. It lays in the continuum or mesoscopic domain.,subClassOf,https://w3id.org/emmo#EMMO_bc37743c_37c4_4ec7_9d58_d1aae5567352,Substance,,
+https://w3id.org/emmo#EMMO_bc37743c_37c4_4ec7_9d58_d1aae5567352,Substance,,subClassOf,https://w3id.org/emmo#EMMO_57d977ab_0036_4779_b59a_e47620afdb9c,CompositePhysicalObject,,
+https://w3id.org/emmo#EMMO_bc37743c_37c4_4ec7_9d58_d1aae5567352,Substance,,subClassOf,https://w3id.org/emmo#EMMO_5b2222df_4da6_442f_8244_96e9e45887d1,PhysicalSubstance,,
+https://w3id.org/emmo#EMMO_5b2222df_4da6_442f_8244_96e9e45887d1,PhysicalSubstance,,subClassOf,https://w3id.org/emmo#EMMO_38b579de_4331_40e0_803d_09efa298e726,PhysicalObject,,
+https://w3id.org/emmo#EMMO_3397f270_dfc1_4500_8f6f_4d0d85ac5f71,ChemicalSubstance,,subClassOf,https://w3id.org/emmo#EMMO_21205421_5783_4d3e_81e5_10c5d894a88a,ChemicalEntity,"Molecular entity is used as a general term for singular entities, irrespective of their nature, while chemical species stands for sets or ensembles of molecular entities.
+
+Note that the name of a compound may refer to the respective molecular entity or to the chemical species,","Molecular entity is used as a general term for singular entities, irrespective of their nature, while chemical species stands for sets or ensembles of molecular entities.
+
+Note that the name of a compound may refer to the respective molecular entity or to the chemical species,"
+http://semanticscience.org/resource/ChemicalEntity,chemical entity,A chemical entity is a material entity that pertains to chemistry.,subClassOf,http://semanticscience.org/resource/MaterialEntity,Material Entity,"A material entity is a physical entity that is spatially extended, exists as a whole at any point in time and has mass. A material entity is a physical entity that is spatially extended, exists as a whole at any point in time and has mass.","A material entity is a physical entity that is spatially extended, exists as a whole at any point in time and has mass. A material entity is a physical entity that is spatially extended, exists as a whole at any point in time and has mass."
+http://semanticscience.org/resource/MaterialEntity,Material Entity,"A material entity is a physical entity that is spatially extended, exists as a whole at any point in time and has mass. A material entity is a physical entity that is spatially extended, exists as a whole at any point in time and has mass.",subClassOf,http://semanticscience.org/resource/Object,object,An object is an entity that is wholly identifiable at any instant of time during which it exists.,An object is an entity that is wholly identifiable at any instant of time during which it exists.
+https://w3id.org/emmo#EMMO_6f5af708_f825_4feb_a0d1_a8d813d3022b,Object,"Here is assumed that the concept of 'object' is always relative to a 'semiotic' process. An 'object' does not exists per se, but it's always part of an interpretation.
+
+The EMMO relies on strong reductionism, i.e. everything real is a formless collection of elementary particles: we give a meaning to real world entities only by giving them boundaries and defining them using 'sign'-s.
+
+In this way the 'sign'-ed entity becomes an 'object', and the 'object' is the basic entity needed in order to apply a logical formalism to the real world entities (i.e. we can speak of it through its sign, and use logics on it through its sign).",equivalentClass,Complex class expression,,,Complex class expression
+https://w3id.org/pmd/co/Object,Object,"A discernable, tangible or simulated entity that is processed in a process by a processing node.",subClassOf,http://www.w3.org/ns/prov#Entity,,,
+http://semanticscience.org/resource/Object,object,An object is an entity that is wholly identifiable at any instant of time during which it exists.,subClassOf,http://semanticscience.org/resource/Entity,entity,Every thing is an entity.,Every thing is an entity.
+http://semanticscience.org/resource/Entity,entity,Every thing is an entity.,subClassOf,http://www.w3.org/2002/07/owl#Thing,,,
+https://w3id.org/emmo#EMMO_47338839_6cca_4a8e_b565_3c4d5517e2c0,ChemicalEntity,"A chemical entity comprises the two different ways to represents matter: as single recognizable particle entity (molecular entity) and as a composition of particle entities (substance).
+
+This distinction is not well assessed in actual chemical nomenclature, in which an element name refers to both the pure elemental substance or the atom.
+
+In the EMMO we force the adoption of a more strict categorization based on mereotopology.
+
+The class Material hosts the subclasses for which a substance can be identified without necessarily considering its nature of molecule/atom or substance (e.g. hydrocarbon is the class of both hydrocarbon molecules or gases).",subClassOf,https://w3id.org/emmo#EMMO_5b2222df_4da6_442f_8244_96e9e45887d1,PhysicalSubstance,,
+https://w3id.org/emmo#EMMO_5b2222df_4da6_442f_8244_96e9e45887d1,PhysicalSubstance,,subClassOf,https://w3id.org/emmo#EMMO_38b579de_4331_40e0_803d_09efa298e726,PhysicalObject,,
+https://w3id.org/emmo#EMMO_21205421_5783_4d3e_81e5_10c5d894a88a,ChemicalEntity,"Molecular entity is used as a general term for singular entities, irrespective of their nature, while chemical species stands for sets or ensembles of molecular entities.
+
+Note that the name of a compound may refer to the respective molecular entity or to the chemical species,",subClassOf,https://w3id.org/emmo#EMMO_5b2222df_4da6_442f_8244_96e9e45887d1,PhysicalSubstance,,
+https://w3id.org/emmo#EMMO_5b2222df_4da6_442f_8244_96e9e45887d1,PhysicalSubstance,,subClassOf,https://w3id.org/emmo#EMMO_38b579de_4331_40e0_803d_09efa298e726,PhysicalObject,,
+https://w3id.org/emmo#EMMO_21205421_5783_4d3e_81e5_10c5d894a88a,ChemicalEntity,"Molecular entity is used as a general term for singular entities, irrespective of their nature, while chemical species stands for sets or ensembles of molecular entities.
+
+Note that the name of a compound may refer to the respective molecular entity or to the chemical species,",subClassOf,https://w3id.org/emmo#EMMO_8b1367d6_0133_4b56_acc1_fa8b058169e3,CompositePhysicalParticle,,
+https://w3id.org/emmo#EMMO_8b1367d6_0133_4b56_acc1_fa8b058169e3,CompositePhysicalParticle,,subClassOf,https://w3id.org/emmo#EMMO_38b579de_4331_40e0_803d_09efa298e726,PhysicalObject,,
+http://semanticscience.org/resource/Organism,organism,A biological organisn is a biological entity that consists of one or more cells and is capable of genomic replication (independently or not).,equivalentClass,Complex class expression,,,Complex class expression
+https://w3id.org/emmo#EMMO_3a6578ac_aee0_43b9_9bc6_1eb208c8c9a9,Porosity,,subClassOf,https://w3id.org/emmo#EMMO_faab3f84_e475_4a46_af9c_7d249f0b9aef,RatioQuantity,"Quantities defined as ratios `Q=A/B` having equal dimensions in numerator and denominator are dimensionless quantities but still have a physical dimension defined as dim(A)/dim(B).
+
+Johansson, Ingvar (2010). ""Metrological thinking needs the notions of parametric quantities, units and dimensions"". Metrologia. 47 (3): 219–230. doi:10.1088/0026-1394/47/3/012. ISSN 0026-1394.","Quantities defined as ratios `Q=A/B` having equal dimensions in numerator and denominator are dimensionless quantities but still have a physical dimension defined as dim(A)/dim(B).
+
+Johansson, Ingvar (2010). ""Metrological thinking needs the notions of parametric quantities, units and dimensions"". Metrologia. 47 (3): 219–230. doi:10.1088/0026-1394/47/3/012. ISSN 0026-1394."
+https://w3id.org/emmo#EMMO_faab3f84_e475_4a46_af9c_7d249f0b9aef,RatioQuantity,"Quantities defined as ratios `Q=A/B` having equal dimensions in numerator and denominator are dimensionless quantities but still have a physical dimension defined as dim(A)/dim(B).
+
+Johansson, Ingvar (2010). ""Metrological thinking needs the notions of parametric quantities, units and dimensions"". Metrologia. 47 (3): 219–230. doi:10.1088/0026-1394/47/3/012. ISSN 0026-1394.",subClassOf,https://w3id.org/emmo#EMMO_a66427d1_9932_4363_9ec5_7d91f2bfda1e,ISQDimensionlessQuantity,,
+https://w3id.org/emmo#EMMO_a66427d1_9932_4363_9ec5_7d91f2bfda1e,ISQDimensionlessQuantity,,subClassOf,https://w3id.org/emmo#EMMO_2946d40b_24a1_47fa_8176_e3f79bb45064,ISQDerivedQuantity,,
+https://w3id.org/emmo#EMMO_2946d40b_24a1_47fa_8176_e3f79bb45064,ISQDerivedQuantity,,subClassOf,https://w3id.org/emmo#EMMO_71f6ab56_342c_484b_bbe0_de86b7367cb3,DerivedQuantity,,
+https://w3id.org/emmo#EMMO_2946d40b_24a1_47fa_8176_e3f79bb45064,ISQDerivedQuantity,,subClassOf,https://w3id.org/emmo#EMMO_f35cff4d_dc09_44cf_a729_22fb79e3bfb2,InternationalSystemOfQuantity,,
+https://w3id.org/emmo#EMMO_f35cff4d_dc09_44cf_a729_22fb79e3bfb2,InternationalSystemOfQuantity,,subClassOf,https://w3id.org/emmo#EMMO_9c407ac0_fd4c_4178_8763_95fad9fe29ec,StandardizedPhysicalQuantity,,
+https://w3id.org/emmo#EMMO_9c407ac0_fd4c_4178_8763_95fad9fe29ec,StandardizedPhysicalQuantity,,subClassOf,https://w3id.org/emmo#EMMO_02c0621e_a527_4790_8a0f_2bb51973c819,PhysicalQuantity,"In the same system of quantities, dim ρB = ML−3 is the quantity dimension of mass concentration of component B, and ML−3 is also the quantity dimension of mass density, ρ.
+ISO 80000-1 Measured or simulated 'physical propertiy'-s are always defined by a physical law, connected to a physical entity through a model perspective and measurement is done according to the same model.
+
+Systems of units suggests that this is the correct approach, since except for the fundamental units (length, time, charge) every other unit is derived by mathematical relations between these fundamental units, implying a physical laws or definitions. Measurement units of quantities of the same quantity dimension may be designated by the same name and symbol even when the quantities are not of the same kind.
+
+For example, joule per kelvin and J/K are respectively the name and symbol of both a measurement unit of heat capacity and a measurement unit of entropy, which are generally not considered to be quantities of the same kind.
+
+However, in some cases special measurement unit names are restricted to be used with quantities of specific kind only.
+
+For example, the measurement unit ‘second to the power minus one’ (1/s) is called hertz (Hz) when used for frequencies and becquerel (Bq) when used for activities of radionuclides.
+
+As another example, the joule (J) is used as a unit of energy, but never as a unit of moment of force, i.e. the newton metre (N · m). — quantities of the same kind have the same quantity dimension,
+— quantities of different quantity dimensions are always of different kinds, and
+— quantities having the same quantity dimension are not necessarily of the same kind.
+ISO 80000-1","In the same system of quantities, dim ρB = ML−3 is the quantity dimension of mass concentration of component B, and ML−3 is also the quantity dimension of mass density, ρ.
+ISO 80000-1 Measured or simulated 'physical propertiy'-s are always defined by a physical law, connected to a physical entity through a model perspective and measurement is done according to the same model.
+
+Systems of units suggests that this is the correct approach, since except for the fundamental units (length, time, charge) every other unit is derived by mathematical relations between these fundamental units, implying a physical laws or definitions. Measurement units of quantities of the same quantity dimension may be designated by the same name and symbol even when the quantities are not of the same kind.
+
+For example, joule per kelvin and J/K are respectively the name and symbol of both a measurement unit of heat capacity and a measurement unit of entropy, which are generally not considered to be quantities of the same kind.
+
+However, in some cases special measurement unit names are restricted to be used with quantities of specific kind only.
+
+For example, the measurement unit ‘second to the power minus one’ (1/s) is called hertz (Hz) when used for frequencies and becquerel (Bq) when used for activities of radionuclides.
+
+As another example, the joule (J) is used as a unit of energy, but never as a unit of moment of force, i.e. the newton metre (N · m). — quantities of the same kind have the same quantity dimension,
+— quantities of different quantity dimensions are always of different kinds, and
+— quantities having the same quantity dimension are not necessarily of the same kind.
+ISO 80000-1"
+https://w3id.org/emmo#EMMO_09663630_1b84_4202_91e6_e641104f579e,Permeability,Measure for how the magnetization of material is affected by the application of an external magnetic field .,subClassOf,https://w3id.org/emmo#EMMO_2946d40b_24a1_47fa_8176_e3f79bb45064,ISQDerivedQuantity,,
+https://w3id.org/emmo#EMMO_2946d40b_24a1_47fa_8176_e3f79bb45064,ISQDerivedQuantity,,subClassOf,https://w3id.org/emmo#EMMO_71f6ab56_342c_484b_bbe0_de86b7367cb3,DerivedQuantity,,
+https://w3id.org/emmo#EMMO_2946d40b_24a1_47fa_8176_e3f79bb45064,ISQDerivedQuantity,,subClassOf,https://w3id.org/emmo#EMMO_f35cff4d_dc09_44cf_a729_22fb79e3bfb2,InternationalSystemOfQuantity,,
+https://w3id.org/emmo#EMMO_f35cff4d_dc09_44cf_a729_22fb79e3bfb2,InternationalSystemOfQuantity,,subClassOf,https://w3id.org/emmo#EMMO_9c407ac0_fd4c_4178_8763_95fad9fe29ec,StandardizedPhysicalQuantity,,
+https://w3id.org/emmo#EMMO_9c407ac0_fd4c_4178_8763_95fad9fe29ec,StandardizedPhysicalQuantity,,subClassOf,https://w3id.org/emmo#EMMO_02c0621e_a527_4790_8a0f_2bb51973c819,PhysicalQuantity,"In the same system of quantities, dim ρB = ML−3 is the quantity dimension of mass concentration of component B, and ML−3 is also the quantity dimension of mass density, ρ.
+ISO 80000-1 Measured or simulated 'physical propertiy'-s are always defined by a physical law, connected to a physical entity through a model perspective and measurement is done according to the same model.
+
+Systems of units suggests that this is the correct approach, since except for the fundamental units (length, time, charge) every other unit is derived by mathematical relations between these fundamental units, implying a physical laws or definitions. Measurement units of quantities of the same quantity dimension may be designated by the same name and symbol even when the quantities are not of the same kind.
+
+For example, joule per kelvin and J/K are respectively the name and symbol of both a measurement unit of heat capacity and a measurement unit of entropy, which are generally not considered to be quantities of the same kind.
+
+However, in some cases special measurement unit names are restricted to be used with quantities of specific kind only.
+
+For example, the measurement unit ‘second to the power minus one’ (1/s) is called hertz (Hz) when used for frequencies and becquerel (Bq) when used for activities of radionuclides.
+
+As another example, the joule (J) is used as a unit of energy, but never as a unit of moment of force, i.e. the newton metre (N · m). — quantities of the same kind have the same quantity dimension,
+— quantities of different quantity dimensions are always of different kinds, and
+— quantities having the same quantity dimension are not necessarily of the same kind.
+ISO 80000-1","In the same system of quantities, dim ρB = ML−3 is the quantity dimension of mass concentration of component B, and ML−3 is also the quantity dimension of mass density, ρ.
+ISO 80000-1 Measured or simulated 'physical propertiy'-s are always defined by a physical law, connected to a physical entity through a model perspective and measurement is done according to the same model.
+
+Systems of units suggests that this is the correct approach, since except for the fundamental units (length, time, charge) every other unit is derived by mathematical relations between these fundamental units, implying a physical laws or definitions. Measurement units of quantities of the same quantity dimension may be designated by the same name and symbol even when the quantities are not of the same kind.
+
+For example, joule per kelvin and J/K are respectively the name and symbol of both a measurement unit of heat capacity and a measurement unit of entropy, which are generally not considered to be quantities of the same kind.
+
+However, in some cases special measurement unit names are restricted to be used with quantities of specific kind only.
+
+For example, the measurement unit ‘second to the power minus one’ (1/s) is called hertz (Hz) when used for frequencies and becquerel (Bq) when used for activities of radionuclides.
+
+As another example, the joule (J) is used as a unit of energy, but never as a unit of moment of force, i.e. the newton metre (N · m). — quantities of the same kind have the same quantity dimension,
+— quantities of different quantity dimensions are always of different kinds, and
+— quantities having the same quantity dimension are not necessarily of the same kind.
+ISO 80000-1"
+https://w3id.org/emmo#EMMO_09663630_1b84_4202_91e6_e641104f579e,Permeability,Measure for how the magnetization of material is affected by the application of an external magnetic field .,subClassOf,https://w3id.org/emmo#EMMO_602397bd_e302_42a6_be33_fe67ea81933a,Intensive,Note that not all physical quantities can be categorised as being either intensive or extensive. For example the square root of the mass.,Note that not all physical quantities can be categorised as being either intensive or extensive. For example the square root of the mass.
+https://w3id.org/emmo#EMMO_602397bd_e302_42a6_be33_fe67ea81933a,Intensive,Note that not all physical quantities can be categorised as being either intensive or extensive. For example the square root of the mass.,subClassOf,https://w3id.org/emmo#EMMO_79751276_b2d0_4e2f_bbd4_99d412f43d55,CategorizedPhysicalQuantity,,
+https://w3id.org/emmo#EMMO_79751276_b2d0_4e2f_bbd4_99d412f43d55,CategorizedPhysicalQuantity,,subClassOf,https://w3id.org/emmo#EMMO_02c0621e_a527_4790_8a0f_2bb51973c819,PhysicalQuantity,"In the same system of quantities, dim ρB = ML−3 is the quantity dimension of mass concentration of component B, and ML−3 is also the quantity dimension of mass density, ρ.
+ISO 80000-1 Measured or simulated 'physical propertiy'-s are always defined by a physical law, connected to a physical entity through a model perspective and measurement is done according to the same model.
+
+Systems of units suggests that this is the correct approach, since except for the fundamental units (length, time, charge) every other unit is derived by mathematical relations between these fundamental units, implying a physical laws or definitions. Measurement units of quantities of the same quantity dimension may be designated by the same name and symbol even when the quantities are not of the same kind.
+
+For example, joule per kelvin and J/K are respectively the name and symbol of both a measurement unit of heat capacity and a measurement unit of entropy, which are generally not considered to be quantities of the same kind.
+
+However, in some cases special measurement unit names are restricted to be used with quantities of specific kind only.
+
+For example, the measurement unit ‘second to the power minus one’ (1/s) is called hertz (Hz) when used for frequencies and becquerel (Bq) when used for activities of radionuclides.
+
+As another example, the joule (J) is used as a unit of energy, but never as a unit of moment of force, i.e. the newton metre (N · m). — quantities of the same kind have the same quantity dimension,
+— quantities of different quantity dimensions are always of different kinds, and
+— quantities having the same quantity dimension are not necessarily of the same kind.
+ISO 80000-1","In the same system of quantities, dim ρB = ML−3 is the quantity dimension of mass concentration of component B, and ML−3 is also the quantity dimension of mass density, ρ.
+ISO 80000-1 Measured or simulated 'physical propertiy'-s are always defined by a physical law, connected to a physical entity through a model perspective and measurement is done according to the same model.
+
+Systems of units suggests that this is the correct approach, since except for the fundamental units (length, time, charge) every other unit is derived by mathematical relations between these fundamental units, implying a physical laws or definitions. Measurement units of quantities of the same quantity dimension may be designated by the same name and symbol even when the quantities are not of the same kind.
+
+For example, joule per kelvin and J/K are respectively the name and symbol of both a measurement unit of heat capacity and a measurement unit of entropy, which are generally not considered to be quantities of the same kind.
+
+However, in some cases special measurement unit names are restricted to be used with quantities of specific kind only.
+
+For example, the measurement unit ‘second to the power minus one’ (1/s) is called hertz (Hz) when used for frequencies and becquerel (Bq) when used for activities of radionuclides.
+
+As another example, the joule (J) is used as a unit of energy, but never as a unit of moment of force, i.e. the newton metre (N · m). — quantities of the same kind have the same quantity dimension,
+— quantities of different quantity dimensions are always of different kinds, and
+— quantities having the same quantity dimension are not necessarily of the same kind.
+ISO 80000-1"
+https://w3id.org/emmo#EMMO_09663630_1b84_4202_91e6_e641104f579e,Permeability,Measure for how the magnetization of material is affected by the application of an external magnetic field .,subClassOf,https://w3id.org/emmo#EMMO_af794e9d_dc7d_4756_83e1_2cd0e2ec864e,ElectromagneticQuantity,,
+https://w3id.org/emmo#EMMO_af794e9d_dc7d_4756_83e1_2cd0e2ec864e,ElectromagneticQuantity,,subClassOf,https://w3id.org/emmo#EMMO_2ce04004_62cf_4394_b6a2_b45fce1aebfe,ISO80000Categorised,,
+https://w3id.org/emmo#EMMO_2ce04004_62cf_4394_b6a2_b45fce1aebfe,ISO80000Categorised,,subClassOf,https://w3id.org/emmo#EMMO_79751276_b2d0_4e2f_bbd4_99d412f43d55,CategorizedPhysicalQuantity,,
+https://w3id.org/emmo#EMMO_79751276_b2d0_4e2f_bbd4_99d412f43d55,CategorizedPhysicalQuantity,,subClassOf,https://w3id.org/emmo#EMMO_02c0621e_a527_4790_8a0f_2bb51973c819,PhysicalQuantity,"In the same system of quantities, dim ρB = ML−3 is the quantity dimension of mass concentration of component B, and ML−3 is also the quantity dimension of mass density, ρ.
+ISO 80000-1 Measured or simulated 'physical propertiy'-s are always defined by a physical law, connected to a physical entity through a model perspective and measurement is done according to the same model.
+
+Systems of units suggests that this is the correct approach, since except for the fundamental units (length, time, charge) every other unit is derived by mathematical relations between these fundamental units, implying a physical laws or definitions. Measurement units of quantities of the same quantity dimension may be designated by the same name and symbol even when the quantities are not of the same kind.
+
+For example, joule per kelvin and J/K are respectively the name and symbol of both a measurement unit of heat capacity and a measurement unit of entropy, which are generally not considered to be quantities of the same kind.
+
+However, in some cases special measurement unit names are restricted to be used with quantities of specific kind only.
+
+For example, the measurement unit ‘second to the power minus one’ (1/s) is called hertz (Hz) when used for frequencies and becquerel (Bq) when used for activities of radionuclides.
+
+As another example, the joule (J) is used as a unit of energy, but never as a unit of moment of force, i.e. the newton metre (N · m). — quantities of the same kind have the same quantity dimension,
+— quantities of different quantity dimensions are always of different kinds, and
+— quantities having the same quantity dimension are not necessarily of the same kind.
+ISO 80000-1","In the same system of quantities, dim ρB = ML−3 is the quantity dimension of mass concentration of component B, and ML−3 is also the quantity dimension of mass density, ρ.
+ISO 80000-1 Measured or simulated 'physical propertiy'-s are always defined by a physical law, connected to a physical entity through a model perspective and measurement is done according to the same model.
+
+Systems of units suggests that this is the correct approach, since except for the fundamental units (length, time, charge) every other unit is derived by mathematical relations between these fundamental units, implying a physical laws or definitions. Measurement units of quantities of the same quantity dimension may be designated by the same name and symbol even when the quantities are not of the same kind.
+
+For example, joule per kelvin and J/K are respectively the name and symbol of both a measurement unit of heat capacity and a measurement unit of entropy, which are generally not considered to be quantities of the same kind.
+
+However, in some cases special measurement unit names are restricted to be used with quantities of specific kind only.
+
+For example, the measurement unit ‘second to the power minus one’ (1/s) is called hertz (Hz) when used for frequencies and becquerel (Bq) when used for activities of radionuclides.
+
+As another example, the joule (J) is used as a unit of energy, but never as a unit of moment of force, i.e. the newton metre (N · m). — quantities of the same kind have the same quantity dimension,
+— quantities of different quantity dimensions are always of different kinds, and
+— quantities having the same quantity dimension are not necessarily of the same kind.
+ISO 80000-1"
+http://materialsmine.org/ns/MechanicalProperty,Mechanical Property,A materials property related to the response of a material under some external applied load.,subClassOf,http://semanticscience.org/resource/Quantity,Amount,A quantity is an informational entity that gives the magnitude of a property.,A quantity is an informational entity that gives the magnitude of a property.
+http://semanticscience.org/resource/Quantity,Amount,A quantity is an informational entity that gives the magnitude of a property.,subClassOf,http://semanticscience.org/resource/MeasurementValue,measurement value,A measurement value is a quantitative description that reflects the magnitude of some attribute.,A measurement value is a quantitative description that reflects the magnitude of some attribute.
+http://semanticscience.org/resource/MeasurementValue,measurement value,A measurement value is a quantitative description that reflects the magnitude of some attribute.,subClassOf,http://semanticscience.org/resource/Number,number,A number is a tensor of rank 0.,A number is a tensor of rank 0.
+http://semanticscience.org/resource/Number,number,A number is a tensor of rank 0.,subClassOf,http://semanticscience.org/resource/Scalar,scalar,a scalar is a rank 0 tensor and is an element of a field that is used to define a vector space.,a scalar is a rank 0 tensor and is an element of a field that is used to define a vector space.
+http://semanticscience.org/resource/Scalar,scalar,a scalar is a rank 0 tensor and is an element of a field that is used to define a vector space.,subClassOf,http://semanticscience.org/resource/Tensor,tensor,a tensor is a n-dimensional array.,a tensor is a n-dimensional array.
+http://semanticscience.org/resource/Tensor,tensor,a tensor is a n-dimensional array.,subClassOf,http://semanticscience.org/resource/MathematicalEntity,mathematical entity,A mathematical entity is an information content entity that are components of a mathematical system or can be defined in mathematical terms.,A mathematical entity is an information content entity that are components of a mathematical system or can be defined in mathematical terms.
+http://semanticscience.org/resource/MathematicalEntity,mathematical entity,A mathematical entity is an information content entity that are components of a mathematical system or can be defined in mathematical terms.,subClassOf,http://semanticscience.org/resource/InformationContentEntity,information content entity,information content entity is an object that requires some background knowledge or procedure to correctly interpret.,information content entity is an object that requires some background knowledge or procedure to correctly interpret.
+http://semanticscience.org/resource/InformationContentEntity,information content entity,information content entity is an object that requires some background knowledge or procedure to correctly interpret.,subClassOf,http://semanticscience.org/resource/Object,object,An object is an entity that is wholly identifiable at any instant of time during which it exists.,An object is an entity that is wholly identifiable at any instant of time during which it exists.
+https://w3id.org/emmo#EMMO_6f5af708_f825_4feb_a0d1_a8d813d3022b,Object,"Here is assumed that the concept of 'object' is always relative to a 'semiotic' process. An 'object' does not exists per se, but it's always part of an interpretation.
+
+The EMMO relies on strong reductionism, i.e. everything real is a formless collection of elementary particles: we give a meaning to real world entities only by giving them boundaries and defining them using 'sign'-s.
+
+In this way the 'sign'-ed entity becomes an 'object', and the 'object' is the basic entity needed in order to apply a logical formalism to the real world entities (i.e. we can speak of it through its sign, and use logics on it through its sign).",equivalentClass,Complex class expression,,,Complex class expression
+https://w3id.org/pmd/co/Object,Object,"A discernable, tangible or simulated entity that is processed in a process by a processing node.",subClassOf,http://www.w3.org/ns/prov#Entity,,,
 http://semanticscience.org/resource/Object,object,An object is an entity that is wholly identifiable at any instant of time during which it exists.,subClassOf,http://semanticscience.org/resource/Entity,entity,Every thing is an entity.,Every thing is an entity.
 http://semanticscience.org/resource/Entity,entity,Every thing is an entity.,subClassOf,http://www.w3.org/2002/07/owl#Thing,,,
 http://semanticscience.org/resource/Quantity,Amount,A quantity is an informational entity that gives the magnitude of a property.,equivalentClass,Complex class expression,,,Complex class expression

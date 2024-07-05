@@ -1,3 +1,64 @@
+http://semanticscience.org/resource/ChemicalReaction,chemical reaction,subClassOf,http://semanticscience.org/resource/ChemicalInteraction,chemical interaction,A chemical interaction is a biochemical process in which chemical entities interact through some set of attractive forces.
+https://w3id.org/emmo#EMMO_4207e895_8b83_4318_996a_72cfb32acd94,Material,subClassOf,https://w3id.org/emmo#EMMO_6e9cb807_fc68_4bcf_b3ba_5fccc887c644,OrdinaryMatter,
+https://w3id.org/emmo#EMMO_4207e895_8b83_4318_996a_72cfb32acd94,Material,subClassOf,https://w3id.org/emmo#EMMO_bc37743c_37c4_4ec7_9d58_d1aae5567352,Substance,
+http://materialsmine.org/ns/Particle,Particle,subClassOf,http://materialsmine.org/ns/Nanomaterial,Nanomaterial,materials of which a single unit is sized (in at least one dimension) between 1 and 1000 nanometres (10−9 meter) but is usually 1—100 nm
 http://materialsmine.org/ns/Stress,Stress,subClassOf,http://materialsmine.org/ns/MechanicalProperty,Mechanical Property,A materials property related to the response of a material under some external applied load.
-http://materialsmine.org/ns/Compression,Compression,subClassOf,http://materialsmine.org/ns/ViscoelasticProperty,Viscoelastic Property,Properties of materials that exhibit both viscous and elastic behaviors
+http://materialsmine.org/ns/Strain,Strain,subClassOf,http://materialsmine.org/ns/MechanicalProperty,Mechanical Property,A materials property related to the response of a material under some external applied load.
+http://materialsmine.org/ns/MechanicalProperty,Mechanical Property,subClassOf,http://semanticscience.org/resource/Quantity,Amount,A quantity is an informational entity that gives the magnitude of a property.
+https://w3id.org/pmd/co/Particle,Particle,subClassOf,https://w3id.org/pmd/co/Object,Object,"A discernable, tangible or simulated entity that is processed in a process by a processing node."
+https://w3id.org/emmo#EMMO_d1917609_db5e_4b8a_9b76_ef1d6f860a81,Stress,subClassOf,https://w3id.org/emmo#EMMO_2946d40b_24a1_47fa_8176_e3f79bb45064,ISQDerivedQuantity,
+https://w3id.org/emmo#EMMO_acf636d4_9ac2_4ce3_960a_d54338e6cae3,Strain,subClassOf,https://w3id.org/emmo#EMMO_faab3f84_e475_4a46_af9c_7d249f0b9aef,RatioQuantity,"Quantities defined as ratios `Q=A/B` having equal dimensions in numerator and denominator are dimensionless quantities but still have a physical dimension defined as dim(A)/dim(B).
+
+Johansson, Ingvar (2010). ""Metrological thinking needs the notions of parametric quantities, units and dimensions"". Metrologia. 47 (3): 219–230. doi:10.1088/0026-1394/47/3/012. ISSN 0026-1394."
+https://w3id.org/pmd/co/Stress,Stress,subClassOf,https://w3id.org/pmd/co/ValueObject,Value Object,"A :ValueObject is a simple entity which represents a specific value. This value can be a numerical, textual, or a more complex data structure. If a literal value is to be specified, the :value datatype property has to be used. In cases where the value is represented by a resource (e.g. URI), the :resource object property has to be used.
+
+A value object, respectively its value, is always associated with an entity of type :Process, :ProcessingNode, or :Object (e.g. :Specimen). The value is meant to be a charactaristic of the associated entity. To express this association it is indended to use the :participant object property.
+
+A value object might also refer to a certain unit. The :unit property might be used (e.g. with QUDT ontology).
+
+Instances of a value object might be specified as a specific Parameter, namely a SetPoint (nominal value), or Measurement. With :Setpoint the intend is to express, that the value is meant to be some preset, setting or nominal value. :Measurement expresses, that the value has been measured or determined somehow (see example).
+
+Instances of a value object might also be specified in a specific DataScope (:Metadata, :PrimaryData, :SecondaryData)."
+https://w3id.org/pmd/co/Stress,Stress,equivalentClass,Complex class expression,Intersection of Restriction on relates to some Area and Restriction on relates to some Force,Complex class expression
+https://w3id.org/pmd/co/Stiffness,Stiffness,subClassOf,https://w3id.org/pmd/co/ValueObject,Value Object,"A :ValueObject is a simple entity which represents a specific value. This value can be a numerical, textual, or a more complex data structure. If a literal value is to be specified, the :value datatype property has to be used. In cases where the value is represented by a resource (e.g. URI), the :resource object property has to be used.
+
+A value object, respectively its value, is always associated with an entity of type :Process, :ProcessingNode, or :Object (e.g. :Specimen). The value is meant to be a charactaristic of the associated entity. To express this association it is indended to use the :participant object property.
+
+A value object might also refer to a certain unit. The :unit property might be used (e.g. with QUDT ontology).
+
+Instances of a value object might be specified as a specific Parameter, namely a SetPoint (nominal value), or Measurement. With :Setpoint the intend is to express, that the value is meant to be some preset, setting or nominal value. :Measurement expresses, that the value has been measured or determined somehow (see example).
+
+Instances of a value object might also be specified in a specific DataScope (:Metadata, :PrimaryData, :SecondaryData)."
+http://semanticscience.org/resource/Strain,strain,subClassOf,http://semanticscience.org/resource/Organism,organism,A biological organisn is a biological entity that consists of one or more cells and is capable of genomic replication (independently or not).
+https://w3id.org/emmo#EMMO_09663630_1b84_4202_91e6_e641104f579e,Permeability,subClassOf,https://w3id.org/emmo#EMMO_2946d40b_24a1_47fa_8176_e3f79bb45064,ISQDerivedQuantity,
+https://w3id.org/emmo#EMMO_09663630_1b84_4202_91e6_e641104f579e,Permeability,subClassOf,https://w3id.org/emmo#EMMO_602397bd_e302_42a6_be33_fe67ea81933a,Intensive,Note that not all physical quantities can be categorised as being either intensive or extensive. For example the square root of the mass.
+https://w3id.org/emmo#EMMO_09663630_1b84_4202_91e6_e641104f579e,Permeability,subClassOf,https://w3id.org/emmo#EMMO_af794e9d_dc7d_4756_83e1_2cd0e2ec864e,ElectromagneticQuantity,
+https://w3id.org/emmo#EMMO_3a6578ac_aee0_43b9_9bc6_1eb208c8c9a9,Porosity,subClassOf,https://w3id.org/emmo#EMMO_faab3f84_e475_4a46_af9c_7d249f0b9aef,RatioQuantity,"Quantities defined as ratios `Q=A/B` having equal dimensions in numerator and denominator are dimensionless quantities but still have a physical dimension defined as dim(A)/dim(B).
+
+Johansson, Ingvar (2010). ""Metrological thinking needs the notions of parametric quantities, units and dimensions"". Metrologia. 47 (3): 219–230. doi:10.1088/0026-1394/47/3/012. ISSN 0026-1394."
+http://materialsmine.org/ns/IZOD_ImpactEnergy,IZOD Impact Energy,subClassOf,http://materialsmine.org/ns/MechanicalProperty,Mechanical Property,A materials property related to the response of a material under some external applied load.
+http://semanticscience.org/resource/RedoxReaction,redox reaction,subClassOf,http://semanticscience.org/resource/ChemicalReaction,chemical reaction,A chemical reaction is a process that leads to the transformation of one set of chemical substances to another.
+http://semanticscience.org/resource/InorganicReaction,inorganic reaction,subClassOf,http://semanticscience.org/resource/ChemicalReaction,chemical reaction,A chemical reaction is a process that leads to the transformation of one set of chemical substances to another.
+http://semanticscience.org/resource/CatalyzedReaction,catalyzed reaction,subClassOf,http://semanticscience.org/resource/ChemicalReaction,chemical reaction,A chemical reaction is a process that leads to the transformation of one set of chemical substances to another.
+https://w3id.org/emmo#EMMO_8820f251_ad36_43f4_a693_c0e86a89cc1f,FunctionallyDefinedMaterial,subClassOf,https://w3id.org/emmo#EMMO_4207e895_8b83_4318_996a_72cfb32acd94,Material,
+http://semanticscience.org/resource/IsomerizationReaction,isomerization reaction,subClassOf,http://semanticscience.org/resource/ChemicalReaction,chemical reaction,A chemical reaction is a process that leads to the transformation of one set of chemical substances to another.
+http://materialsmine.org/ns/FlexuralProperty,Flexural Property,subClassOf,http://materialsmine.org/ns/MechanicalProperty,Mechanical Property,A materials property related to the response of a material under some external applied load.
 http://materialsmine.org/ns/PlaneStress,Plane Stress,subClassOf,http://materialsmine.org/ns/Stress,Stress,"When a material is loaded with a force, it produces a stress, which then causes a material to deform. "
+https://w3id.org/emmo#EMMO_75fe4fd1_0f7e_429b_b91d_59d248561bae,NaturalMaterial,subClassOf,https://w3id.org/emmo#EMMO_4207e895_8b83_4318_996a_72cfb32acd94,Material,
+http://materialsmine.org/ns/Notched,Notched,subClassOf,http://materialsmine.org/ns/MechanicalProperty,Mechanical Property,A materials property related to the response of a material under some external applied load.
+https://w3id.org/emmo#EMMO_8a41ed1b_64f9_4be7_9b60_01fcece45075,ChemicalMaterial,subClassOf,https://w3id.org/emmo#EMMO_4207e895_8b83_4318_996a_72cfb32acd94,Material,
+http://materialsmine.org/ns/FractureToughnessProperty,Fracture Toughness Property,subClassOf,http://materialsmine.org/ns/MechanicalProperty,Mechanical Property,A materials property related to the response of a material under some external applied load.
+https://w3id.org/emmo#EMMO_e4e80813_f379_4091_b017_ee059811f806,SizeDefinedMaterial,subClassOf,https://w3id.org/emmo#EMMO_4207e895_8b83_4318_996a_72cfb32acd94,Material,
+http://materialsmine.org/ns/ShearProperty,Shear Property,subClassOf,http://materialsmine.org/ns/MechanicalProperty,Mechanical Property,A materials property related to the response of a material under some external applied load.
+http://materialsmine.org/ns/CharpyImpactEnergy,Charpy Impact Energy,subClassOf,http://materialsmine.org/ns/MechanicalProperty,Mechanical Property,A materials property related to the response of a material under some external applied load.
+http://materialsmine.org/ns/CompressionProperty,Compression Property,subClassOf,http://materialsmine.org/ns/MechanicalProperty,Mechanical Property,A materials property related to the response of a material under some external applied load.
+http://materialsmine.org/ns/IZOD_Area,IZOD Area,subClassOf,http://materialsmine.org/ns/MechanicalProperty,Mechanical Property,A materials property related to the response of a material under some external applied load.
+http://semanticscience.org/resource/MolecularModification,molecular modification,subClassOf,http://semanticscience.org/resource/ChemicalReaction,chemical reaction,A chemical reaction is a process that leads to the transformation of one set of chemical substances to another.
+https://w3id.org/emmo#EMMO_39348191_08fd_4bb6_9b1e_012d5b2f1ff6,ClassicallyDefinedMaterial,subClassOf,https://w3id.org/emmo#EMMO_4207e895_8b83_4318_996a_72cfb32acd94,Material,
+http://semanticscience.org/resource/Acid-baseReaction,acid-base reaction,subClassOf,http://semanticscience.org/resource/ChemicalReaction,chemical reaction,A chemical reaction is a process that leads to the transformation of one set of chemical substances to another.
+http://materialsmine.org/ns/FractureEnergy,Fracture Energy,subClassOf,http://materialsmine.org/ns/MechanicalProperty,Mechanical Property,A materials property related to the response of a material under some external applied load.
+http://materialsmine.org/ns/PlaneStrain,Plane Strain,subClassOf,http://materialsmine.org/ns/Strain,Strain,Engineering strain is defined as the amount of deformation in the direction of the applied force divided by the initial length of the material.
+http://semanticscience.org/resource/OrganicReaction,organic reaction,subClassOf,http://semanticscience.org/resource/ChemicalReaction,chemical reaction,A chemical reaction is a process that leads to the transformation of one set of chemical substances to another.
+http://materialsmine.org/ns/StrainAtBreak,Strain at Break,subClassOf,http://materialsmine.org/ns/Strain,Strain,Engineering strain is defined as the amount of deformation in the direction of the applied force divided by the initial length of the material.
+https://w3id.org/emmo#EMMO_a96e2152_40e7_409c_a53a_fdb9f141eb6a,ChemicallyDefinedMaterial,subClassOf,https://w3id.org/emmo#EMMO_4207e895_8b83_4318_996a_72cfb32acd94,Material,
+http://materialsmine.org/ns/TensileProperty,Tensile Property,subClassOf,http://materialsmine.org/ns/MechanicalProperty,Mechanical Property,A materials property related to the response of a material under some external applied load.
