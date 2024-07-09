@@ -1,8 +1,8 @@
 Subject,Subject URI,Predicate,Predicate URI,Object,Object URI
 drug,http://semanticscience.org/resource/Drug,label,http://www.w3.org/2000/01/rdf-schema#label,drug,drug
 drug,http://semanticscience.org/resource/Drug,description,http://purl.org/dc/terms/description,A drug is a chemical substance that contains one or more active ingredients that regulate one or more biological processes.,A drug is a chemical substance that contains one or more active ingredients that regulate one or more biological processes.
-drug,http://semanticscience.org/resource/Drug,subClassOf,http://www.w3.org/2000/01/rdf-schema#subClassOf,chemical substance,http://semanticscience.org/resource/ChemicalSubstance
-drug,http://semanticscience.org/resource/Drug,isDefinedBy,http://www.w3.org/2000/01/rdf-schema#isDefinedBy,sio-subset-labels.owl,http://semanticscience.org/ontology/sio/v1.53/sio-subset-labels.owl
+Stress,http://materialsmine.org/ns/Stress,definition,http://www.w3.org/2004/02/skos/core#definition,"When a material is loaded with a force, it produces a stress, which then causes a material to deform. ","When a material is loaded with a force, it produces a stress, which then causes a material to deform. "
+Stress,http://materialsmine.org/ns/Stress,subClassOf,http://www.w3.org/2000/01/rdf-schema#subClassOf,Mechanical Property,http://materialsmine.org/ns/MechanicalProperty
 drug,http://semanticscience.org/resource/Drug,subClassOf,http://www.w3.org/2000/01/rdf-schema#subClassOf,Blank Node,Blank Node
 Blank Node,Blank Node,type,Restriction,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Restriction
 Blank Node,Blank Node,onProperty,has capability,http://www.w3.org/2002/07/owl#onProperty,http://semanticscience.org/resource/hasCapability
@@ -16,5 +16,10 @@ Blank Node,Blank Node,type,Restriction,http://www.w3.org/1999/02/22-rdf-syntax-n
 Blank Node,Blank Node,onProperty,in relation to,http://www.w3.org/2002/07/owl#onProperty,http://semanticscience.org/resource/inRelationTo
 Blank Node,Blank Node,someValuesFrom,biological entity,http://www.w3.org/2002/07/owl#someValuesFrom,http://semanticscience.org/resource/BiologicalEntity
 Blank Node,Blank Node,rest,nil,http://www.w3.org/1999/02/22-rdf-syntax-ns#rest,http://www.w3.org/1999/02/22-rdf-syntax-ns#nil
+Stress,http://materialsmine.org/ns/Stress,type,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Class,http://www.w3.org/2002/07/owl#Class
+drug,http://semanticscience.org/resource/Drug,subClassOf,http://www.w3.org/2000/01/rdf-schema#subClassOf,chemical substance,http://semanticscience.org/resource/ChemicalSubstance
+drug,http://semanticscience.org/resource/Drug,isDefinedBy,http://www.w3.org/2000/01/rdf-schema#isDefinedBy,sio-subset-labels.owl,http://semanticscience.org/ontology/sio/v1.53/sio-subset-labels.owl
+Stress,http://materialsmine.org/ns/Stress,prefixIRI,http://data.bioontology.org/metadata/prefixIRI,materialsmine:Stress,materialsmine:Stress
 drug,http://semanticscience.org/resource/Drug,type,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Class,http://www.w3.org/2002/07/owl#Class
+Stress,http://materialsmine.org/ns/Stress,label,http://www.w3.org/2000/01/rdf-schema#label,Stress,Stress
 drug,http://semanticscience.org/resource/Drug,prefixIRI,http://data.bioontology.org/metadata/prefixIRI,sio:Drug,sio:Drug
