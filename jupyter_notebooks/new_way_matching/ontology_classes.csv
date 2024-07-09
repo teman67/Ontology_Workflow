@@ -1,0 +1,11 @@
+../Ontologies/materialsmine_converted.ttl,http://materialsmine.org/ns/Stress,Stress,"When a material is loaded with a force, it produces a stress, which then causes a material to deform. "
+../Ontologies/materialsmine_converted.ttl,http://semanticscience.org/resource/Drug,drug,A drug is a chemical substance that contains one or more active ingredients that regulate one or more biological processes.
+../Ontologies/pmdco_core.ttl,https://w3id.org/pmd/co/TensileTest,Tensile Test,"Tensile tests (tension tests) on materials provide information on their strength, ductility as well as other characteristic values under uniaxial tensile stress. The tensile test involves straining a test piece by tensile force, generally to fracture, for the determination of one or more mechanical properties specified by the semantically related and defined terms."
+../Ontologies/pmdco_core.ttl,https://w3id.org/pmd/co/Stress,Stress,"At any moment during the test, force divided by the original cross-sectional area, S_o, of the test piece
+
+Note: Here, all references to stress are to engineering stress. Dimensional Analysis: 
+ML*-1T*-2 Kraft zu einem beliebigen Zeitpunkt während des Versuchs dividiert durch den Anfangsquerschnitt (S_o) der Probe
+
+Anmerkung: Mit dem Begriff Spannung ist hier die technische Spannung ('Ingenieur-Spannung') gemeint. Units: Pa (SI), psi"
+../Ontologies/emmo.ttl,https://w3id.org/emmo#EMMO_d1917609_db5e_4b8a_9b76_ef1d6f860a81,Stress,Force per unit oriented surface area . Measure of the internal forces that neighboring particles of a continuous material exert on each other.
+../Ontologies/emmo.ttl,https://w3id.org/emmo#AmperePerJoule,Ampere per Joule,

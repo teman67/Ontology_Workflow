@@ -1,0 +1,18 @@
+../Ontologies/materialsmine_converted.ttl,http://materialsmine.org/ns/Stress,Stress,subClassOf,http://materialsmine.org/ns/MechanicalProperty,Mechanical Property,A materials property related to the response of a material under some external applied load.
+../Ontologies/materialsmine_converted.ttl,http://semanticscience.org/resource/Drug,drug,subClassOf,http://semanticscience.org/resource/ChemicalSubstance,chemical substance,A chemical substance is a chemical entity composed of two or more weakly (non-covalently) interacting chemical entities.
+../Ontologies/pmdco_core.ttl,https://w3id.org/pmd/co/TensileTest,Tensile Test,subClassOf,https://w3id.org/pmd/co/MechanicalTestingProcess,Mechanical Testing Process,Determinization of a mechanical property.
+../Ontologies/pmdco_core.ttl,https://w3id.org/pmd/co/TensileTest,Tensile Test,equivalentClass,Complex class expression,Restriction on has participant some Tensile Testing Machine,Complex class expression
+../Ontologies/pmdco_core.ttl,https://w3id.org/pmd/co/TensileTest,Tensile Test,equivalentClass,Complex class expression,Restriction on has participant some Prüfkörper,Complex class expression
+../Ontologies/pmdco_core.ttl,https://w3id.org/pmd/co/Stress,Stress,subClassOf,https://w3id.org/pmd/co/ValueObject,Value Object,"A :ValueObject is a simple entity which represents a specific value. This value can be a numerical, textual, or a more complex data structure. If a literal value is to be specified, the :value datatype property has to be used. In cases where the value is represented by a resource (e.g. URI), the :resource object property has to be used.
+
+A value object, respectively its value, is always associated with an entity of type :Process, :ProcessingNode, or :Object (e.g. :Specimen). The value is meant to be a charactaristic of the associated entity. To express this association it is indended to use the :participant object property.
+
+A value object might also refer to a certain unit. The :unit property might be used (e.g. with QUDT ontology).
+
+Instances of a value object might be specified as a specific Parameter, namely a SetPoint (nominal value), or Measurement. With :Setpoint the intend is to express, that the value is meant to be some preset, setting or nominal value. :Measurement expresses, that the value has been measured or determined somehow (see example).
+
+Instances of a value object might also be specified in a specific DataScope (:Metadata, :PrimaryData, :SecondaryData)."
+../Ontologies/pmdco_core.ttl,https://w3id.org/pmd/co/Stress,Stress,equivalentClass,Complex class expression,Intersection of Restriction on relates to some Area and Restriction on relates to some Force,Complex class expression
+../Ontologies/emmo.ttl,https://w3id.org/emmo#EMMO_d1917609_db5e_4b8a_9b76_ef1d6f860a81,Stress,subClassOf,https://w3id.org/emmo#EMMO_2946d40b_24a1_47fa_8176_e3f79bb45064,ISQDerivedQuantity,
+../Ontologies/emmo.ttl,https://w3id.org/emmo#AmperePerJoule,Ampere per Joule,subClassOf,https://w3id.org/emmo#EMMO_1273eb34_de48_43a9_925f_104110469dd2,SICoherentDerivedUnit,This class collects all units that are products or powers of SI base or SI special units only.
+../Ontologies/emmo.ttl,https://w3id.org/emmo#AmperePerJoule,Ampere per Joule,subClassOf,https://w3id.org/emmo#EMMO_1aaaceb6_c5eb_4cf3_a494_f82d43fda10a,ElectricCurrentPerUnitEnergyUnit,
