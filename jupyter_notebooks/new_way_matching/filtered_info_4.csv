@@ -1,0 +1,25 @@
+Subject,Subject URI,Predicate,Predicate URI,Object,Object URI
+AmperePerJoule,https://w3id.org/emmo#AmperePerJoule,isDefinedBy,http://www.w3.org/2000/01/rdf-schema#isDefinedBy,,https://w3id.org/emmo/disciplines/units/coherentsiunits#
+AmperePerJoule,https://w3id.org/emmo#AmperePerJoule,EMMO_33ae2d07_5526_4555_a0b4_8f4c031b5652,https://w3id.org/emmo#EMMO_33ae2d07_5526_4555_a0b4_8f4c031b5652,A.J-1,A.J-1
+AmperePerJoule,https://w3id.org/emmo#AmperePerJoule,altLabel,http://www.w3.org/2004/02/skos/core#altLabel,Ampere per Joule,Ampere per Joule
+AmperePerJoule,https://w3id.org/emmo#AmperePerJoule,EMMO_1f1b164d_ec6a_4faa_8d5e_88bda62316cc,https://w3id.org/emmo#EMMO_1f1b164d_ec6a_4faa_8d5e_88bda62316cc,A-PER-J,http://qudt.org/vocab/unit/A-PER-J
+AmperePerJoule,https://w3id.org/emmo#AmperePerJoule,subClassOf,http://www.w3.org/2000/01/rdf-schema#subClassOf,Blank Node,Blank Node
+Blank Node,Blank Node,type,Restriction,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Restriction
+Blank Node,Blank Node,hasValue,1.0,http://www.w3.org/2002/07/owl#hasValue,1.0
+Blank Node,Blank Node,onProperty,EMMO_8189b42e_0995_423a_a26c_51168b27c3cf,http://www.w3.org/2002/07/owl#onProperty,https://w3id.org/emmo#EMMO_8189b42e_0995_423a_a26c_51168b27c3cf
+AmperePerJoule,https://w3id.org/emmo#AmperePerJoule,subClassOf,http://www.w3.org/2000/01/rdf-schema#subClassOf,EMMO_1273eb34_de48_43a9_925f_104110469dd2,https://w3id.org/emmo#EMMO_1273eb34_de48_43a9_925f_104110469dd2
+AmperePerJoule,https://w3id.org/emmo#AmperePerJoule,type,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Class,http://www.w3.org/2002/07/owl#Class
+AmperePerJoule,https://w3id.org/emmo#AmperePerJoule,EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9,https://w3id.org/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9,"The inverse measure of joule-per-ampere or weber. The measure for the reciprical of magnetic flux.
+
+-- QUDT","The inverse measure of joule-per-ampere or weber. The measure for the reciprical of magnetic flux.
+
+-- QUDT"
+AmperePerJoule,https://w3id.org/emmo#AmperePerJoule,EMMO_7f1dec83_d85e_4e1b_b7bd_c9442d4f5a64,https://w3id.org/emmo#EMMO_7f1dec83_d85e_4e1b_b7bd_c9442d4f5a64,J,A/J
+AmperePerJoule,https://w3id.org/emmo#AmperePerJoule,isDefinedBy,http://www.w3.org/2000/01/rdf-schema#isDefinedBy,unit,http://qudt.org/2.1/vocab/unit
+AmperePerJoule,https://w3id.org/emmo#AmperePerJoule,prefLabel,http://www.w3.org/2004/02/skos/core#prefLabel,AmperePerJoule,AmperePerJoule
+AmperePerJoule,https://w3id.org/emmo#AmperePerJoule,subClassOf,http://www.w3.org/2000/01/rdf-schema#subClassOf,Blank Node,Blank Node
+Blank Node,Blank Node,type,Restriction,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Restriction
+Blank Node,Blank Node,hasValue,0.0,http://www.w3.org/2002/07/owl#hasValue,0.0
+Blank Node,Blank Node,onProperty,EMMO_d088a3cb_d3e3_4eb2_9897_00aef0cb00cd,http://www.w3.org/2002/07/owl#onProperty,https://w3id.org/emmo#EMMO_d088a3cb_d3e3_4eb2_9897_00aef0cb00cd
+AmperePerJoule,https://w3id.org/emmo#AmperePerJoule,EMMO_33ae2d07_5526_4555_a0b4_8f4c031b5652,https://w3id.org/emmo#EMMO_33ae2d07_5526_4555_a0b4_8f4c031b5652,J,A/J
+AmperePerJoule,https://w3id.org/emmo#AmperePerJoule,subClassOf,http://www.w3.org/2000/01/rdf-schema#subClassOf,EMMO_1aaaceb6_c5eb_4cf3_a494_f82d43fda10a,https://w3id.org/emmo#EMMO_1aaaceb6_c5eb_4cf3_a494_f82d43fda10a

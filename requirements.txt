@@ -6,8 +6,10 @@ kiwisolver==1.4.5
 matplotlib==3.9.0
 numpy==2.0.0
 owlready2==0.46
+oxrdflib==0.3.7
 pandas==2.2.2
 pillow==10.3.0
+pyoxigraph==0.3.22
 pyparsing==3.1.2
 pytz==2024.1
 rdflib==7.0.0
