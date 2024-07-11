@@ -1,4 +1,11 @@
 Class Label,Class URI,is SubClass of,Superclass URI
+Clamping Pressure,https://w3id.org/pmd/co/ClampingPressure,Spannung,https://w3id.org/pmd/co/Stress
+Spannung,https://w3id.org/pmd/co/Stress,Value Object,https://w3id.org/pmd/co/ValueObject
+drug,http://semanticscience.org/resource/Drug,chemical substance,http://semanticscience.org/resource/ChemicalSubstance
+chemical substance,http://semanticscience.org/resource/ChemicalSubstance,chemical entity,http://semanticscience.org/resource/ChemicalEntity
+chemical entity,http://semanticscience.org/resource/ChemicalEntity,Material Entity,http://semanticscience.org/resource/MaterialEntity
+Material Entity,http://semanticscience.org/resource/MaterialEntity,object,http://semanticscience.org/resource/Object
+object,http://semanticscience.org/resource/Object,entity,http://semanticscience.org/resource/Entity
 Stress,http://materialsmine.org/ns/Stress,Mechanical Property,http://materialsmine.org/ns/MechanicalProperty
 Mechanical Property,http://materialsmine.org/ns/MechanicalProperty,Amount,http://semanticscience.org/resource/Quantity
 Amount,http://semanticscience.org/resource/Quantity,measurement value,http://semanticscience.org/resource/MeasurementValue
@@ -8,4 +15,9 @@ scalar,http://semanticscience.org/resource/Scalar,tensor,http://semanticscience.
 tensor,http://semanticscience.org/resource/Tensor,mathematical entity,http://semanticscience.org/resource/MathematicalEntity
 mathematical entity,http://semanticscience.org/resource/MathematicalEntity,information content entity,http://semanticscience.org/resource/InformationContentEntity
 information content entity,http://semanticscience.org/resource/InformationContentEntity,object,http://semanticscience.org/resource/Object
+object,http://semanticscience.org/resource/Object,entity,http://semanticscience.org/resource/Entity
+drug,http://semanticscience.org/resource/Drug,chemical substance,http://semanticscience.org/resource/ChemicalSubstance
+chemical substance,http://semanticscience.org/resource/ChemicalSubstance,chemical entity,http://semanticscience.org/resource/ChemicalEntity
+chemical entity,http://semanticscience.org/resource/ChemicalEntity,Material Entity,http://semanticscience.org/resource/MaterialEntity
+Material Entity,http://semanticscience.org/resource/MaterialEntity,object,http://semanticscience.org/resource/Object
 object,http://semanticscience.org/resource/Object,entity,http://semanticscience.org/resource/Entity
