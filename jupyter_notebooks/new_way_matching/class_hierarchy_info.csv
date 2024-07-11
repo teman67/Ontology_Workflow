@@ -1,56 +1,56 @@
-Class URI,Superclass Label,Superclass URI
-http://materialsmine.org/ns/Stress,Mechanical Property,http://materialsmine.org/ns/MechanicalProperty
-http://materialsmine.org/ns/Stress,Amount,http://semanticscience.org/resource/Quantity
-http://materialsmine.org/ns/Stress,quantity,http://semanticscience.org/resource/Quantity
-http://materialsmine.org/ns/Stress,measurement value,http://semanticscience.org/resource/MeasurementValue
-http://materialsmine.org/ns/Stress,number,http://semanticscience.org/resource/Number
-http://materialsmine.org/ns/Stress,scalar,http://semanticscience.org/resource/Scalar
-http://materialsmine.org/ns/Stress,tensor,http://semanticscience.org/resource/Tensor
-http://materialsmine.org/ns/Stress,mathematical entity,http://semanticscience.org/resource/MathematicalEntity
-http://materialsmine.org/ns/Stress,information content entity,http://semanticscience.org/resource/InformationContentEntity
-http://materialsmine.org/ns/Stress,object,http://semanticscience.org/resource/Object
-http://materialsmine.org/ns/Stress,entity,http://semanticscience.org/resource/Entity
-http://materialsmine.org/ns/Stress,Mechanical Property,http://materialsmine.org/ns/MechanicalProperty
-http://materialsmine.org/ns/Stress,Amount,http://semanticscience.org/resource/Quantity
-http://materialsmine.org/ns/Stress,quantity,http://semanticscience.org/resource/Quantity
-http://materialsmine.org/ns/Stress,measurement value,http://semanticscience.org/resource/MeasurementValue
-http://materialsmine.org/ns/Stress,number,http://semanticscience.org/resource/Number
-http://materialsmine.org/ns/Stress,scalar,http://semanticscience.org/resource/Scalar
-http://materialsmine.org/ns/Stress,tensor,http://semanticscience.org/resource/Tensor
-http://materialsmine.org/ns/Stress,mathematical entity,http://semanticscience.org/resource/MathematicalEntity
-http://materialsmine.org/ns/Stress,information content entity,http://semanticscience.org/resource/InformationContentEntity
-http://materialsmine.org/ns/Stress,object,http://semanticscience.org/resource/Object
-http://materialsmine.org/ns/Stress,entity,http://semanticscience.org/resource/Entity
-http://materialsmine.org/ns/Stress,Mechanical Property,http://materialsmine.org/ns/MechanicalProperty
-http://materialsmine.org/ns/Stress,Amount,http://semanticscience.org/resource/Quantity
-http://materialsmine.org/ns/Stress,quantity,http://semanticscience.org/resource/Quantity
-http://materialsmine.org/ns/Stress,measurement value,http://semanticscience.org/resource/MeasurementValue
-http://materialsmine.org/ns/Stress,number,http://semanticscience.org/resource/Number
-http://materialsmine.org/ns/Stress,scalar,http://semanticscience.org/resource/Scalar
-http://materialsmine.org/ns/Stress,tensor,http://semanticscience.org/resource/Tensor
-http://materialsmine.org/ns/Stress,mathematical entity,http://semanticscience.org/resource/MathematicalEntity
-http://materialsmine.org/ns/Stress,information content entity,http://semanticscience.org/resource/InformationContentEntity
-http://materialsmine.org/ns/Stress,object,http://semanticscience.org/resource/Object
-http://materialsmine.org/ns/Stress,entity,http://semanticscience.org/resource/Entity
-http://materialsmine.org/ns/Stress,Mechanical Property,http://materialsmine.org/ns/MechanicalProperty
-http://materialsmine.org/ns/Stress,Amount,http://semanticscience.org/resource/Quantity
-http://materialsmine.org/ns/Stress,quantity,http://semanticscience.org/resource/Quantity
-http://materialsmine.org/ns/Stress,measurement value,http://semanticscience.org/resource/MeasurementValue
-http://materialsmine.org/ns/Stress,number,http://semanticscience.org/resource/Number
-http://materialsmine.org/ns/Stress,scalar,http://semanticscience.org/resource/Scalar
-http://materialsmine.org/ns/Stress,tensor,http://semanticscience.org/resource/Tensor
-http://materialsmine.org/ns/Stress,mathematical entity,http://semanticscience.org/resource/MathematicalEntity
-http://materialsmine.org/ns/Stress,information content entity,http://semanticscience.org/resource/InformationContentEntity
-http://materialsmine.org/ns/Stress,object,http://semanticscience.org/resource/Object
-http://materialsmine.org/ns/Stress,entity,http://semanticscience.org/resource/Entity
-http://materialsmine.org/ns/Stress,Mechanical Property,http://materialsmine.org/ns/MechanicalProperty
-http://materialsmine.org/ns/Stress,Amount,http://semanticscience.org/resource/Quantity
-http://materialsmine.org/ns/Stress,quantity,http://semanticscience.org/resource/Quantity
-http://materialsmine.org/ns/Stress,measurement value,http://semanticscience.org/resource/MeasurementValue
-http://materialsmine.org/ns/Stress,number,http://semanticscience.org/resource/Number
-http://materialsmine.org/ns/Stress,scalar,http://semanticscience.org/resource/Scalar
-http://materialsmine.org/ns/Stress,tensor,http://semanticscience.org/resource/Tensor
-http://materialsmine.org/ns/Stress,mathematical entity,http://semanticscience.org/resource/MathematicalEntity
-http://materialsmine.org/ns/Stress,information content entity,http://semanticscience.org/resource/InformationContentEntity
-http://materialsmine.org/ns/Stress,object,http://semanticscience.org/resource/Object
-http://materialsmine.org/ns/Stress,entity,http://semanticscience.org/resource/Entity
+Class URI,Class Label,Superclass Label,Superclass URI
+http://materialsmine.org/ns/Stress,Stress,Mechanical Property,http://materialsmine.org/ns/MechanicalProperty
+,,entity,http://semanticscience.org/resource/Entity
+,,information content entity,http://semanticscience.org/resource/InformationContentEntity
+,,mathematical entity,http://semanticscience.org/resource/MathematicalEntity
+,,measurement value,http://semanticscience.org/resource/MeasurementValue
+,,number,http://semanticscience.org/resource/Number
+,,object,http://semanticscience.org/resource/Object
+,,quantity,http://semanticscience.org/resource/Quantity
+,,Amount,http://semanticscience.org/resource/Quantity
+,,scalar,http://semanticscience.org/resource/Scalar
+,,tensor,http://semanticscience.org/resource/Tensor
+,,Mechanical Property,http://materialsmine.org/ns/MechanicalProperty
+,,entity,http://semanticscience.org/resource/Entity
+,,information content entity,http://semanticscience.org/resource/InformationContentEntity
+,,mathematical entity,http://semanticscience.org/resource/MathematicalEntity
+,,measurement value,http://semanticscience.org/resource/MeasurementValue
+,,number,http://semanticscience.org/resource/Number
+,,object,http://semanticscience.org/resource/Object
+,,quantity,http://semanticscience.org/resource/Quantity
+,,Amount,http://semanticscience.org/resource/Quantity
+,,scalar,http://semanticscience.org/resource/Scalar
+,,tensor,http://semanticscience.org/resource/Tensor
+,,Mechanical Property,http://materialsmine.org/ns/MechanicalProperty
+,,entity,http://semanticscience.org/resource/Entity
+,,information content entity,http://semanticscience.org/resource/InformationContentEntity
+,,mathematical entity,http://semanticscience.org/resource/MathematicalEntity
+,,measurement value,http://semanticscience.org/resource/MeasurementValue
+,,number,http://semanticscience.org/resource/Number
+,,object,http://semanticscience.org/resource/Object
+,,quantity,http://semanticscience.org/resource/Quantity
+,,Amount,http://semanticscience.org/resource/Quantity
+,,scalar,http://semanticscience.org/resource/Scalar
+,,tensor,http://semanticscience.org/resource/Tensor
+,,Mechanical Property,http://materialsmine.org/ns/MechanicalProperty
+,,entity,http://semanticscience.org/resource/Entity
+,,information content entity,http://semanticscience.org/resource/InformationContentEntity
+,,mathematical entity,http://semanticscience.org/resource/MathematicalEntity
+,,measurement value,http://semanticscience.org/resource/MeasurementValue
+,,number,http://semanticscience.org/resource/Number
+,,object,http://semanticscience.org/resource/Object
+,,quantity,http://semanticscience.org/resource/Quantity
+,,Amount,http://semanticscience.org/resource/Quantity
+,,scalar,http://semanticscience.org/resource/Scalar
+,,tensor,http://semanticscience.org/resource/Tensor
+,,Mechanical Property,http://materialsmine.org/ns/MechanicalProperty
+,,entity,http://semanticscience.org/resource/Entity
+,,information content entity,http://semanticscience.org/resource/InformationContentEntity
+,,mathematical entity,http://semanticscience.org/resource/MathematicalEntity
+,,measurement value,http://semanticscience.org/resource/MeasurementValue
+,,number,http://semanticscience.org/resource/Number
+,,object,http://semanticscience.org/resource/Object
+,,quantity,http://semanticscience.org/resource/Quantity
+,,Amount,http://semanticscience.org/resource/Quantity
+,,scalar,http://semanticscience.org/resource/Scalar
+,,tensor,http://semanticscience.org/resource/Tensor
