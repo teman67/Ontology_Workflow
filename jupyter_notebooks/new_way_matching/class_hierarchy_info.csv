@@ -1,11 +1,11 @@
-Class URI,Class Label,Superclass Label,Superclass URI
-http://materialsmine.org/ns/MechanicalProperty,Mechanical Property,http://materialsmine.org/ns/Stress,Stress
-http://semanticscience.org/resource/Quantity,Amount,http://materialsmine.org/ns/MechanicalProperty,Mechanical Property
-http://semanticscience.org/resource/MeasurementValue,measurement value,http://semanticscience.org/resource/Quantity,Amount
-http://semanticscience.org/resource/Number,number,http://semanticscience.org/resource/MeasurementValue,measurement value
-http://semanticscience.org/resource/Scalar,scalar,http://semanticscience.org/resource/Number,number
-http://semanticscience.org/resource/Tensor,tensor,http://semanticscience.org/resource/Scalar,scalar
-http://semanticscience.org/resource/MathematicalEntity,mathematical entity,http://semanticscience.org/resource/Tensor,tensor
-http://semanticscience.org/resource/InformationContentEntity,information content entity,http://semanticscience.org/resource/MathematicalEntity,mathematical entity
-http://semanticscience.org/resource/Object,object,http://semanticscience.org/resource/InformationContentEntity,information content entity
-http://semanticscience.org/resource/Entity,entity,http://semanticscience.org/resource/Object,object
+Class Label,Class URI,is SubClass of,Superclass URI
+Stress,http://materialsmine.org/ns/Stress,Mechanical Property,http://materialsmine.org/ns/MechanicalProperty
+Mechanical Property,http://materialsmine.org/ns/MechanicalProperty,Amount,http://semanticscience.org/resource/Quantity
+Amount,http://semanticscience.org/resource/Quantity,measurement value,http://semanticscience.org/resource/MeasurementValue
+measurement value,http://semanticscience.org/resource/MeasurementValue,number,http://semanticscience.org/resource/Number
+number,http://semanticscience.org/resource/Number,scalar,http://semanticscience.org/resource/Scalar
+scalar,http://semanticscience.org/resource/Scalar,tensor,http://semanticscience.org/resource/Tensor
+tensor,http://semanticscience.org/resource/Tensor,mathematical entity,http://semanticscience.org/resource/MathematicalEntity
+mathematical entity,http://semanticscience.org/resource/MathematicalEntity,information content entity,http://semanticscience.org/resource/InformationContentEntity
+information content entity,http://semanticscience.org/resource/InformationContentEntity,object,http://semanticscience.org/resource/Object
+object,http://semanticscience.org/resource/Object,entity,http://semanticscience.org/resource/Entity
