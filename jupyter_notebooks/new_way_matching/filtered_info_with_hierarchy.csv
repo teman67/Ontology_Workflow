@@ -1,6 +1,6 @@
 File Name,Subject,Subject URI,Predicate,Predicate URI,Object,Object URI
-materialsmine_converted.ttl,Stress,http://materialsmine.org/ns/Stress,prefixIRI,http://data.bioontology.org/metadata/prefixIRI,materialsmine:Stress,materialsmine:Stress
-materialsmine_converted.ttl,Stress,http://materialsmine.org/ns/Stress,label,http://www.w3.org/2000/01/rdf-schema#label,Stress,Stress
-materialsmine_converted.ttl,Stress,http://materialsmine.org/ns/Stress,definition,http://www.w3.org/2004/02/skos/core#definition,"When a material is loaded with a force, it produces a stress, which then causes a material to deform. ","When a material is loaded with a force, it produces a stress, which then causes a material to deform. "
 materialsmine_converted.ttl,Stress,http://materialsmine.org/ns/Stress,type,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,Class,http://www.w3.org/2002/07/owl#Class
+materialsmine_converted.ttl,Stress,http://materialsmine.org/ns/Stress,prefixIRI,http://data.bioontology.org/metadata/prefixIRI,materialsmine:Stress,materialsmine:Stress
+materialsmine_converted.ttl,Stress,http://materialsmine.org/ns/Stress,definition,http://www.w3.org/2004/02/skos/core#definition,"When a material is loaded with a force, it produces a stress, which then causes a material to deform. ","When a material is loaded with a force, it produces a stress, which then causes a material to deform. "
 materialsmine_converted.ttl,Stress,http://materialsmine.org/ns/Stress,subClassOf,http://www.w3.org/2000/01/rdf-schema#subClassOf,Mechanical Property,http://materialsmine.org/ns/MechanicalProperty
+materialsmine_converted.ttl,Stress,http://materialsmine.org/ns/Stress,label,http://www.w3.org/2000/01/rdf-schema#label,Stress,Stress
